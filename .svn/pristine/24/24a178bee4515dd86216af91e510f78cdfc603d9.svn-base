@@ -1,0 +1,73 @@
+package dataservice.esmlog;
+
+import model.esmlog.AUDITLOG;
+import org.apache.ibatis.session.SqlSession;
+import util.DatabaseUtil;
+import util.TimeUtil;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class AuditLogService {
+
+	public static SqlSession logSession = DatabaseUtil.getSqlSession("log");
+
+	public void clear(){
+
+		logSession.delete("deleteAuditLog");
+	}
+
+	public void insert(){
+
+		List<AUDITLOG> auditlogList = new ArrayList<AUDITLOG>();
+
+		for(int i=0;i<5;i++){
+
+			AUDITLOG auditlog = new AUDITLOG();
+			int action = 1;
+			int result = 0;
+			String funcs = "1001";
+			String des = "登录成功!";
+			Date time = new Date();
+
+		    if(i==0){
+				action = 2;
+				funcs = "2001";
+				time = TimeUtil.getLastMonthDate();
+			}else if(i==1){
+				action = 3;
+				funcs = "8001";
+				time = TimeUtil.getSpecial("2019-03-08 13:11:11");
+			}else if(i==2){
+				action = 4;
+				funcs = "9001";
+				result = 1;
+			}else if(i==3){
+				funcs = "7001";
+			}
+
+			auditlog.setEID("B0E501F871146298");
+			auditlog.setUSERNAME("admin");
+			auditlog.setIP("193.168.19.111");
+			auditlog.setOBJECTS("admin");
+			auditlog.setDESCRIPTION(des);
+			auditlog.setMEMO("0");
+			auditlog.setACTION(action);
+			auditlog.setFUNCS(funcs);
+			auditlog.setRESULT(result);
+			auditlog.setTIME(time);
+
+			auditlogList.add(auditlog);
+		}
+		logSession.insert("insertAuditLog",auditlogList);
+	}
+
+	public void insertAuditLog(){
+
+	    clear();
+		insert();
+		logSession.commit();
+		logSession.close();
+	}
+
+}

@@ -1,0 +1,25 @@
+package page.terminal;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class TerminalPage extends BasePage {
+
+	@FindBy(xpath = "//a[text()='日志']")
+	private WebElement log;
+
+	@FindBy(xpath = "//a[text()='备注']")
+	private WebElement remark;
+
+	public TerminalPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void gotoLog(){
+		log.click();
+	}
+
+	public void gotoRemark(){remark.click();}
+}

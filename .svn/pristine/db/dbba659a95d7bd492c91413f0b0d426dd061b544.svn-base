@@ -1,0 +1,1019 @@
+INFO  [2019-04-29 14:47:44] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 14:47:44] util.SeleniumTestCase::setUp - 开始测试case:BlackMailTest----------
+INFO  [2019-04-29 14:47:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 14:47:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 14:47:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 14:47:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 14:47:45] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 14:47:45] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 14:47:47] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 14:47:47] listener.MyEventListener::beforeClickOn - 点击元素： 报告预警
+INFO  [2019-04-29 14:47:47] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 14:47:50] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 14:47:50] listener.MyEventListener::beforeClickOn - 点击元素： 报告预警
+INFO  [2019-04-29 14:47:50] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 14:47:50] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:50] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:51] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:51] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:51] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:52] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:52] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:52] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:52] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:47:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:48:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:48:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:48:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:48:01] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 14:48:01] listener.TestngListener::onTestSkipped - blackMailOne Skipped
+INFO  [2019-04-29 14:48:01] listener.TestngListener::onTestSkipped - blackMailThree Skipped
+INFO  [2019-04-29 14:48:01] listener.TestngListener::onTestSkipped - blackMailTwo Skipped
+INFO  [2019-04-29 15:01:38] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:01:38] util.SeleniumTestCase::setUp - 开始测试case:BlackMailTest----------
+INFO  [2019-04-29 15:01:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:01:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:01:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:01:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:01:40] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:01:40] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:01:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:01:41] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:01:41] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:01:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:01:42] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:01:42] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:01:42] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:01:42] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeClickOn - 点击元素：防勒索文件保护
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:01:43] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:01:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:01:44] listener.TestngListener::onTestFailure - blackMailOne Failure
+INFO  [2019-04-29 15:01:45] listener.TestngListener::onTestSkipped - blackMailThree Skipped
+INFO  [2019-04-29 15:01:45] listener.TestngListener::onTestSkipped - blackMailTwo Skipped
+INFO  [2019-04-29 15:01:45] util.SeleniumTestCase::tearDown - 结束测试case:BlackMailTest----------
+INFO  [2019-04-29 15:01:46] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:01:46] listener.TestngListener::onFinish - failedTest = blackMailOne
+INFO  [2019-04-29 15:03:54] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:03:54] util.SeleniumTestCase::setUp - 开始测试case:BlackMailTest----------
+INFO  [2019-04-29 15:03:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:03:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:03:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:03:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:03:55] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:03:55] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:03:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:03:56] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:03:56] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:03:57] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeClickOn - 点击元素：防勒索文件保护
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:03:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='2']
+INFO  [2019-04-29 15:03:59] listener.TestngListener::onTestFailure - blackMailOne Failure
+INFO  [2019-04-29 15:04:00] listener.TestngListener::onTestSkipped - blackMailThree Skipped
+INFO  [2019-04-29 15:04:00] listener.TestngListener::onTestSkipped - blackMailTwo Skipped
+INFO  [2019-04-29 15:04:00] util.SeleniumTestCase::tearDown - 结束测试case:BlackMailTest----------
+INFO  [2019-04-29 15:04:01] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:04:01] listener.TestngListener::onFinish - failedTest = blackMailOne
+INFO  [2019-04-29 15:05:04] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:05:04] util.SeleniumTestCase::setUp - 开始测试case:BlackMailTest----------
+INFO  [2019-04-29 15:05:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:05:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:05:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:05:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:05:05] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:05] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:05:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:05:06] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:05:06] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:05:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:05:07] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:05:07] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:05:07] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeClickOn - 点击元素：防勒索文件保护
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='2']
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='2']
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='2']
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:05:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='2']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='1']
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:05:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:05:10] listener.TestngListener::onTestSuccess - blackMailOne Success
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='3']
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='3']
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='3']
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeClickOn - 点击元素：loading...
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='3']
+INFO  [2019-04-29 15:05:10] listener.TestngListener::onTestSuccess - blackMailThree Success
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='2']
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='2']
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='2']
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:05:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='2']
+INFO  [2019-04-29 15:05:10] listener.TestngListener::onTestSuccess - blackMailTwo Success
+INFO  [2019-04-29 15:05:10] util.SeleniumTestCase::tearDown - 结束测试case:BlackMailTest----------
+INFO  [2019-04-29 15:05:11] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:05:11] listener.TestngListener::onFinish - PassedTests = blackMailThree
+INFO  [2019-04-29 15:05:11] listener.TestngListener::onFinish - PassedTests = blackMailTwo
+INFO  [2019-04-29 15:05:11] listener.TestngListener::onFinish - PassedTests = blackMailOne
+INFO  [2019-04-29 15:05:30] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:05:31] util.SeleniumTestCase::setUp - 开始测试case:WhiteListTest----------
+INFO  [2019-04-29 15:05:31] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:05:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:05:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:05:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:05:32] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:32] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:05:33] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:05:33] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:05:33] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:05:34] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:05:34] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:05:34] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:05:34] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeClickOn - 点击元素：防勒索文件保护
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortSignwhite
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortSignwhite
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortSignwhite
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='defextortSignwhiteLock']/../preceding-sibling::div/a
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='defextortSignwhiteLock']/../preceding-sibling::div/a
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='defextortSignwhiteLock']/../preceding-sibling::div/a
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-04-29 15:05:35] listener.MyEventListener::beforeFindBy - 查找元素：By.className: js_defextort_txt
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortSignwhite
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.className: js_defextort_txt
+INFO  [2019-04-29 15:05:36] listener.TestngListener::onTestSuccess - whiteList Success
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='js_defextort_white']//a
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='js_defextort_white']//a
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='js_defextort_white']//a
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeClickOn - 点击元素：删除
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeClickOn - 点击元素：loading...
+INFO  [2019-04-29 15:05:36] listener.MyEventListener::beforeFindBy - 查找元素：By.className: js_defextort_white
+INFO  [2019-04-29 15:05:36] listener.TestngListener::onTestSuccess - delete Success
+INFO  [2019-04-29 15:05:36] util.SeleniumTestCase::tearDown - 结束测试case:WhiteListTest----------
+INFO  [2019-04-29 15:05:37] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:05:37] listener.TestngListener::onFinish - PassedTests = whiteList
+INFO  [2019-04-29 15:05:37] listener.TestngListener::onFinish - PassedTests = delete
+INFO  [2019-04-29 15:06:02] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:06:02] util.SeleniumTestCase::setUp - 开始测试case:TargetFileTest----------
+INFO  [2019-04-29 15:06:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:06:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:06:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:06:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:06:04] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:06:04] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:06:07] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:17] listener.TestngListener::onTestSkipped - targetFile Skipped
+INFO  [2019-04-29 15:06:17] listener.TestngListener::onTestSkipped - delete Skipped
+INFO  [2019-04-29 15:06:34] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:06:34] util.SeleniumTestCase::setUp - 开始测试case:TargetFileTest----------
+INFO  [2019-04-29 15:06:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:06:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:06:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:06:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:06:35] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:06:35] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:06:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:06:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:06:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:06:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:06:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:06:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:06:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:06:39] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:06:39] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:06:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:47] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:47] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:47] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:47] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:06:49] listener.TestngListener::onTestSkipped - targetFile Skipped
+INFO  [2019-04-29 15:06:49] listener.TestngListener::onTestSkipped - delete Skipped
+INFO  [2019-04-29 15:07:05] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:07:05] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-04-29 15:07:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:07:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:07:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:07:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:07:06] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:07:06] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:07:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:07:07] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:07:07] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:07:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:07:08] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:07:08] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:07:08] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:07:09] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:07:09] listener.MyEventListener::beforeClickOn - 点击元素：防勒索文件保护
+INFO  [2019-04-29 15:07:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:07:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:07:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:07:09] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-04-29 15:07:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:07:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:07:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:07:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:07:10] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-04-29 15:07:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:07:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:07:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:07:11] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:07:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:07:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:07:12] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-04-29 15:07:13] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-04-29 15:07:13] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:07:13] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-04-29 15:07:56] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:07:56] util.SeleniumTestCase::setUp - 开始测试case:TargetFileTest----------
+INFO  [2019-04-29 15:07:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:07:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:07:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:07:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:07:57] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:07:57] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:07:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:07:58] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:07:58] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:07:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:07:59] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:07:59] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:07:59] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:08:00] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:08:00] listener.MyEventListener::beforeClickOn - 点击元素：防勒索文件保护
+INFO  [2019-04-29 15:08:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //textarea[@id='defextortExts']/preceding-sibling::div[3]//a
+INFO  [2019-04-29 15:08:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //textarea[@id='defextortExts']/preceding-sibling::div[3]//a
+INFO  [2019-04-29 15:08:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //textarea[@id='defextortExts']/preceding-sibling::div[3]//a
+INFO  [2019-04-29 15:08:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //textarea[@id='defextortExts']/preceding-sibling::div[3]//a
+INFO  [2019-04-29 15:08:00] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeFindBy - 查找元素：By.className: js_defextort_txt
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortExts
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeFindBy - 查找元素：By.className: js_defextort_txt
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortExts
+INFO  [2019-04-29 15:08:01] listener.TestngListener::onTestSuccess - targetFile Success
+INFO  [2019-04-29 15:08:01] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='js_defextort']//a
+INFO  [2019-04-29 15:08:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='js_defextort']//a
+INFO  [2019-04-29 15:08:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='js_defextort']//a
+INFO  [2019-04-29 15:08:02] listener.MyEventListener::beforeClickOn - 点击元素：删除
+INFO  [2019-04-29 15:08:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:02] listener.MyEventListener::beforeClickOn - 点击元素：loading...
+INFO  [2019-04-29 15:08:02] listener.MyEventListener::beforeFindBy - 查找元素：By.className: js_defextort
+INFO  [2019-04-29 15:08:02] listener.TestngListener::onTestSuccess - delete Success
+INFO  [2019-04-29 15:08:02] util.SeleniumTestCase::tearDown - 结束测试case:TargetFileTest----------
+INFO  [2019-04-29 15:08:03] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:08:03] listener.TestngListener::onFinish - PassedTests = targetFile
+INFO  [2019-04-29 15:08:03] listener.TestngListener::onFinish - PassedTests = delete
+INFO  [2019-04-29 15:08:15] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:08:15] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-04-29 15:08:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:08:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:08:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:08:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:08:16] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:08:16] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:08:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:08:18] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:08:18] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:08:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:08:19] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:08:19] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:08:19] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:08:19] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 防勒索文件保护
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeClickOn - 点击元素：防勒索文件保护
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:08:20] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-04-29 15:08:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:22] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortEnable
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortMode' and @value='1']
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='MODIFY']
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='DELETE']
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@name='defextortResult' and @value='0']
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortNotify
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortLog
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortSignwhite
+INFO  [2019-04-29 15:08:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: defextortExts
+INFO  [2019-04-29 15:08:23] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-04-29 15:08:23] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-04-29 15:08:24] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:08:24] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-04-29 15:08:41] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:08:41] util.SeleniumTestCase::setUp - 开始测试case:ClickTest----------
+INFO  [2019-04-29 15:08:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:08:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:08:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:08:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:08:42] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:08:42] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:08:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:08:43] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:08:44] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:08:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:08:44] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:08:45] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 应用加固
+INFO  [2019-04-29 15:08:45] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 应用加固
+INFO  [2019-04-29 15:08:45] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 应用加固
+INFO  [2019-04-29 15:08:45] listener.MyEventListener::beforeClickOn - 点击元素：应用加固
+INFO  [2019-04-29 15:08:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptdeal']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptdeal']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptdeal']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptnotify']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptnotify']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptnotify']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptlog']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptlog']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptlog']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptstarttip']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptstarttip']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptstarttip']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptdeal']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptnotify']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptlog']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptstarttip']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:08:46] listener.TestngListener::onTestSuccess - clickOne Success
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: app_chkAllaptEnable
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: app_chkAllaptEnable
+INFO  [2019-04-29 15:08:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: app_chkAllaptEnable
+INFO  [2019-04-29 15:08:47] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:08:47] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:47] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:47] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:08:47] listener.MyEventListener::beforeClickOn - 点击元素：loading...
+INFO  [2019-04-29 15:08:47] listener.MyEventListener::beforeFindBy - 查找元素：By.id: app_chkAllaptEnable
+INFO  [2019-04-29 15:08:47] listener.TestngListener::onTestSuccess - clickTwo Success
+INFO  [2019-04-29 15:08:47] util.SeleniumTestCase::tearDown - 结束测试case:ClickTest----------
+INFO  [2019-04-29 15:08:48] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:08:48] listener.TestngListener::onFinish - PassedTests = clickTwo
+INFO  [2019-04-29 15:08:48] listener.TestngListener::onFinish - PassedTests = clickOne
+INFO  [2019-04-29 15:10:12] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:10:12] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-04-29 15:10:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:10:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:10:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:10:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:10:13] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:10:13] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:10:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:10:14] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:10:14] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:10:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:10:15] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:10:15] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 应用加固
+INFO  [2019-04-29 15:10:15] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 应用加固
+INFO  [2019-04-29 15:10:16] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: 应用加固
+INFO  [2019-04-29 15:10:16] listener.MyEventListener::beforeClickOn - 点击元素：应用加固
+INFO  [2019-04-29 15:10:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:10:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:10:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:10:16] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-04-29 15:10:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:10:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:10:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:10:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:10:17] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-04-29 15:10:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:10:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:10:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:10:18] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:10:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: app_chkAllaptEnable
+INFO  [2019-04-29 15:10:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptdeal']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:10:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptnotify']/../following-sibling::label[2]/input
+INFO  [2019-04-29 15:10:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptlog']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:10:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //i[@id='app_lockAptstarttip']/../following-sibling::label[1]/input
+INFO  [2019-04-29 15:10:19] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-04-29 15:10:19] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-04-29 15:10:20] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:10:20] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-04-29 15:10:41] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:10:41] util.SeleniumTestCase::setUp - 开始测试case:PrivateCloudTest----------
+INFO  [2019-04-29 15:10:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:10:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:10:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:10:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:10:42] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:10:42] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:10:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:10:43] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:10:43] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:10:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:10:44] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:10:44] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: p2p私有云
+INFO  [2019-04-29 15:10:44] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: p2p私有云
+INFO  [2019-04-29 15:10:45] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: p2p私有云
+INFO  [2019-04-29 15:10:45] listener.MyEventListener::beforeClickOn - 点击元素：p2p私有云
+INFO  [2019-04-29 15:10:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: enbleSwitch
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: enbleSwitch
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: enbleSwitch
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: addrInput
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: portInput
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: portInput
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: nameInput
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: enbleSwitch
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: addrInput
+INFO  [2019-04-29 15:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: portInput
+INFO  [2019-04-29 15:10:47] listener.MyEventListener::beforeFindBy - 查找元素：By.id: nameInput
+INFO  [2019-04-29 15:10:47] listener.TestngListener::onTestSuccess - cloud Success
+INFO  [2019-04-29 15:10:47] util.SeleniumTestCase::tearDown - 结束测试case:PrivateCloudTest----------
+INFO  [2019-04-29 15:10:47] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:10:47] listener.TestngListener::onFinish - PassedTests = cloud
+INFO  [2019-04-29 15:11:01] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:11:01] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-04-29 15:11:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:11:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:11:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:11:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:11:02] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:11:02] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:11:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:11:04] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:11:04] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:11:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:11:05] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:11:05] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: p2p私有云
+INFO  [2019-04-29 15:11:05] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: p2p私有云
+INFO  [2019-04-29 15:11:05] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: p2p私有云
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeClickOn - 点击元素：p2p私有云
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:11:06] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-04-29 15:11:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:11:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:11:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:11:08] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:11:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: enbleSwitch
+INFO  [2019-04-29 15:11:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: addrInput
+INFO  [2019-04-29 15:11:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: portInput
+INFO  [2019-04-29 15:11:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: nameInput
+INFO  [2019-04-29 15:11:09] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-04-29 15:11:09] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-04-29 15:11:10] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:11:10] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-04-29 15:11:37] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:11:37] util.SeleniumTestCase::setUp - 开始测试case:OptimizeTest----------
+INFO  [2019-04-29 15:11:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:11:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:11:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:11:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:11:38] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:11:38] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:11:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:11:40] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:11:40] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:11:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:11:41] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:11:41] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:11:41] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:11:41] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeClickOn - 点击元素：Linux防病毒
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: keepDayAble
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: keepDayAble
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: keepDayAble
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: keepDay
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: compsAble
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: compsAble
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: compsAble
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: compress
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanPath
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanPath
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.name: ignPath
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.name: ignPath
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeFindBy - 查找元素：By.name: ignPath
+INFO  [2019-04-29 15:11:42] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPathVal
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: keepDayAble
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: keepDay
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: compsAble
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: compress
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanPath
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.name: ignPath
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']//tr[1]
+INFO  [2019-04-29 15:11:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[1]
+INFO  [2019-04-29 15:11:44] listener.TestngListener::onTestSuccess - optimize Success
+INFO  [2019-04-29 15:11:44] util.SeleniumTestCase::tearDown - 结束测试case:OptimizeTest----------
+INFO  [2019-04-29 15:11:44] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:11:44] listener.TestngListener::onFinish - PassedTests = optimize
+INFO  [2019-04-29 15:11:54] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:11:54] util.SeleniumTestCase::setUp - 开始测试case:ScanTest----------
+INFO  [2019-04-29 15:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:11:55] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:11:56] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:11:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:11:57] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:11:57] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:11:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:11:58] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:11:58] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:11:58] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:11:58] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeClickOn - 点击元素：Linux防病毒
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: setTimeViru
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: setTimeViru
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: setTimeViru
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[1]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[1]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[1]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeClickOn - 点击元素：日
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[2]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[2]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[2]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeClickOn - 点击元素：一
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[3]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[3]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[3]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeClickOn - 点击元素：二
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[4]
+INFO  [2019-04-29 15:11:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[4]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[4]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeClickOn - 点击元素：三
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[5]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[5]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[5]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeClickOn - 点击元素：四
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[6]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[6]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[6]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeClickOn - 点击元素：五
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[7]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[7]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[7]
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeClickOn - 点击元素：六
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanT
+INFO  [2019-04-29 15:12:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanT
+INFO  [2019-04-29 15:12:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanT
+INFO  [2019-04-29 15:12:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanT
+INFO  [2019-04-29 15:12:01] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:12:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:01] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:12:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: setTimeViru
+INFO  [2019-04-29 15:12:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[1]
+INFO  [2019-04-29 15:12:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:12:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[2]
+INFO  [2019-04-29 15:12:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[3]
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[4]
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[5]
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[6]
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[7]
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:12:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanT
+INFO  [2019-04-29 15:12:04] listener.TestngListener::onTestSuccess - scan Success
+INFO  [2019-04-29 15:12:04] util.SeleniumTestCase::tearDown - 结束测试case:ScanTest----------
+INFO  [2019-04-29 15:12:04] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:12:04] listener.TestngListener::onFinish - PassedTests = scan
+INFO  [2019-04-29 15:12:16] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:12:16] util.SeleniumTestCase::setUp - 开始测试case:SetVirusTest----------
+INFO  [2019-04-29 15:12:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:12:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:12:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:12:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:12:17] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:12:17] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:12:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:12:18] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:12:18] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:12:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:12:19] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:12:19] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:12:19] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeClickOn - 点击元素：Linux防病毒
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_1
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_2
+INFO  [2019-04-29 15:12:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_2
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_2
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_2
+INFO  [2019-04-29 15:12:21] listener.TestngListener::onTestSuccess - setOne Success
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_3
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_3
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_3
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_3
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_3
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_3
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeClickOn - 点击元素：loading...
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_3
+INFO  [2019-04-29 15:12:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_3
+INFO  [2019-04-29 15:12:21] listener.TestngListener::onTestSuccess - setTwo Success
+INFO  [2019-04-29 15:12:21] util.SeleniumTestCase::tearDown - 结束测试case:SetVirusTest----------
+INFO  [2019-04-29 15:12:22] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:12:22] listener.TestngListener::onFinish - PassedTests = setTwo
+INFO  [2019-04-29 15:12:22] listener.TestngListener::onFinish - PassedTests = setOne
+INFO  [2019-04-29 15:17:34] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:17:34] util.SeleniumTestCase::setUp - 开始测试case:SetVirusTest----------
+INFO  [2019-04-29 15:17:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:17:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:17:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:17:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:17:36] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:17:36] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:17:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:17:37] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:17:37] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:17:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:17:38] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:17:38] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:17:38] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:17:38] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeClickOn - 点击元素：Linux防病毒
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_1
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_2
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:17:39] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_2
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_2
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_2
+INFO  [2019-04-29 15:17:40] listener.TestngListener::onTestSuccess - setOne Success
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_3
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_3
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_3
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_3
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_3
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_3
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeClickOn - 点击元素：loading...
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_3
+INFO  [2019-04-29 15:17:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_3
+INFO  [2019-04-29 15:17:40] listener.TestngListener::onTestSuccess - setTwo Success
+INFO  [2019-04-29 15:17:40] util.SeleniumTestCase::tearDown - 结束测试case:SetVirusTest----------
+INFO  [2019-04-29 15:17:41] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:17:41] listener.TestngListener::onFinish - PassedTests = setTwo
+INFO  [2019-04-29 15:17:41] listener.TestngListener::onFinish - PassedTests = setOne
+INFO  [2019-04-29 15:17:56] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-04-29 15:17:56] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-04-29 15:17:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-04-29 15:17:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-04-29 15:17:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-04-29 15:17:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-04-29 15:17:57] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-04-29 15:17:57] page.LoginPage::login - 用户已登陆------
+INFO  [2019-04-29 15:17:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[3]
+INFO  [2019-04-29 15:17:58] listener.MyEventListener::beforeClickOn - 点击元素： 病毒查杀
+INFO  [2019-04-29 15:17:58] page.HomePage::gotoVirusKill - 进入病毒查杀------
+INFO  [2019-04-29 15:17:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-04-29 15:17:59] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-04-29 15:17:59] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:17:59] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:17:59] listener.MyEventListener::beforeFindBy - 查找元素：By.linkText: Linux防病毒
+INFO  [2019-04-29 15:18:00] listener.MyEventListener::beforeClickOn - 点击元素：Linux防病毒
+INFO  [2019-04-29 15:18:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:18:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:18:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-04-29 15:18:00] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-04-29 15:18:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:18:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:18:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:18:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-04-29 15:18:01] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-04-29 15:18:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:18:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:18:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-04-29 15:18:02] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: keepDayAble
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: keepDay
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: compsAble
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: compress
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanPath
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.name: ignPath
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: setTimeViru
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[1]
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[2]
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[3]
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[4]
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[5]
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[6]
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-viru']/div/dl[3]/dd/div[1]/label[7]
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./input
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: scanT
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: findViru_1
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: clearViru_1
+INFO  [2019-04-29 15:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: viruFail_1
+INFO  [2019-04-29 15:18:04] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-04-29 15:18:04] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-04-29 15:18:05] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-04-29 15:18:05] listener.TestngListener::onFinish - PassedTests = renew

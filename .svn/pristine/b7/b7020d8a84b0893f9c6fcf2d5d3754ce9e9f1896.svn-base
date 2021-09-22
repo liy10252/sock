@@ -1,0 +1,31 @@
+package dataservice.esmmongo;
+
+import com.alibaba.fastjson.JSONObject;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.model.Filters;
+import org.bson.Document;
+import util.MongoBase;
+import java.util.ArrayList;
+import java.util.List;
+
+public class AutoGroupService {
+
+	MongoBase mongoBase;
+	String colName = "autogroup";
+
+	public AutoGroupService(MongoBase mongoBase){
+		this.mongoBase = mongoBase;
+	}
+
+	public void updateSet(){
+
+		List<JSONObject> ruleList = new ArrayList<JSONObject>();
+ 		JSONObject ruleOne = JSONObject.parseObject("{\"groupid\": 57,\"rule\": [{\"type\": \"os\",\"symbol\": \"has\",\"value\": \"server\"}]}");
+		JSONObject ruleTwo = JSONObject.parseObject("{\"groupid\": 57,\"rule\": [{\"type\": \"os\",\"symbol\": \"has\",\"value\": \"linux\"}]}");
+		ruleList.add(ruleOne);
+		ruleList.add(ruleTwo);
+		MongoCollection<Document> collection = mongoBase.getCollection(colName);
+
+		collection.updateOne(Filters.eq("eid","B0E501F871146298"),new Document("$set",new Document("rules",ruleList)));
+	}
+}

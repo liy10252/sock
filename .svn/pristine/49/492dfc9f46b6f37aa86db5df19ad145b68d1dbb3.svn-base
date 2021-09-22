@@ -1,0 +1,48 @@
+package page.terminal.overview;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class OverviewPage extends BasePage {
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='MAC']")
+	private WebElement mac;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='版本']")
+	private WebElement version;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='操作系统']")
+	private WebElement system;
+
+	@FindBy(id = "btnMoveTo")
+	private WebElement btnMoveTo;
+
+	@FindBy(xpath = "//div[@id='targetGroup']/label[1]/input")
+	private WebElement serverGroup;
+
+	@FindBy(id = "btnSaveMoveTo")
+	private WebElement btnSaveMoveTo;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr[1]/td[1]/div")
+	private WebElement checkBoxtrOne;
+
+	public OverviewPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void moveGroup(){
+
+		click(checkBoxtrOne);
+		click(btnMoveTo);
+		click(serverGroup);
+		click(btnSaveMoveTo);
+
+	}
+
+
+}

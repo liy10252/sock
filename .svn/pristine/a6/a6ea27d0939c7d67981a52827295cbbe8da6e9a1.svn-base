@@ -1,0 +1,28 @@
+package page.viruskill;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class VirusKillPage extends BasePage {
+
+	@FindBy(xpath = "//a[text()='概览']")
+	private WebElement overView;
+
+	@FindBy(xpath = "//a[text()='日志']")
+	private WebElement log;
+
+	public VirusKillPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void gotoOverView(){
+		overView.click();
+	}
+
+	public void gotoLog(){
+		log.click();
+	}
+}
+

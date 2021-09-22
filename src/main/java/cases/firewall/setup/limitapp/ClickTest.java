@@ -1,0 +1,32 @@
+package cases.firewall.setup.limitapp;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.firewall.setup.limitapp.LimitAppPage;
+import util.SeleniumTestCase;
+
+public class ClickTest extends SeleniumTestCase {
+
+	LimitAppPage limitAppPage;
+
+	@Test(description = "点击操作一")
+	public void clickOne(){
+
+		limitAppPage = new LimitAppPage(driver);
+		limitAppPage.clickOne();
+
+		Assert.assertTrue(limitAppPage.getOpenApp().isSelected(),"开启程序验证错误");
+//		Assert.assertTrue(limitAppPage.getOpenModule().isSelected(),"启用模块联网通知验证错误");
+		Assert.assertFalse(limitAppPage.getLog().isSelected(),"记录拦截日志验证错误");
+		Assert.assertFalse(limitAppPage.getSmart().isSelected(),"智能判别信任验证错误");
+		Assert.assertTrue(limitAppPage.getAllow().isSelected(),"未知程序验证错误");
+	}
+
+	@Test(dependsOnMethods = "clickOne",description = "点击操作二")
+	public void clickTwo(){
+
+		limitAppPage.clickTwo();
+
+		Assert.assertTrue(limitAppPage.getRefuse().isSelected(),"未知程序验证错误");
+	}
+}

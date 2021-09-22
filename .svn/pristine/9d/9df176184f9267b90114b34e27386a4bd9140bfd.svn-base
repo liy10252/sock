@@ -1,0 +1,126 @@
+package page.viruskill.setup.mailmonitor;
+
+import lombok.Data;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import java.util.List;
+
+@Data
+public class MailMonitorPage extends BasePage {
+
+	@FindBy(id = "mail_chkLockclose2")
+	private WebElement lockclose;
+
+	@FindBy(id = "mail_chkRundisable2")
+	private WebElement runDisable;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[4]//input")
+	private WebElement fileAll;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[5]//input")
+	private WebElement programFile;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[6]//label/input")
+	private WebElement customFileBtn;
+
+	@FindBy(id = "file3Exts")
+	private WebElement customFile;
+
+	@FindBy(id = "mail_chkHeuristic3")
+	private WebElement heuristics;
+
+	@FindBy(id = "mail_chkPopvirus3")
+	private WebElement popVirus;
+
+	@FindBy(id = "mail_chkScanzip3")
+	private WebElement scanZip;
+
+	@FindBy(id = "mail_txtFilesize3")
+	private WebElement fileSize;
+
+	@FindBy(id = "filedepth3")
+	private WebElement fileDepth;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[11]//label[1]/input")
+	private WebElement autoHandle;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[11]//label[2]/input")
+	private WebElement noHandle;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[12]/label[1]/input")
+	private WebElement delete;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[12]/label[2]/input")
+	private WebElement noHandleDel;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[13]/label[1]/input")
+	private WebElement noPrompt;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[13]/label[2]/input")
+	private WebElement virusPrompt;
+
+	@FindBy(xpath = "//div[@id='tab-mail']//dd[13]/label[3]/input")
+	private WebElement allPrompt;
+
+	@FindBy(id = "mail_chkCloudScan3")
+	private WebElement openCloud;
+
+	@FindBy(xpath = "//i[@id='mail_lockPolicyWrap']/../following-sibling::button")
+	private WebElement add;
+
+	@FindBy(xpath = "//table[@class='mailPortPanel']//tr[1]/td[2]/input")
+	private WebElement port;
+
+	@FindBy(xpath = "//table[@class='mailPortPanel']//tr[1]//a")
+	private WebElement del;
+
+	@FindBy(xpath = "//table[@class='mailPortPanel']//td[2]")
+	private List<WebElement> webPorts;
+
+	public MailMonitorPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void setupOne(String size,String depth){
+
+		click(lockclose);
+		click(runDisable);
+		click(programFile);
+		click(heuristics);
+		click(popVirus);
+		fileSize.clear();
+		fileSize.sendKeys(size);
+		fileDepth.clear();
+		fileDepth.sendKeys(depth);
+		click(noHandle);
+		click(noHandleDel);
+		click(apply);
+	}
+
+	public void setupTwo(String fileType){
+
+		click(customFileBtn);
+		customFile.sendKeys(fileType);
+		click(apply);
+	}
+
+	public void addPort(EventFiringWebDriver driver,String portStr){
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", noPrompt);
+		click(noPrompt);
+		click(openCloud);
+		click(add);
+		port.sendKeys(portStr);
+		click(apply);
+	}
+
+	public void delPort(){
+
+		click(allPrompt);
+		click(del);
+		click(apply);
+	}
+}

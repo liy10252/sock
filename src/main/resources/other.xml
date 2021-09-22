@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sockautotest">
+    <test name="testcase">
+        <classes>
+            <class name="datacontroller.DataController"/>
+
+            <class name="cases.leakscan.overview.TimeFrameTest"/>
+            <class name="cases.leakscan.overview.RankTest"/>
+            <class name="cases.leakscan.overview.TypeTest"/>
+            <class name="cases.leakscan.overview.SearchTest"/>
+
+            <class name="cases.leakscan.log.patch.RankTest"/>
+            <class name="cases.leakscan.log.patch.TypeTest"/>
+            <class name="cases.leakscan.log.patch.SearchTest"/>
+
+            <class name="cases.leakscan.log.notice.RankTest"/>
+            <class name="cases.leakscan.log.notice.TypeTest"/>
+            <class name="cases.leakscan.log.notice.SearchTest"/>
+
+            <class name="cases.leakscan.setup.routine.OneTest"/>
+            <class name="cases.leakscan.setup.routine.TwoTest"/>
+            <class name="cases.leakscan.setup.routine.RenewTest"/>
+
+            <class name="cases.leakscan.setup.white.AddTest"/>
+            <class name="cases.leakscan.setup.white.RenewTest"/>
+
+            <class name="cases.leakscan.setup.black.AddTest"/>
+            <class name="cases.leakscan.setup.black.RenewTest"/>
+
+            <class name="cases.report.custom.TimeFrameTest"/>
+            <class name="cases.report.custom.TypeTest"/>
+            <class name="cases.report.custom.CycleTest"/>
+            <class name="cases.report.custom.SearchTest"/>
+            <class name="cases.report.custom.AddReportTest"/>
+            <class name="cases.report.custom.OperateTest">
+                <methods>
+                    <include name="atOnce"/>
+                    <include name="revise"/>
+                    <include name="onOff"/>
+                </methods>
+            </class>
+            <class name="cases.report.history.TimeFrameTest"/>
+            <class name="cases.report.history.SearchNameTest"/>
+            <class name="cases.report.history.DeleteTest"/>
+
+            <class name="cases.report.warningrule.OperationTest"/>
+
+            <class name="cases.report.warningrecord.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.report.warningrecord.TypeTest"/>
+            <class name="cases.report.warningrecord.DeleteTest"/>
+
+            <class name="cases.authorize.today.ActionTest"/>
+            <class name="cases.authorize.today.SearchTest"/>
+            <class name="cases.authorize.historyauth.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+
+            <class name="cases.systemcenter.account.ModifyTest"/>
+
+            <class name="cases.systemcenter.company.OrganTest"/>
+            <class name="cases.systemcenter.company.MailTest"/>
+
+            <class name="cases.systemcenter.usermanage.AddUserTest"/>
+            <class name="cases.systemcenter.usermanage.UpdateUserTest"/>
+            <class name="cases.systemcenter.usermanage.DeleteUserTest"/>
+            <class name="cases.systemcenter.usermanage.UserSetTest"/>
+
+            <class name="cases.systemcenter.message.SingleTest"/>
+            <class name="cases.systemcenter.message.ManyTest"/>
+
+            <class name="cases.systemcenter.setupcenter.ClientSerTest"/>
+            <class name="cases.systemcenter.setupcenter.GroupRuleTest"/>
+
+            <class name="cases.systemcenter.auditlog.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.systemcenter.auditlog.ActionTest"/>
+            <class name="cases.systemcenter.auditlog.FunctionTest"/>
+            <class name="cases.systemcenter.auditlog.StateTest"/>
+            <class name="cases.systemcenter.auditlog.CleanTest"/>
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="listener.ExtentTestNGIReporterListener"/>
+        <listener class-name="listener.RetryListener"/>
+    </listeners>
+</suite>

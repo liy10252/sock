@@ -1,0 +1,38 @@
+package cases.viruskill.setup.virusscan;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.viruskill.setup.virusscan.VirusScanPage;
+import util.SeleniumTestCase;
+
+public class ClickTest extends SeleniumTestCase {
+
+	VirusScanPage virusScanPage;
+
+	@Test(description = "点击操作一")
+	public void oneClick(){
+
+		virusScanPage = new VirusScanPage(driver);
+		virusScanPage.clickUtilOne();
+
+		Assert.assertTrue(virusScanPage.getProgramDoc().isSelected(),"程序及文档验证错误");
+		Assert.assertTrue(virusScanPage.getPopular().isSelected(),"扫描流行病毒验证错误");
+		Assert.assertFalse(virusScanPage.getCloudScan().isSelected(),"启用云扫描验证错误");
+		Assert.assertTrue(virusScanPage.getManualHandle().isSelected(),"手动处理验证错误");
+		Assert.assertTrue(virusScanPage.getCleanNoDeal().isSelected(),"清除失败不处理验证错误");
+		Assert.assertTrue(virusScanPage.getNoStop().isSelected(),"禁止停止验证错误");
+
+	}
+
+	@Test(dependsOnMethods = "oneClick",description = "点击操作二")
+	public void twoClick(){
+
+		virusScanPage.clickUtilTwo();
+
+		Assert.assertTrue(virusScanPage.getFileType().isSelected(),"自定义文件验证错误");
+		Assert.assertTrue(virusScanPage.getHeuristic().isSelected(),"启发式扫描验证错误");
+		Assert.assertTrue(virusScanPage.getFindNoDeal().isSelected(),"发现病毒不处理验证错误");
+		Assert.assertTrue(virusScanPage.getSuspend().isSelected(),"禁止暂停、停止验证错误");
+	}
+
+}

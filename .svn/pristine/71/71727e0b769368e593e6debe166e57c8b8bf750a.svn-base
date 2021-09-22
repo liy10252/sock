@@ -1,0 +1,76 @@
+package cases.viruskill.log.sysdef;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.viruskill.log.sysdef.SysDefPage;
+import util.SeleniumTestCase;
+
+public class ProcessResultTest extends SeleniumTestCase {
+
+	SysDefPage sysDefPage;
+
+	@Test(description = "允许")
+	public void allow(){
+
+		sysDefPage = new SysDefPage(driver);
+		sysDefPage.getCustomSearch().click();
+		sysDefPage.getBaseDetail().click();
+		sysDefPage.singleClick(sysDefPage.getHandleAll(),sysDefPage.getAllow());
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("allow"),"允许验证失败");
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("allowState"),"允许验证失败");
+	}
+
+
+	@Test(dependsOnMethods = "allow",description = "阻止")
+	public void prevent(){
+
+		sysDefPage.singleClick(sysDefPage.getHandleAll(),sysDefPage.getPrevent());
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("prevent"),"阻止验证失败");
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("preventState"),"阻止验证失败");
+	}
+
+	@Test(dependsOnMethods = "allow",description = "永久允许")
+	public void allowForever(){
+
+		sysDefPage.singleClick(sysDefPage.getHandleAll(),sysDefPage.getAllowForever());
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("allowForever"),"永久允许验证失败");
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("allowForeverState"),"永久允许验证失败");
+	}
+
+	@Test(dependsOnMethods = "allow",description = "永久阻止")
+	public void preventForever(){
+
+		sysDefPage.singleClick(sysDefPage.getHandleAll(),sysDefPage.getPreventForever());
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("preventForever"),"永久阻止验证失败");
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("preventForeverState"),"永久阻止验证失败");
+	}
+
+	@Test(dependsOnMethods = "allow",description = "允许一次")
+	public void allowOne(){
+
+		sysDefPage.singleClick(sysDefPage.getHandleAll(),sysDefPage.getAllowOne());
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("allowOne"),"允许一次验证失败");
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("allowOneState"),"允许一次验证失败");
+	}
+
+	@Test(dependsOnMethods = "allow",description = "阻止一次")
+	public void preventOne(){
+
+		sysDefPage.singleClick(sysDefPage.getHandleAll(),sysDefPage.getPreventOne());
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("preventOne"),"阻止一次验证失败");
+		Assert.assertEquals(sysDefPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("preventOneState"),"阻止一次验证失败");
+	}
+}

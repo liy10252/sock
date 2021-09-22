@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sockautotest">   
+	<test name="testcase">
+        <classes>
+            <class name="datacontroller.DataController"/>
+            <class name="cases.terminal.group.GroupTest"/>
+            <class name="cases.terminal.overview.SearchTest"/>
+            <class name="cases.terminal.overview.MoveGroupTest"/>
+            <class name="cases.terminal.log.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.terminal.log.ActionTest">
+                <methods>
+                    <include name="install"/>
+                    <include name="update"/>
+                    <include name="uninstall"/>
+                    <include name="repair"/>
+                    <include name="restart"/>
+                </methods>
+            </class>
+            <class name="cases.terminal.log.EntryTest"/>
+            <class name="cases.terminal.log.SearchTest"/>
+
+            <class name="cases.terminal.remark.RemarkTest">
+                <methods>
+                    <include name="insert"/>
+                    <include name="update"/>
+                    <include name="delete"/>
+                </methods>
+            </class>
+
+            <class name="cases.terminal.history.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.terminal.history.StateTest"/>
+            <class name="cases.terminal.history.StatePopupTest"/>
+            <class name="cases.terminal.history.SearchPopupTest"/>
+
+            <class name="cases.terminal.command.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.terminal.command.LowerHairTest"/>
+            <class name="cases.terminal.command.ImplementTest"/>
+            <class name="cases.terminal.command.CommandTypeTest"/>
+            <class name="cases.terminal.command.LowerHairPopTest"/>
+            <class name="cases.terminal.command.ImplementPopTest"/>
+            <class name="cases.terminal.command.SearchPopTest"/>
+
+            <class name="cases.terminal.setup.tersetup.ButtonTest"/>
+            <class name="cases.terminal.setup.tersetup.InputTest"/>
+            <class name="cases.terminal.setup.tersetup.RenewTest"/>
+
+            <class name="cases.terminal.setup.softwareup.ButtonTest">
+            <methods>
+                <include name="buttonOne"/>
+                <include name="buttonTwo"/>
+                <include name="buttonThree"/>
+            </methods>
+            </class>
+            <class name="cases.terminal.setup.softwareup.InputTest"/>
+            <class name="cases.terminal.setup.softwareup.RenewTest"/>
+
+            <class name="cases.terminal.setup.keeplog.InputTest"/>
+            <class name="cases.terminal.setup.keeplog.ButtonTest"/>
+            <class name="cases.terminal.setup.keeplog.RenewTest"/>
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="listener.ExtentTestNGIReporterListener"/>
+        <listener class-name="listener.RetryListener"/>
+    </listeners>
+</suite>

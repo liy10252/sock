@@ -1,0 +1,84 @@
+package page.viruskill.setup.whitelist;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class WhiteListPage extends BasePage {
+
+	@FindBy(id = "cancellocalwhite")
+	private WebElement ignore;
+
+	@FindBy(id = "pub_txtFile")
+	private WebElement input;
+
+	@FindBy(xpath = "//input[@id='pub_txtFile']/following-sibling::div//b")
+	private WebElement typeButton;
+
+	@FindBy(xpath = "//input[@id='pub_txtFile']/following-sibling::div//li[text()='文件']")
+	private WebElement file;
+
+	@FindBy(xpath = "//input[@id='pub_txtFile']/following-sibling::div//li[text()='仅本目录']")
+	private WebElement justDir;
+
+	@FindBy(xpath = "//input[@id='pub_txtFile']/following-sibling::div//li[text()='本目录+子目录']")
+	private WebElement dirSub;
+
+	@FindBy(xpath = "//input[@id='pub_txtFile']/following-sibling::div//li[text()='仅子目录']")
+	private WebElement justSub;
+
+	@FindBy(xpath = "//input[@id='pub_txtFile']/following-sibling::div//li")
+	private List<WebElement> types;
+
+	@FindBy(id = "pub_btnAddWhiteList")
+	private WebElement add;
+
+	@FindBy(xpath = "//table[@id='pub_tbWhiteList']//tr")
+	private List<WebElement> webTr;
+
+	@FindBy(xpath = "//table[@id='pub_tbWhiteList']//td[text()='仅子目录']/following-sibling::td/i")
+	private WebElement deleteFile;
+
+	@FindBy(id = "pub_txtExt")
+	private WebElement extend;
+
+	public WhiteListPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void otherUtil(String extendText){
+
+		TestUtil.waitForClick(ignore);
+		extend.sendKeys(extendText);
+		TestUtil.waitForClick(apply);
+	}
+
+	public void addUtil(String text,WebElement element){
+
+		input.clear();
+		input.sendKeys(text);
+		TestUtil.waitForClick(typeButton);
+		TestUtil.waitForClick(element);
+		TestUtil.waitForClick(add);
+	}
+
+	public void addWhite(List<String> params){
+
+		for(int i=0;i<params.size();i++){
+			addUtil(params.get(i),types.get(i));
+		}
+		TestUtil.waitForClick(apply);
+	}
+
+	public void deleteUtil(){
+
+		TestUtil.waitForClick(deleteFile);
+		TestUtil.waitForClick(apply);
+	}
+
+}

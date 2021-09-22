@@ -1,0 +1,18 @@
+package dataservice.esmlog;
+
+import org.apache.ibatis.session.SqlSession;
+
+public class EsmLogService {
+
+
+	SqlSession session;
+
+	public EsmLogService(SqlSession session){
+		this.session = session;
+	}
+
+	//清除组
+	public void clearGroup(String groupName){
+		session.delete("deleteGroupByName",groupName);
+	}
+}

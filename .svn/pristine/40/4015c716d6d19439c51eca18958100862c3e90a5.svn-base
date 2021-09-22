@@ -1,0 +1,29 @@
+package cases.terminal.setup.center;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.terminal.setup.center.CenterPage;
+import util.SeleniumTestCase;
+
+public class RenewTest extends SeleniumTestCase {
+
+	CenterPage centerPage;
+
+	@Test(description = "恢复默认")
+	public void renew(){
+
+		centerPage = new CenterPage(driver);
+		centerPage.renew();
+		centerPage.renewUtil(driver);
+
+		Assert.assertFalse(centerPage.getOpen().isSelected(),"恢复中心发现代理开启验证错误");
+		Assert.assertFalse(centerPage.getCheck().isSelected(),"恢复中心发现代理检查验证错误");
+		Assert.assertEquals(centerPage.getWebInterval().getText(),expect.getString("interval"),"恢复间隔验证错误");
+		Assert.assertEquals(centerPage.getWebBand().getText(),expect.getString("band"),"恢复带宽限制验证错误");
+		Assert.assertEquals(centerPage.getWebServerRenew().getText(),"","恢复服务器列表验证错误");
+		Assert.assertEquals(centerPage.getLimitStart().getAttribute("value")
+				,"","恢复生效时间开始验证错误");
+		Assert.assertEquals(centerPage.getLimitEnd().getAttribute("value")
+				,"","恢复生效时间结束验证错误");
+	}
+}

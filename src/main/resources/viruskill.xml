@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sockautotest">  
+	 <test name="testcase">
+        <classes>
+            <class name="datacontroller.DataController"/>
+             <class name="cases.viruskill.log.virusdetail.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.log.virusdetail.SourceStateTest"/>
+            <class name="cases.viruskill.log.virusdetail.ProcessModeTest">
+                <methods>
+                    <include name="notYet"/>
+                    <include name="ignore"/>
+                    <include name="delete"/>
+                    <include name="clear"/>
+                    <include name="trust"/>
+                    <include name="backupFail"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.log.virusdetail.SearchTest"/>
+            <class name="cases.viruskill.log.virusdetail.ShowTest">
+                <methods>
+                    <include name="showVirus"/>
+                    <include name="showEp"/>
+                    <include name="showDetail"/>
+                </methods>
+            </class>
+
+            <class name="cases.viruskill.log.scanevent.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.log.scanevent.ScanTypeTest"/>
+            <class name="cases.viruskill.log.scanevent.StateTest"/>
+            <class name="cases.viruskill.log.scanevent.SearchTest"/>
+
+            <class name="cases.viruskill.log.sysdef.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.log.sysdef.ProtectTypeTest"/>
+            <class name="cases.viruskill.log.sysdef.ProcessResultTest"/>
+            <class name="cases.viruskill.log.sysdef.SearchTest"/>
+            <class name="cases.viruskill.log.sysdef.ShowTest"/>
+
+            <class name="cases.viruskill.log.appdef.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.log.appdef.AppTypeTest"/>
+            <class name="cases.viruskill.log.appdef.SearchTest"/>
+            <class name="cases.viruskill.log.appdef.ShowTest"/>
+
+            <class name="cases.viruskill.overview.FileMonitorTest"/>
+            <class name="cases.viruskill.overview.MailMonitorTest"/>
+            <!--<class name="cases.viruskill.overview.SysDefTest"/>-->
+            <class name="cases.viruskill.overview.SearchTest"/>
+
+            <class name="cases.viruskill.setup.routine.ButtonTest"/>
+            <class name="cases.viruskill.setup.routine.InputTest"/>
+            <class name="cases.viruskill.setup.routine.RenewTest"/>
+
+            <class name="cases.viruskill.setup.whitelist.OtherTest"/>
+            <class name="cases.viruskill.setup.whitelist.WhiteListTest"/>
+            <class name="cases.viruskill.setup.whitelist.RenewTest"/>
+
+            <class name="cases.viruskill.setup.blacklist.BlackListTest"/>
+            <class name="cases.viruskill.setup.blacklist.RenewTest"/>
+
+            <class name="cases.viruskill.setup.virusbackup.ClickTest"/>
+            <class name="cases.viruskill.setup.virusbackup.RenewTest"/>
+
+            <class name="cases.viruskill.setup.virusscan.ClickTest"/>
+            <class name="cases.viruskill.setup.virusscan.InputTest"/>
+            <class name="cases.viruskill.setup.virusscan.RenewTest"/>
+
+            <class name="cases.viruskill.setup.timingscan.TimeSetTest"/>
+            <class name="cases.viruskill.setup.timingscan.ScanTypeTest"/>
+            <class name="cases.viruskill.setup.timingscan.FastScanTest"/>
+            <class name="cases.viruskill.setup.timingscan.RenewTest"/>
+
+            <class name="cases.viruskill.setup.filemonitor.MonitorModelTest">
+                <methods>
+                    <include name="modelOne"/>
+                    <include name="modelTwo"/>
+                    <include name="modelThree"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.setup.filemonitor.FileTypeTest"/>
+            <class name="cases.viruskill.setup.filemonitor.ServerListTest"/>
+            <class name="cases.viruskill.setup.filemonitor.KillEngineTest"/>
+            <class name="cases.viruskill.setup.filemonitor.RenewTest"/>
+
+            <class name="cases.viruskill.setup.ruleofcon.FileMonitorTest"/>
+            <class name="cases.viruskill.setup.ruleofcon.SystemReinTest"/>
+            <class name="cases.viruskill.setup.ruleofcon.RenewTest"/>
+
+            <class name="cases.viruskill.setup.usbmonitor.UsbMonitorTest"/>
+            <class name="cases.viruskill.setup.usbmonitor.RenewTest"/>
+
+            <class name="cases.viruskill.setup.sysstreng.ClickTest"/>
+            <class name="cases.viruskill.setup.sysstreng.RenewTest"/>
+
+            <class name="cases.viruskill.setup.blackmail.BlackMailTest">
+                <methods>
+                    <include name="blackMailOne"/>
+                    <include name="blackMailTwo"/>
+                    <include name="blackMailThree"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.setup.blackmail.WhiteListTest"/>
+            <class name="cases.viruskill.setup.blackmail.TargetFileTest"/>
+            <class name="cases.viruskill.setup.blackmail.RenewTest"/>
+
+            <class name="cases.viruskill.setup.appstreng.ClickTest"/>
+            <class name="cases.viruskill.setup.appstreng.RenewTest"/>
+
+            <class name="cases.viruskill.setup.privatecloud.PrivateCloudTest"/>
+            <class name="cases.viruskill.setup.privatecloud.RenewTest"/>
+
+            <!--<class name="cases.viruskill.setup.linuxvirus.OptimizeTest"/>-->
+            <!--<class name="cases.viruskill.setup.linuxvirus.ScanTest"/>-->
+            <!--<class name="cases.viruskill.setup.linuxvirus.SetVirusTest"/>-->
+            <!--<class name="cases.viruskill.setup.linuxvirus.RenewTest"/>-->
+
+            <class name="cases.viruskill.setup.mailmonitor.SetupTest"/>
+            <class name="cases.viruskill.setup.mailmonitor.SetPortTest"/>
+            <class name="cases.viruskill.setup.mailmonitor.RenewTest"/>
+
+            <class name="cases.viruskill.setup.sharemonitor.SetupTest">
+                <methods>
+                    <include name="setupOne"/>
+                    <include name="setupTwo"/>
+                    <include name="setupThree"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.setup.sharemonitor.RenewTest"/>
+
+            <class name="cases.viruskill.setup.ftpmonitor.SetupTest">
+                <methods>
+                    <include name="setupOne"/>
+                    <include name="setupTwo"/>
+                    <include name="setupThree"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.setup.ftpmonitor.RenewTest"/>
+
+            <class name="cases.viruskill.setup.sword.SetupTest"/>
+            <class name="cases.viruskill.setup.sword.RenewTest"/>
+            
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="listener.ExtentTestNGIReporterListener"/>
+        <listener class-name="listener.RetryListener"/>
+    </listeners>
+</suite>

@@ -1,0 +1,36 @@
+package cases.authorize.today;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.authorize.today.TodayPage;
+import util.SeleniumTestCase;
+
+public class SearchTest extends SeleniumTestCase {
+
+	TodayPage todayPage;
+
+	@Test(description = "ip地址筛选")
+	public void searchIp(){
+
+		todayPage = new TodayPage(driver);
+		String ip = param.getString("ip");
+		todayPage.getCustomSearch().click();
+		todayPage.search(todayPage.getIp(),ip);
+
+		Assert.assertEquals(todayPage.getWebTr().findElement(By.xpath("./td[2]/div")).getText().trim(),
+				ip,"ip地址筛选验证错误");
+	}
+
+	@Test(dependsOnMethods = "searchIp",description = "mac地址筛选")
+	public void searchMac(){
+
+		String mac = param.getString("mac");
+		todayPage.getSearchBar().clear();
+		todayPage.unAuthor();
+		todayPage.search(todayPage.getMac(),mac);
+
+		Assert.assertEquals(todayPage.getWebTr().findElement(By.xpath("./td[3]/div")).getText().trim(),
+				mac,"mac地址筛选验证错误");
+	}
+}

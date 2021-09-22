@@ -1,0 +1,76 @@
+package page.viruskill.setup;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class SetUpPage extends BasePage {
+
+	@FindBy(linkText = "白名单")
+	private WebElement whiteList;
+
+	@FindBy(linkText = "黑名单")
+	private WebElement blackList;
+
+	@FindBy(linkText = "杀毒备份")
+	private WebElement virusBackup;
+
+	@FindBy(linkText = "病毒扫描")
+	private WebElement virusScan;
+
+	@FindBy(linkText = "定时扫描")
+	private WebElement timingScan;
+
+	@FindBy(linkText = "文件监控")
+	private WebElement fileMonitor;
+
+	@FindBy(linkText = "行为规则")
+	private WebElement ruleOfCon;
+
+	@FindBy(linkText = "U盘监控")
+	private WebElement usbMonitor;
+
+	@FindBy(linkText = "系统加固")
+	private WebElement sysStreng;
+
+	public SetUpPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void gotoWhiteList(){
+		whiteList.click();
+	}
+
+	public void gotoBlackList(){
+		blackList.click();
+	}
+
+	public void gotoVirusBackup(){
+		virusBackup.click();
+	}
+
+	public void gotoVirusScan(){
+		virusScan.click();
+	}
+
+	public void gotoTimingScan(){
+		timingScan.click();
+	}
+
+	public void gotoFileMonitor(){
+		fileMonitor.click();
+	}
+
+	public void gotoRuleOfCon(){
+		ruleOfCon.click();
+	}
+
+	public void gotoUsbMonitor(){
+		usbMonitor.click();
+	}
+
+	public void gotoSysStreng(){
+		sysStreng.click();
+	}
+}

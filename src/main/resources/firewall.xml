@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sockautotest">
+    <test name="testcase">
+        <classes>
+            <class name="datacontroller.DataController"/>
+            <class name="cases.firewall.overview.UrlTest"/>
+            <class name="cases.firewall.overview.HackerTest"/>
+            <class name="cases.firewall.overview.NetProgramTest"/>
+            <class name="cases.firewall.overview.FlowManageTest"/>
+            <class name="cases.firewall.overview.ShareManageTest"/>
+            <class name="cases.firewall.overview.SearchTest"/>
+
+            <class name="cases.firewall.log.malice.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.malice.TypeTest"/>
+            <class name="cases.firewall.log.malice.SearchTest"/>
+            <class name="cases.firewall.log.malice.ShowTest"/>
+
+            <class name="cases.firewall.log.hacker.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.hacker.StateTest"/>
+            <class name="cases.firewall.log.hacker.ShowTest"/>
+
+            <class name="cases.firewall.log.advert.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.advert.SearchTest"/>
+            <class name="cases.firewall.log.advert.ShowTest"/>
+
+            <class name="cases.firewall.log.url.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.url.StateTest"/>
+            <class name="cases.firewall.log.url.SearchTest"/>
+            <class name="cases.firewall.log.url.ShowTest"/>
+
+            <class name="cases.firewall.log.network.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.network.TypeTest"/>
+            <class name="cases.firewall.log.network.NetWorkTest"/>
+            <class name="cases.firewall.log.network.SearchTest"/>
+            <class name="cases.firewall.log.network.ShowTest"/>
+
+            <class name="cases.firewall.log.share.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.share.OperateTest"/>
+            <class name="cases.firewall.log.share.SearchTest"/>
+            <class name="cases.firewall.log.share.ShowTest"/>
+
+            <class name="cases.firewall.log.flow.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.flow.ShowTest"/>
+
+            <class name="cases.firewall.setup.netprotect.ClickTest"/>
+            <class name="cases.firewall.setup.netprotect.RenewTest"/>
+
+            <class name="cases.firewall.setup.whitelist.WhiteListTest"/>
+            <class name="cases.firewall.setup.whitelist.RenewTest"/>
+
+            <class name="cases.firewall.setup.hack.HackTest"/>
+            <class name="cases.firewall.setup.hack.RenewTest"/>
+
+            <class name="cases.firewall.setup.limitweb.ClickTest"/>
+            <class name="cases.firewall.setup.limitweb.AddDayTest"/>
+            <class name="cases.firewall.setup.limitweb.UpdateTest"/>
+            <class name="cases.firewall.setup.limitweb.AddSlotTest"/>
+            <class name="cases.firewall.setup.limitweb.RenewTest"/>
+
+            <class name="cases.firewall.setup.limitapp.ClickTest"/>
+            <class name="cases.firewall.setup.limitapp.AddDayTest"/>
+            <class name="cases.firewall.setup.limitapp.UpdateTest"/>
+            <class name="cases.firewall.setup.limitapp.AddSlotTest"/>
+            <class name="cases.firewall.setup.limitapp.RenewTest"/>
+
+            <class name="cases.firewall.setup.flowmanage.FlowManageTest"/>
+            <class name="cases.firewall.setup.flowmanage.RenewTest"/>
+
+            <class name="cases.firewall.setup.secureshare.ClickTest"/>
+            <class name="cases.firewall.setup.secureshare.RuleTest">
+                <methods>
+                    <include name="addIp"/>
+                    <include name="addIpSection"/>
+                    <include name="delete"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.setup.secureshare.RenewTest"/>
+
+            <class name="cases.firewall.setup.adshare.AdShareTest"/>
+            <class name="cases.firewall.setup.adshare.RenewTest"/>
+
+            <class name="cases.firewall.setup.attack.AttackTest"/>
+            <class name="cases.firewall.setup.attack.RenewTest"/>
+
+            <class name="cases.firewall.setup.manage.ManageTest"/>
+            <class name="cases.firewall.setup.manage.RenewTest"/>
+
+            <class name="cases.firewall.setup.tamper.TamperTest"/>
+            <class name="cases.firewall.setup.tamper.RenewTest"/>
+
+            <class name="cases.firewall.setup.rule.WhiteTest"/>
+            <class name="cases.firewall.setup.rule.BlackTest"/>
+            <class name="cases.firewall.setup.rule.PortTest"/>
+            <class name="cases.firewall.setup.rule.CustomTest"/>
+            <class name="cases.firewall.setup.rule.RenewTest"/>
+
+            <class name="cases.firewall.safeshare.EpNameTest"/>
+            <class name="cases.firewall.safeshare.IpTest"/>
+            <class name="cases.firewall.safeshare.operationTest"/>
+            <class name="cases.firewall.safeshare.SearchTest"/>
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="listener.ExtentTestNGIReporterListener"/>
+        <listener class-name="listener.RetryListener"/>
+    </listeners>
+</suite>

@@ -1,0 +1,15 @@
+#SockConfigFile
+#Tue Sep 24 13:36:57 CST 2019
+browser.type=chrome
+browser.path.ie=D\:/BrowserDriver/MicrosoftWebDriver.exe
+browser.path.chrome=D\:/BrowserDriver/chromedriver.exe
+browser.path.firefox=D\:/BrowserDriver/geckodriver.exe
+url=https\://193.168.11.13
+userName=admin
+passWord=Rising123
+identCode=Rising123
+maxRetryCount=1
+eid=9907BE2670858179
+DatabaseType=mysql
+delayclick=false
+#adminid=116

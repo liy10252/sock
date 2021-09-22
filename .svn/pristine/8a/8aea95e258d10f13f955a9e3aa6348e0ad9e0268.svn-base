@@ -1,0 +1,11 @@
+package page.firewall;
+
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class FireWallPage extends BasePage {
+
+	public FireWallPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+}

@@ -1,0 +1,39 @@
+package page.viruskill.setup.privatecloud;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class PrivateCloudPage extends BasePage {
+
+	@FindBy(id = "enbleSwitch")
+	private WebElement start;
+
+	@FindBy(id = "addrInput")
+	private WebElement ip;
+
+	@FindBy(id = "portInput")
+	private WebElement port;
+
+	@FindBy(id = "nameInput")
+	private WebElement name;
+
+	public PrivateCloudPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void cloudUtil(String ipStr,String portStr,String nameStr){
+
+		click(start);
+		ip.sendKeys(ipStr);
+		port.clear();
+		port.sendKeys(portStr);
+		name.sendKeys(nameStr);
+		click(apply);
+	}
+
+}

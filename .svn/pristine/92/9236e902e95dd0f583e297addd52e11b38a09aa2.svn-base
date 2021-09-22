@@ -1,0 +1,51 @@
+package util;
+
+import org.apache.ibatis.session.SqlSession;
+import java.sql.SQLException;
+import java.util.List;
+
+public class CleanDateGCUtil {
+
+	public static SqlSession logSession = DatabaseUtil.getSqlSession("log");
+	public static SqlSession managerSession = DatabaseUtil.getSqlSession("manager");
+
+
+	public static List getLogTables(){
+		List tables = logSession.selectList("logtables");
+		return tables;
+	}
+
+	public static void deleteLogTable() throws SQLException {
+
+		List tables = getLogTables();
+		for(int i=0;i<tables.size();i++){
+			logSession.getConnection().createStatement().execute("delete from RS_ESM_LOG."+tables.get(i).toString()+";");
+		}
+		logSession.getConnection().commit();
+		logSession.getConnection().close();
+	}
+
+	public static List getManagerTables(){
+		List tables = managerSession.selectList("managertables");
+		return tables;
+	}
+
+	public static void deleteManagerTable() throws SQLException {
+
+		List tables = getManagerTables();
+		for(int i=0;i<tables.size();i++){
+
+			managerSession.getConnection().createStatement().execute("delete from RS_ESM_MANAGER."+tables.get(i).toString()+";");
+		}
+		managerSession.getConnection().commit();
+		managerSession.getConnection().close();
+	}
+
+	public static void main(String[] args) throws SQLException {
+
+			deleteLogTable();
+			deleteManagerTable();
+			logSession.close();
+			managerSession.close();
+	}
+}

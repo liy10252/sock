@@ -1,0 +1,69 @@
+package dataservice.esmlog;
+
+import model.esmlog.MESSAGE_CENTER;
+import org.apache.ibatis.session.SqlSession;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class MessageCenterService {
+
+	SqlSession session;
+
+	public MessageCenterService(SqlSession session){
+		this.session = session;
+	}
+
+	public void clearMessage(){
+		session.delete("deleteMessage");
+	}
+
+	public void insertList(String eid){
+
+		List<MESSAGE_CENTER> messageList = new ArrayList<MESSAGE_CENTER>();
+
+		for(int i=0; i<3; i++){
+
+			MESSAGE_CENTER message = new MESSAGE_CENTER();
+			message.setMID(i+1);
+			message.setEID(eid);
+			message.setMSGTITLE("报表生成");
+			message.setMSGCONTEXT("基本报告测试的报表已生成成功!");
+			message.setMSGTYPE(1);
+			message.setISREAD(0);
+			message.setISDEL(0);
+			message.setADDTIME(new Date());
+			messageList.add(message);
+		}
+		session.insert("insertMessage",messageList);
+	}
+
+	public void insert(String eid){
+
+		for(int i=0; i<3; i++){
+
+			MESSAGE_CENTER message = new MESSAGE_CENTER();
+			message.setMID(i+1);
+			message.setEID(eid);
+			message.setMSGTITLE("报表生成");
+			message.setMSGCONTEXT("基本报告测试的报表已生成成功!");
+			message.setMSGTYPE(1);
+			message.setISREAD(0);
+			message.setISDEL(0);
+			message.setADDTIME(new Date());
+
+			session.insert("insertMessage",message);
+		}
+	}
+
+	public void insertMessage(String dataType,String eid){
+
+		if(dataType.equalsIgnoreCase("ty")){
+			insert(eid);
+		}else{
+			insertList(eid);
+		}
+
+	}
+
+}

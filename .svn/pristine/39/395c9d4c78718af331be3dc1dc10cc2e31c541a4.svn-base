@@ -1,0 +1,50 @@
+package dataservice.esmlog;
+
+import model.esmlog.WARNINGLOG;
+import org.apache.ibatis.session.SqlSession;
+import util.TimeUtil;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class WarningLogService {
+
+	SqlSession session;
+
+	public WarningLogService(SqlSession session) {
+		this.session = session;
+	}
+
+	public void clear() {
+
+		session.delete("deleteWarningLog");
+	}
+
+	public void insert() {
+
+		List<WARNINGLOG> warninglogs = new ArrayList<WARNINGLOG>();
+
+		WARNINGLOG logOne = new WARNINGLOG();
+		logOne.setWSID(1);
+		logOne.setCAPTION("病毒传染名称");
+		logOne.setCONTENT("{\"msg\":\"病毒传染内容\"}");
+		logOne.setEDATE(new Date());
+
+		WARNINGLOG logTwo = new WARNINGLOG();
+		logTwo.setWSID(2);
+		logTwo.setCAPTION("病毒爆发名称");
+		logTwo.setCONTENT("{\"msg\":\"病毒爆发内容\"}");
+		logTwo.setEDATE(TimeUtil.getLastMonthDate());
+
+		WARNINGLOG logThree = new WARNINGLOG();
+		logThree.setWSID(3);
+		logThree.setCAPTION("清理失败预警名称");
+		logThree.setCONTENT("{\"msg\":\"清理失败预警内容\"}");
+		logThree.setEDATE(TimeUtil.getSpecial("2019-05-08 12:00:00"));
+
+		warninglogs.add(logOne);
+		warninglogs.add(logTwo);
+		warninglogs.add(logThree);
+		session.insert("insertWarningLog", warninglogs);
+	}
+}

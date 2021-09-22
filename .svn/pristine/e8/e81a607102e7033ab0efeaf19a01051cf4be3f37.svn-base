@@ -1,0 +1,97 @@
+package page.systemcenter.auditlog;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class AuditLogPage extends BasePage {
+
+	@FindBy(xpath = "//label[text()='动作：']/following-sibling::div/a[1]")
+	private WebElement actionAll;
+
+	@FindBy(xpath = "//label[text()='动作：']/following-sibling::div/a[2]")
+	private WebElement execute;
+
+	@FindBy(xpath = "//label[text()='动作：']/following-sibling::div/a[3]")
+	private WebElement add;
+
+	@FindBy(xpath = "//label[text()='动作：']/following-sibling::div/a[4]")
+	private WebElement update;
+
+	@FindBy(xpath = "//label[text()='动作：']/following-sibling::div/a[5]")
+	private WebElement operate;
+
+	@FindBy(xpath = "//label[text()='功能：']/following-sibling::div/a[1]")
+	private WebElement functionAll;
+
+	@FindBy(xpath = "//label[text()='功能：']/following-sibling::div/a[2]")
+	private WebElement login;
+
+	@FindBy(xpath = "//label[text()='功能：']/following-sibling::div/a[3]")
+	private WebElement terminal;
+
+	@FindBy(xpath = "//label[text()='功能：']/following-sibling::div/a[7]")
+	private WebElement report;
+
+	@FindBy(xpath = "//label[text()='功能：']/following-sibling::div/a[8]")
+	private WebElement center;
+
+	@FindBy(xpath = "//label[text()='功能：']/following-sibling::div/a[9]")
+	private WebElement manage;
+
+	@FindBy(xpath = "//label[text()='状态：']/following-sibling::div/a[1]")
+	private WebElement stateAll;
+
+	@FindBy(xpath = "//label[text()='状态：']/following-sibling::div/a[2]")
+	private WebElement success;
+
+	@FindBy(xpath = "//label[text()='状态：']/following-sibling::div/a[3]")
+	private WebElement fail;
+
+	@FindBy(id = "btnlogDelAll")
+	private WebElement delAll;
+
+	@FindBy(xpath = "//body/div[10]/div[2]/a[2]")
+	private WebElement delConfirm;
+
+	@FindBy(xpath = "//span[text()='清除成功']")
+	private WebElement delAllAlert;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tr[1]/td[last()]/a")
+	private WebElement del;
+
+	@FindBy(xpath = "//span[text()='删除成功']")
+	private WebElement delAlert;
+
+	@FindBy(xpath = "//table[@id='tbClient']//td[5]/div")
+	private List<WebElement> webActions;
+
+	@FindBy(xpath = "//table[@id='tbClient']//td[6]/div")
+	private List<WebElement> webFunctions;
+
+	@FindBy(xpath = "//table[@id='tbClient']//td[9]/div")
+	private List<WebElement> webStates;
+
+	public AuditLogPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void delete(){
+
+		click(del);
+		click(delConfirm);
+		TestUtil.waitForVisbility(delAlert);
+	}
+
+	public void clear(){
+
+		click(delAll);
+		click(delConfirm);
+		TestUtil.waitForVisbility(delAllAlert);
+	}
+}

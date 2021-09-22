@@ -1,0 +1,29 @@
+package cases.systemcenter.company;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.systemcenter.company.CompanyPage;
+import util.SeleniumTestCase;
+import java.util.Map;
+
+public class MailTest extends SeleniumTestCase {
+
+	CompanyPage companyPage;
+
+	@Test(description = "修改邮箱")
+	public void modify(){
+
+		companyPage = new CompanyPage(driver);
+		Map<String,Object> params = param.getInnerMap();
+		companyPage.updateMail(params);
+
+		Assert.assertEquals(companyPage.getSendDomain().getAttribute("value"),
+				params.get("sendDomainStr").toString(),"修改服务器验证错误");
+		Assert.assertEquals(companyPage.getSendPort().getAttribute("value"),
+				params.get("sendPortStr").toString(),"修改端口验证错误");
+		Assert.assertEquals(companyPage.getSendEmail().getAttribute("value"),
+				params.get("sendEmailStr").toString(),"修改发送邮箱验证错误");
+		Assert.assertEquals(companyPage.getSendUserName().getAttribute("value"),
+				params.get("sendUserNameStr").toString(),"修改账号验证错误");
+	}
+}

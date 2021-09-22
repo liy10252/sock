@@ -1,0 +1,195 @@
+package page;
+
+import lombok.Data;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class BasePage {
+
+	@FindBy(xpath = "//button[@name='customSearch']")
+	private WebElement customSearch;
+
+	@FindBy(xpath = "//b[@class='button']")
+	public WebElement conButton;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='终端名称']")
+	private WebElement clientName;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='IP地址']")
+	private WebElement ipaddr;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='网址']")
+	private WebElement webSite;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//input[@class='js_searchKey']")
+	public WebElement searchBar;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//button[@class='btn js_btn_search']")
+	public WebElement searchButton;
+
+	@FindBy(xpath = "//a[@val='nolimt']")
+	private WebElement timeNolimt;
+
+	@FindBy(xpath = "//a[@val='week']")
+	private WebElement week;
+
+	@FindBy(xpath = "//a[@val='month']")
+	private WebElement month;
+
+	@FindBy(xpath = "//a[@val='lastMonth']")
+	private WebElement lastMonth;
+
+	@FindBy(xpath = "//a[@val='special']")
+	private WebElement special;
+
+	@FindBy(id = "timeStart")
+	private WebElement timeStart;
+
+	@FindBy(id = "timeEnd")
+	private WebElement timeEnd;
+
+	@FindBy(id = "js_btn_time")
+	private WebElement specialButton;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr[1]")
+	private WebElement webDataTr;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr/td[1]")
+	private List<WebElement> clientNames;
+
+	@FindBy(xpath = "//span[@class='pagination-info']")
+	public WebElement count;
+
+	@FindBy(xpath = "//a[@val='ep']")
+	private WebElement baseEp;
+
+	@FindBy(xpath = "//a[@val='xav']")
+	private WebElement baseXav;
+
+	@FindBy(xpath = "//a[@val='detail']")
+	private WebElement baseDetail;
+
+	@FindBy(id = "policy-save")
+	public WebElement apply;
+
+	@FindBy(id = "policy-reset")
+	public WebElement renew;
+
+	@FindBy(id = "resetPolicyBtn")
+	public WebElement renewConfirm;
+
+	public String webCount;
+
+	EventFiringWebDriver driver;
+	private final int TIMEOUT = 10;
+
+	public BasePage(EventFiringWebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(new AjaxElementLocatorFactory(driver, TIMEOUT), this);
+	}
+
+	//条件搜索的方法
+	public void search(WebElement element,String text){
+
+		searchBar.clear();
+		click(searchButton);
+		click(conButton);
+		click(element);
+		searchBar.sendKeys(text);
+		click(searchButton);
+		TestUtil.waitForElementNumber(By.xpath("//table[@id='tbClient']//tbody/tr"),1);
+	}
+
+
+
+	//时间范围验证通用工具方法
+	public void timeFrameTool(WebElement element) {
+
+		click(timeNolimt);
+		TestUtil.seleniumWait();
+		webCount = TestUtil.waitForVisbility(count).getText();
+		click(element);
+		TestUtil.waitForChanges(count, webCount);
+
+	}
+
+	//指定时间操作方法有按钮
+	public void specialTool(String start,String end){
+
+		specialUtil(start,end);
+		click(specialButton);
+		TestUtil.seleniumWait();
+	}
+
+	//指定时间操作无按钮
+	public void specialTool(String start,String end,String noButton){
+
+		specialUtil(start,end);
+		click(special);
+		TestUtil.seleniumWait();
+
+	}
+
+	//单选方法数据只一条
+	public void singleClick(WebElement all, WebElement element){
+
+		click(all);
+		click(element);
+		TestUtil.waitForElementNumber(By.xpath("//table[@id='tbClient']//tbody/tr"),1);
+	}
+
+	//单选方法数据可能多条
+	public void singleClick(WebElement all, WebElement element,int number){
+
+		click(all);
+		click(element);
+		TestUtil.waitForElementNumber(By.xpath("//table[@id='tbClient']//tbody/tr"),number);
+	}
+
+	public void specialUtil(String start,String end){
+
+		click(special);
+		TestUtil.waitForVisbility(timeStart).sendKeys(start);
+		click(timeStart);
+		TestUtil.waitForVisbility(timeEnd).sendKeys(end);
+		click(timeEnd);
+
+	}
+
+	//逐行检查元素的值
+	public boolean checkItems(List<WebElement> elements,String expectedValue){
+
+		boolean flag = false;
+
+		for(WebElement element : elements){
+			flag = element.getText().trim().equals(expectedValue)?true:false;
+		}
+
+		return flag;
+	}
+
+	//设置项恢复
+	public void renew(){
+
+		click(renew);
+		click(renewConfirm);
+		TestUtil.seleniumWait();
+		click(apply);
+		TestUtil.seleniumWait();
+	}
+
+	//智能等待元素出现再点击
+	public void click(WebElement element) {
+		new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(element)).click();
+	}
+
+}

@@ -1,0 +1,71 @@
+package datacontroller;
+
+import dataservice.esmlog.EpInfoService;
+import dataservice.esmlog.GroupInfoService;
+import dataservice.esmlog.RuaLogService;
+import dataservice.testcase.CasesService;
+import model.testcase.Cases;
+import org.apache.ibatis.session.SqlSession;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import util.DatabaseUtil;
+import java.util.List;
+
+public class DataController {
+
+    public static SqlSession logSession = DatabaseUtil.getSqlSession("log");
+    public static SqlSession managerSession = DatabaseUtil.getSqlSession("manager");
+    public static SqlSession caseSession = DatabaseUtil.getSqlSession("testcase");
+    public static List<Cases> caseList;
+
+
+    static{
+
+        CasesService casesService = new CasesService(caseSession);
+        caseList = casesService.getCaseList();
+        caseSession.close();
+    }
+
+    @Test
+    public void clearGroup(){
+
+        GroupInfoService groupInfoService = new GroupInfoService(logSession);
+        groupInfoService.clearGroup("testgroup");
+        groupInfoService.clearGroup("modifytestgroup");
+        logSession.commit();
+    }
+
+    @Test
+    public void updateEpinfoGroup(){
+
+        EpInfoService epInfoService = new EpInfoService(logSession);
+        epInfoService.updateEpinfoGroup();
+        logSession.commit();
+
+    }
+
+    @Test
+    public void updateEpinfoMemo(){
+
+        EpInfoService epInfoService = new EpInfoService(logSession);
+        epInfoService.updateEpinfoMemo();
+        logSession.commit();
+    }
+
+    @Test
+    public void updateRuaTime(){
+
+        RuaLogService ruaLogService = new RuaLogService(logSession);
+        ruaLogService.updateThisWeek();
+        ruaLogService.updateLastMonth();
+        logSession.commit();
+    }
+
+    @AfterClass
+    public void tearDown(){
+        logSession.close();
+    }
+
+
+}
+

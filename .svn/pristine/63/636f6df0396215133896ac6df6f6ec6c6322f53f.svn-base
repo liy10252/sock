@@ -1,0 +1,49 @@
+package page.firewall.log;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class LogPage extends BasePage {
+
+	@FindBy(xpath = "//a[text()='恶意网址']")
+	private WebElement malice;
+
+	@FindBy(xpath = "//a[text()='黑客攻击']")
+	private WebElement hacker;
+
+	@FindBy(xpath = "//a[text()='广告过滤']")
+	private WebElement advert;
+
+	@FindBy(xpath = "//a[text()='网址访问']")
+	private WebElement url;
+
+	@FindBy(xpath = "//a[text()='联网程序']")
+	private WebElement netWork;
+
+	public LogPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void gotoMalice(){
+		malice.click();
+	}
+
+	public void gotoHacker(){
+		hacker.click();
+	}
+
+	public void gotoAdvert(){
+		advert.click();
+	}
+
+	public void gotoUrl(){
+		url.click();
+	}
+
+	public void gotoNetWork(){
+		netWork.click();
+	}
+
+}

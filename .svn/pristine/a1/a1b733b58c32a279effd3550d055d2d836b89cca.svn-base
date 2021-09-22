@@ -1,0 +1,54 @@
+package cases.center.auditlog;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.center.auditlog.AuditLogPage;
+import util.SeleniumTestCase;
+import util.TestUtil;
+
+public class TimeFrameTest extends SeleniumTestCase {
+
+	AuditLogPage auditLogPage;
+
+	@Test(description = "时间范围本周")
+	public void thisWeek(){
+
+		auditLogPage = new AuditLogPage(driver);
+		auditLogPage.getCustomSearch().click();
+		auditLogPage.timeFrameTool(auditLogPage.getWeek());
+
+		Assert.assertTrue(TestUtil.getValueList(auditLogPage.getWebFunctions())
+						.containsAll(TestUtil.JsonToList(expect.getJSONArray("thisWeek"),"name")),
+				"时间范围本周验证错误");
+	}
+
+
+	@Test(dependsOnMethods = "thisWeek",description = "时间范围本月")
+	public void thisMonth(){
+		auditLogPage.timeFrameTool(auditLogPage.getMonth());
+
+		Assert.assertTrue(TestUtil.getValueList(auditLogPage.getWebFunctions())
+						.containsAll(TestUtil.JsonToList(expect.getJSONArray("thisMonth"),"name")),
+				"时间范围本月验证错误");
+	}
+
+	@Test(dependsOnMethods = "thisWeek",description = "时间范围上月")
+	public void lastMonth(){
+		auditLogPage.timeFrameTool(auditLogPage.getLastMonth());
+		Assert.assertTrue(auditLogPage.getWebDataTr().findElement(By.xpath("./td[6]/div"))
+				.getText().trim().equals(expect.getString("lastMonth")),"时间范围上月验证错误");
+	}
+
+	@Test(dependsOnMethods = "thisWeek",description = "时间范围指定")
+	public void special(){
+
+		auditLogPage.specialTool(param.getString("start"),param.getString("end"));
+		Assert.assertTrue(auditLogPage.getWebDataTr().findElement(By.xpath("./td[6]/div"))
+				.getText().trim().equals(expect.getString("special")),"时间范围指定验证错误");
+
+	}
+
+}
+
+

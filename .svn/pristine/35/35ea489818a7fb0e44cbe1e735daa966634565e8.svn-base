@@ -1,0 +1,23 @@
+package page;
+
+import lombok.extern.log4j.Log4j;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+@Log4j
+public class HomePage extends BasePage{
+
+	@FindBy(xpath = "//ul[@id='page-nav']/li[2]")
+	private WebElement terminal;
+
+	public HomePage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	//进入全网终端模块
+	public void gotoTerminal(){
+		terminal.click();
+		log.info("进入全网终端------");
+	}
+}

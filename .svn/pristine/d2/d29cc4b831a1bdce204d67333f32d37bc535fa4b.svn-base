@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="sock的测试套件">
+    <test name="这些是case">
+        <classes>
+            <class name="datacontroller.DataController"/>
+            <class name="cases.terminal.group.GroupTest"/>
+        </classes>
+
+    </test>
+
+    <listeners>
+        <listener class-name="listener.ExtentTestNGIReporterListener"/>
+        <listener class-name="listener.RetryListener"/>
+    </listeners>
+</suite>

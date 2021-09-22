@@ -1,0 +1,35 @@
+package cases.terminal.setup.softwareup;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.terminal.setup.softwareup.SoftwareUpPage;
+import util.SeleniumTestCase;
+
+public class RenewTest extends SeleniumTestCase {
+
+	SoftwareUpPage softwareUpPage;
+
+	@Test(description = "恢复默认")
+	public void renew(){
+
+		softwareUpPage = new SoftwareUpPage(driver);
+		softwareUpPage.renew();
+
+		Assert.assertTrue(softwareUpPage.getStartKeep().isSelected(),"恢复开始菜单验证错误");
+		Assert.assertTrue(softwareUpPage.getDesktopKeep().isSelected(),"恢复添加到桌面验证错误");
+		Assert.assertFalse(softwareUpPage.getInterval().isSelected(),"恢复升级模式验证错误");
+		Assert.assertEquals(softwareUpPage.getIntervalInput().getAttribute("value"),
+				expect.getString("interval"),"恢复升级模式验证错误");
+		Assert.assertTrue(softwareUpPage.getUpdateAll().isSelected(),"恢复升级内容验证错误");
+		Assert.assertFalse(softwareUpPage.getForceUpdate().isSelected(),"恢复强制更新验证错误");
+		Assert.assertEquals(softwareUpPage.getForceInput().getAttribute("value"),
+				expect.getString("force"),"恢复强制更新验证错误");
+		Assert.assertTrue(softwareUpPage.getIe().isSelected(),"恢复代理设置验证错误");
+		Assert.assertEquals(softwareUpPage.getIp().getAttribute("value"),
+				"","恢复地址验证错误");
+		Assert.assertEquals(softwareUpPage.getPort().getAttribute("value"),
+				"","恢复端口验证错误");
+		Assert.assertFalse(softwareUpPage.getTest().isSelected(),"恢复启动验证错误");
+	}
+
+}

@@ -1,0 +1,157 @@
+package page;
+
+import lombok.Data;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class BasePage {
+
+	@FindBy(xpath = "//button[@name='customSearch']")
+	private WebElement customSearch;
+
+	@FindBy(xpath = "//b[@class='button']")
+	private WebElement conButton;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='终端名称']")
+	private WebElement clientName;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='IP地址']")
+	private WebElement ipaddr;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//input[@class='js_searchKey']")
+	private WebElement searchBar;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//button[@class='btn js_btn_search']")
+	private WebElement searchButton;
+
+	@FindBy(xpath = "//a[@val='nolimt']")
+	private WebElement timeNolimt;
+
+	@FindBy(xpath = "//a[@val='week']")
+	private WebElement week;
+
+	@FindBy(xpath = "//a[@val='month']")
+	private WebElement month;
+
+	@FindBy(xpath = "//a[@val='lastMonth']")
+	private WebElement lastMonth;
+
+	@FindBy(xpath = "//a[@val='special']")
+	private WebElement special;
+
+	@FindBy(id = "timeStart")
+	private WebElement timeStart;
+
+	@FindBy(id = "timeEnd")
+	private WebElement timeEnd;
+
+	@FindBy(id = "js_btn_time")
+	private WebElement specialButton;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr[1]")
+	private WebElement webDataTr;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr/td[1]")
+	private List<WebElement> clientNames;
+
+	@FindBy(xpath = "//span[@class='pagination-info']")
+	private WebElement count;
+
+	@FindBy(xpath = "//a[@val='detail']")
+	private WebElement baseDetail;
+
+	@FindBy(xpath = "//a[@val='ep']")
+	private WebElement baseEp;
+
+	@FindBy(xpath = "//a[@val='xav']")
+	private WebElement baseXav;
+
+	String webCount;
+
+	EventFiringWebDriver driver;
+	private final int TIMEOUT = 10;
+
+	public BasePage(EventFiringWebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(new AjaxElementLocatorFactory(driver, TIMEOUT), this);
+	}
+
+	//条件搜索的方法
+	public void search(WebElement element,String text){
+
+		searchBar.clear();
+		TestUtil.waitForClick(searchButton).click();
+		TestUtil.waitForClick(conButton).click();
+		TestUtil.waitForClick(element).click();
+		searchBar.sendKeys(text);
+		TestUtil.waitForClick(searchButton).click();
+	}
+
+	//时间范围验证通用工具方法
+	public void timeFrameTool(WebElement element) {
+
+		TestUtil.waitForVisbility(timeNolimt).click();
+		TestUtil.seleniumWait();
+		webCount = TestUtil.waitForVisbility(count).getText();
+		TestUtil.waitForVisbility(element).click();
+		TestUtil.waitForChanges(count, webCount);
+
+	}
+
+	//指定时间操作方法有按钮
+	public void specialTool(String start,String end){
+
+		specialUtil(start,end);
+		TestUtil.waitForVisbility(specialButton).click();
+		TestUtil.seleniumWait();
+	}
+
+	//指定时间操作无按钮
+	public void specialTool(String start,String end,String noButton){
+
+		specialUtil(start,end);
+		driver.getKeyboard().pressKey(Keys.ENTER);
+		driver.getKeyboard().releaseKey(Keys.ENTER);
+		TestUtil.seleniumWait();
+
+	}
+
+	//单选方法数据只一条
+	public void singleClick(WebElement all, WebElement element){
+
+		TestUtil.waitForVisbility(all).click();
+//		webCount = TestUtil.waitForVisbility(count).getText();
+		TestUtil.waitForVisbility(element).click();
+		TestUtil.waitForElementNumber(By.xpath("//table[@id='tbClient']//tbody/tr"),1);
+//		TestUtil.waitForVisbility(count);
+//		TestUtil.waitForChanges(count, webCount);
+	}
+
+	//单选方法数据可能多条
+	public void singleClick(WebElement all, WebElement element,int number){
+
+		TestUtil.waitForVisbility(all).click();
+		TestUtil.waitForVisbility(element).click();
+		TestUtil.waitForElementNumber(By.xpath("//table[@id='tbClient']//tbody/tr"),number);
+	}
+
+	public void specialUtil(String start,String end){
+
+		TestUtil.waitForVisbility(special).click();
+		TestUtil.waitForVisbility(timeStart).sendKeys(start);
+		TestUtil.waitForVisbility(timeStart).click();
+		TestUtil.waitForVisbility(timeEnd).sendKeys(end);
+		TestUtil.waitForVisbility(timeEnd).click();
+
+	}
+
+
+}

@@ -1,0 +1,176 @@
+package page.viruskill.setup.routine;
+
+import lombok.Data;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class RoutinePage extends BasePage {
+
+	@FindBy(id = "wblock")
+	private WebElement lock;
+
+	@FindBy(xpath = "//input[@name='wbcustomL' and @value='1']")
+	private WebElement pwd;
+
+	@FindBy(xpath = "//input[@name='wbcustomL' and @value='2']")
+	private WebElement customButton;
+
+	@FindBy(id = "wbTxt")
+	private WebElement customInput;
+
+	@FindBy(id = "pub_InnerWhiteList")
+	private WebElement run;
+
+	@FindBy(id = "pub_chkVtrack")
+	private WebElement track;
+
+	@FindBy(id = "pub_chkWritelog")
+	private WebElement log;
+
+	@FindBy(id = "pub_closerfm")
+	private WebElement scanCache;
+
+	@FindBy(id = "closefcache")
+	private WebElement monitor;
+
+	@FindBy(id = "ptcscan")
+	private WebElement strongScan;
+
+	@FindBy(id = "enforcescan")
+	private WebElement strongKill;
+
+	@FindBy(xpath = "//input[@name='pub_radSmartcpuLevel' and @value='10']")
+	private WebElement inOffice;
+
+	@FindBy(xpath = "//input[@name='pub_radSmartcpuLevel' and @value='200']")
+	private WebElement auto;
+
+	@FindBy(xpath = "//dt[text()='专项查杀']/following-sibling::dd[1]//input")
+	private WebElement worm;
+
+	@FindBy(xpath = "//dt[text()='专项查杀']/following-sibling::dd[2]//input")
+	private WebElement rain;
+
+	@FindBy(id = "pub_virut")
+	private WebElement witkey;
+
+	@FindBy(id = "pub_lpktool")
+	private WebElement dll;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[1]//b")
+	private WebElement cpuButton;
+
+	@FindBy(xpath = "//li[text()='10%']")
+	private WebElement ten;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[1]//p")
+	private WebElement webCpu;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[2]//b")
+	private WebElement connectButton;
+
+	@FindBy(xpath = "//li[text()='2分钟']")
+	private WebElement twoMin;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[2]//p")
+	private WebElement webConnect;
+
+	@FindBy(id = "publicCloudEnable")
+	private WebElement pubCloud;
+
+	@FindBy(xpath = "//input[@name='publicCloudMode' and @value='0']")
+	private WebElement get;
+
+	@FindBy(xpath = "//input[@name='publicCloudMode' and @value='1']")
+	private WebElement post;
+
+	@FindBy(id = "publicCloudCount")
+	private WebElement queryCount;
+
+	@FindBy(id = "publicCloudName")
+	private WebElement name;
+
+	@FindBy(className = "js_addcloud")
+	private WebElement addPriCloud;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[4]//input[@class='privateCloudEnable']")
+	private WebElement webPriCloud;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[4]//input[@class='privateCloudAddr']")
+	private WebElement address;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[4]//input[@class='privateCloudPort']")
+	private WebElement port;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[4]//label[text()='POST']/input")
+	private WebElement priPost;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[4]//input[@class='privateCloudCount']")
+	private WebElement priQueryCount;
+
+	@FindBy(xpath = "//dt[text()='云查杀']/following-sibling::dd[4]//input[@class='privateCloudName']")
+	private WebElement priName;
+
+	public RoutinePage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void buttonOneUtil(){
+
+		TestUtil.seleniumWait();
+		TestUtil.waitForClick(lock);
+		TestUtil.waitForClick(customButton);
+		TestUtil.waitForClick(run);
+		TestUtil.waitForClick(track);
+		TestUtil.waitForClick(log);
+		TestUtil.waitForClick(scanCache);
+		TestUtil.waitForClick(monitor);
+		TestUtil.waitForClick(strongScan);
+		TestUtil.waitForClick(strongKill);
+		TestUtil.waitForClick(inOffice);
+		TestUtil.waitForClick(worm);
+		TestUtil.waitForClick(rain);
+		TestUtil.waitForClick(apply);
+
+	}
+
+	public void buttonTwoUtil(EventFiringWebDriver driver){
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", witkey);
+		TestUtil.waitForClick(witkey);
+		TestUtil.waitForClick(dll);
+		TestUtil.waitForClick(cpuButton);
+		TestUtil.waitForClick(ten);
+		TestUtil.waitForClick(connectButton);
+		TestUtil.waitForClick(twoMin);
+		TestUtil.waitForClick(get);
+		TestUtil.waitForClick(addPriCloud);
+		TestUtil.waitForClick(apply);
+	}
+
+	public void inputOneUtil(String pwd){
+
+		customInput.sendKeys(pwd);
+		TestUtil.waitForClick(apply);
+	}
+
+	public void inputTwoUtil(EventFiringWebDriver driver,String count,String sName,String addr,String sPort){
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", get);
+
+		queryCount.clear();
+		queryCount.sendKeys(count);
+		name.clear();
+		name.sendKeys(sName);
+		address.sendKeys(addr);
+		port.clear();
+		port.sendKeys(sPort);
+		TestUtil.waitForClick(apply);
+	}
+
+}

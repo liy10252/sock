@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="model.esmlog">
+
+    <delete id="deleteGroupByName" parameterType="String">
+         delete from GROUPINFO_B0E501F871146298 where GROUPNAME = #{GROUPNAME};
+    </delete>
+
+    <update id="updateEpinfo" parameterType="model.esmlog.EPINFO">
+        update EPINFO_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != GROUPID and '' !=GROUPID">
+                GROUPID=#{GROUPID},
+            </if>
+
+            <if test="null != GROUPNAME and '' !=GROUPNAME">
+                GROUPNAME=#{GROUPNAME},
+            </if>
+
+            <if test="null == MEMO">
+                MEMO=#{MEMO},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRuaLog" parameterType="model.esmlog.RUA_LOG">
+        update RUA_LOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateXav_Virus" parameterType="model.esmlog.XAV_VIRUS">
+        update XAV_VIRUS_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != FINDTIME">
+                FINDTIME=#{FINDTIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateXav_ScanEvent" parameterType="model.esmlog.XAV_SCANEVENT">
+        update XAV_SCANEVENT_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != STARTTIME">
+                STARTTIME=#{STARTTIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateXav_SysDef" parameterType="model.esmlog.XAV_SYSDEF">
+        update XAV_SYSDEF_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateXav_Botauditlog" parameterType="model.esmlog.XAV_BOTAUDITLOG">
+        update XAV_BOTAUDITLOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updatecmdState" parameterType="model.esmlog.CMDISSUEDSTATE">
+        update CMDISSUEDSTATE_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where CMDID = #{CMDID} ">
+            <if test="null != EDATE">
+                EDATE=#{EDATE},
+            </if>
+            <if test="null != STATE">
+                STATE=#{STATE},
+            </if>
+        </trim>
+        ;
+    </update>
+
+    <update id="updatecmdStateForPopup" parameterType="model.esmlog.CMDISSUEDSTATE">
+        update CMDISSUEDSTATE_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where CMDID = #{CMDID} and SGUID = #{SGUID}">
+            <if test="null != STATE">
+                STATE=#{STATE},
+            </if>
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Url" parameterType="model.esmlog.RFW_URLINTERCEPTLOG">
+        update RFW_URLINTERCEPTLOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Ip" parameterType="model.esmlog.RFW_IPACCESSAUDITLOG">
+        update RFW_IPACCESSAUDITLOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Brow" parameterType="model.esmlog.RFW_BROWSINGAUDITLOG">
+        update RFW_BROWSINGAUDITLOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Net" parameterType="model.esmlog.RFW_NETPROCAUDITLOG">
+        update RFW_NETPROCAUDITLOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Share" parameterType="model.esmlog.RFW_SHAREDRESACCESSAUDITLOG">
+        update RFW_SHAREDRESACCESSAUDITLOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Flow" parameterType="model.esmlog.RFW_TERMINALFLOWAUDITLOG">
+        update RFW_TERMINALFLOWAUDITLOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <delete id="deleteReport_where" parameterType="String">
+         delete from REPORT_WHERE_B0E501F871146298 where REPORTID = (SELECT ID FROM REPORT_LIST_B0E501F871146298 WHERE REPORTNAME = #{REPORTNAME} ) ;
+    </delete>
+
+    <delete id="deleteReport_List" parameterType="String">
+         delete from REPORT_LIST_B0E501F871146298 where REPORTNAME = #{REPORTNAME} ;
+    </delete>
+
+    <delete id="deleteHistory_report" parameterType="String">
+         delete from HISTORY_REPORT_B0E501F871146298 where ID > 1;
+    </delete>
+
+    <insert id="addToday_link" parameterType="model.esmlog.AUTH_TODAY_LINK">
+
+            replace INTO AUTH_TODAY_LINK_B0E501F871146298(ID,EID,SGUID,LINKTIME,LINKSTATUS)
+            values (#{ID},#{EID},#{SGUID},#{LINKTIME},#{LINKSTATUS});
+    </insert>
+
+    <delete id="deleteAuth_history" parameterType="String">
+         delete from AUTH_HISTORY_LINKS_B0E501F871146298 where ID > 1;
+    </delete>
+
+    <insert id="addAuth_history" parameterType="model.esmlog.AUTH_HISTORY_LINKS">
+
+            insert INTO AUTH_HISTORY_LINKS_B0E501F871146298(ID,EID,HISTORYDATE,AUTHNUM,NOTAUTHNUM,ADDTIME)
+            values (#{ID},#{EID},#{HISTORYDATE},#{AUTHNUM},#{NOTAUTHNUM},#{ADDTIME});
+    </insert>
+
+    <update id="updateMail">
+        update SEND_EMAIL_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides=",">
+            SENDDOMAIN='',
+            SENDPORT='',
+            SENDEMAIL='',
+            USERNAME='',
+            PASSWD='',
+
+        </trim>
+        ;
+    </update>
+
+    <delete id="deleteMail" parameterType="String">
+         delete from SEND_EMAIL_B0E501F871146298 where ID > 1;
+    </delete>
+
+    <update id="updateClient_set">
+        update CLEAN_CLIENT_SET_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides=",">
+            DAYS = 3650,
+            ISSYNC = 1,
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateLog_clean">
+        update LOG_CLEAN_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where TABLENAME = 'EPLOG' ">
+             DAYS = 3650,
+
+        </trim>
+        ;
+    </update>
+
+    <delete id="deleteAuditLog">
+         delete from AUDITLOG_B0E501F871146298;
+    </delete>
+
+    <insert id="insertAuditLog" parameterType="java.util.ArrayList">
+        insert into AUDITLOG_B0E501F871146298 (EID,USERNAME,IP,ACTION,FUNCS,OBJECTS,
+        RESULT,DESCRIPTION,MEMO,TIME) VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.EID},#{item.USERNAME},#{item.IP},#{item.ACTION},#{item.FUNCS},#{item.OBJECTS},
+            #{item.RESULT},#{item.DESCRIPTION},#{item.MEMO},#{item.TIME})
+        </foreach>
+    </insert>
+
+    <update id="updateUser_set">
+        update USERS_SET_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides=",">
+            TIMEOUT = 30,
+            FAILNUM = 5,
+            TIME = 10,
+            ISMANUAL = 0,
+        </trim>
+        ;
+    </update>
+
+
+</mapper>

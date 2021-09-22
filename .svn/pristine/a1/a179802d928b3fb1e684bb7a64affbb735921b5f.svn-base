@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="model.esmlog">
+
+    <delete id="deleteGroupByName" parameterType="String">
+         delete from groupinfo_${eid} where groupname = #{GROUPNAME};
+    </delete>
+
+    <update id="updateEpinfo" parameterType="model.esmlog.EPINFO">
+        update epinfo_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != GROUPID and '' !=GROUPID">
+                groupid=#{GROUPID},
+            </if>
+
+            <if test="null != GROUPNAME and '' !=GROUPNAME">
+                groupname=#{GROUPNAME},
+            </if>
+
+            <if test="null == MEMO">
+                memo=#{MEMO},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRuaLog" parameterType="model.esmlog.RUA_LOG">
+        update rua_log_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateXav_Virus" parameterType="model.esmlog.XAV_VIRUS">
+        update xav_virus_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != FINDTIME">
+                findtime=#{FINDTIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateXav_ScanEvent" parameterType="model.esmlog.XAV_SCANEVENT">
+        update xav_scanevent_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != STARTTIME">
+                starttime=#{STARTTIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateXav_SysDef" parameterType="model.esmlog.XAV_SYSDEF">
+        update xav_sysdef_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateXav_Botauditlog" parameterType="model.esmlog.XAV_BOTAUDITLOG">
+        update xav_botauditlog_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updatecmdState" parameterType="model.esmlog.CMDISSUEDSTATE">
+        update cmdissuedstate_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where CMDID = #{CMDID} ">
+            <if test="null != EDATE">
+                edate=#{EDATE},
+            </if>
+            <if test="null != STATE">
+                state=#{STATE},
+            </if>
+        </trim>
+        ;
+    </update>
+
+    <update id="updatecmdStateForPopup" parameterType="model.esmlog.CMDISSUEDSTATE">
+        update cmdissuedstate_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where CMDID = #{CMDID} and SGUID = #{SGUID}">
+            <if test="null != STATE">
+                state=#{STATE},
+            </if>
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Url" parameterType="model.esmlog.RFW_URLINTERCEPTLOG">
+        update rfw_urlinterceptlog_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Ip" parameterType="model.esmlog.RFW_IPACCESSAUDITLOG">
+        update rfw_ipaccessauditlog_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Brow" parameterType="model.esmlog.RFW_BROWSINGAUDITLOG">
+        update rfw_browsingauditlog_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Net" parameterType="model.esmlog.RFW_NETPROCAUDITLOG">
+        update rfw_netprocauditlog_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Share" parameterType="model.esmlog.RFW_SHAREDRESACCESSAUDITLOG">
+        update rfw_sharedresaccessauditlog_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRfw_Flow" parameterType="model.esmlog.RFW_TERMINALFLOWAUDITLOG">
+        update rfw_terminalflowauditlog_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                time=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <delete id="deleteReport_where" parameterType="String">
+         delete from report_where_${eid} where reportid = (SELECT id FROM report_list_${eid} WHERE reportname = #{REPORTNAME} ) ;
+    </delete>
+
+    <delete id="deleteReport_List" parameterType="String">
+         delete from report_list_${eid} where reportname = #{REPORTNAME} ;
+    </delete>
+
+    <delete id="deleteHistory_report" parameterType="String">
+         delete from history_report_${eid} where id > 1;
+    </delete>
+
+    <insert id="addToday_link" parameterType="model.esmlog.AUTH_TODAY_LINK">
+
+            insert INTO auth_today_link_${eid}(id,eid,sguid,linktime,linkstatus)
+            values (#{ID},#{EID},#{SGUID},#{LINKTIME},#{LINKSTATUS});
+    </insert>
+
+    <delete id="deleteToday_link">
+             delete from auth_today_link_${eid};
+    </delete>
+
+
+    <delete id="deleteAuth_history" parameterType="String">
+         delete from auth_history_links_${eid} where id > 1;
+    </delete>
+
+    <insert id="addAuth_history" parameterType="model.esmlog.AUTH_HISTORY_LINKS">
+
+            insert INTO auth_history_links_${eid}(id,eid,historydate,authnum,notauthnum,addtime)
+            values (#{ID},#{EID},#{HISTORYDATE},#{AUTHNUM},#{NOTAUTHNUM},#{ADDTIME});
+    </insert>
+
+    <update id="updateMail">
+        update send_email_${eid}
+
+        <trim prefix="set" suffixOverrides=",">
+            senddomain='',
+            sendport='',
+            sendemail='',
+            username='',
+            passwd='',
+
+        </trim>
+        ;
+    </update>
+
+    <delete id="deleteMail" parameterType="String">
+         delete from send_email_${eid} where id > 1;
+    </delete>
+
+    <update id="updateClient_set">
+        update clean_client_set_${eid}
+
+        <trim prefix="set" suffixOverrides=",">
+            days = 3650,
+            issync = 1,
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateLog_clean">
+        update log_clean_${eid} SET days = 3650;
+    </update>
+
+    <delete id="deleteAuditLog">
+         delete from auditlog_${eid};
+    </delete>
+
+    <insert id="insertAuditLog" parameterType="java.util.ArrayList">
+        insert into auditlog_${eid} (id,eid,username,ip,action,funcs,objects,
+        result,description,memo,time) VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.ID},#{item.EID},#{item.USERNAME},#{item.IP},#{item.ACTION},#{item.FUNCS},#{item.OBJECTS},
+            #{item.RESULT},#{item.DESCRIPTION},#{item.MEMO},#{item.TIME})
+        </foreach>
+    </insert>
+
+    <update id="updateUser_set">
+        update users_set_${eid}
+
+        <trim prefix="set" suffixOverrides=",">
+            timeout = 30,
+            failnum = 5,
+            time = 10,
+            ismanual = 0,
+        </trim>
+        ;
+    </update>
+
+    <update id="updateWarningSet" parameterType="model.esmlog.WARNINGSETTING">
+        update warningsetting_${eid}
+
+        <trim prefix="set" suffixOverrides="," suffix=" where WSNAME = #{WSNAME} ">
+            <if test="null != ENABLE">
+                enable=#{ENABLE},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <delete id="deleteWarningLog">
+         delete from warninglog_${eid};
+    </delete>
+
+    <insert id="insertWarningLog" parameterType="model.esmlog.WARNINGLOG">
+        insert into warninglog_${eid} (logid,wsid,caption,content,edate)
+
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="LOGID != null">
+                #{LOGID},
+            </if>
+            <if test="WSID != null">
+                #{WSID},
+            </if>
+            <if test="CAPTION != null">
+                #{CAPTION},
+            </if>
+            <if test="CONTENT != null">
+                #{CONTENT},
+            </if>
+            <if test="EDATE != null">
+                #{EDATE},
+            </if>
+        </trim>
+    </insert>
+
+        <delete id="deleteMessage">
+             delete from message_center_${eid};
+        </delete>
+
+        <insert id="insertMessage" parameterType="java.util.ArrayList">
+            insert into message_center_${eid} (mid,eid,msgtitle,msgcontext,msgtype,isread,
+            isdel,addtime) VALUES
+            <foreach collection="list" item="item" index="index" separator=",">
+                (#{item.mid},#{item.eid},#{item.msgtitle},#{item.msgcontext},#{item.msgtype},#{item.isread},
+                #{item.isdel},#{item.addtime})
+            </foreach>
+        </insert>
+
+
+           <select id="logtables" resultType="java.lang.String">
+                SELECT tablename FROM pg_tables where schemaname ='public';
+           </select>
+
+</mapper>

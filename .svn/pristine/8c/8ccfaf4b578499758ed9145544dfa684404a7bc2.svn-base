@@ -1,0 +1,21 @@
+package page.firewall;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class FireWallPage extends BasePage {
+
+	@FindBy(xpath = "//a[text()='日志']")
+	private WebElement log;
+
+	public FireWallPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+
+	public void gotoLog(){
+		log.click();
+	}
+}

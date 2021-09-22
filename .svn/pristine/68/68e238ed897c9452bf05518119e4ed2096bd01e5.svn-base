@@ -1,0 +1,201 @@
+package page.viruskill.setup.filemonitor;
+
+import lombok.Data;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class FileMonitorPage extends BasePage {
+
+	@FindBy(id = "file_chkLockclose")
+	private WebElement lockClose;
+
+	@FindBy(id = "file_chkRundisable")
+	private WebElement bootEnable;
+
+	@FindBy(id = "file_smartblack")
+	private WebElement open;
+
+	@FindBy(id = "file_chkCoreMonitor")
+	private WebElement coreMonitor;
+
+	@FindBy(xpath = "//label[text()='极速']/input")
+	private WebElement rapid;
+
+	@FindBy(xpath = "//label[text()='标准']/input")
+	private WebElement standard;
+
+	@FindBy(xpath = "//label[text()='专业']/input")
+	private WebElement major;
+
+	@FindBy(xpath = "//label[text()='加强文档类型文件查杀']/input")
+	private WebElement fileKill;
+
+	@FindBy(xpath = "//input[@id='monexts']/preceding-sibling::label/input")
+	private WebElement customFile;
+
+	@FindBy(id = "monexts")
+	private WebElement customFileInput;
+
+	@FindBy(xpath = "//label[text()='增强']/input")
+	private WebElement enhance;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[11]//input")
+	private WebElement all;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[12]//input")
+	private WebElement programFile;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[13]/label/input")
+	private WebElement customFileType;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[13]/input")
+	private WebElement customFileTypeInput;
+
+	@FindBy(id = "sigsource")
+	private WebElement trust;
+
+	@FindBy(id = "syscache")
+	private WebElement driveCache;
+
+	@FindBy(id = "ole")
+	private WebElement embedded;
+
+	@FindBy(id = "sharedoc")
+	private WebElement fileServer;
+
+	@FindBy(id = "pub_txtSharedir")
+	private WebElement fileListInput;
+
+	@FindBy(id = "pub_btnSharedir")
+	private WebElement add;
+
+	@FindBy(xpath = "//table[@id='pub_tbSharedir']//tr[1]")
+	private WebElement webTr;
+
+	@FindBy(xpath = "//table[@id='pub_tbSharedir']//tr[1]/td[2]")
+	private WebElement webDelete;
+
+	@FindBy(id = "file_chkHeuristic2")
+	private WebElement heuristic;
+
+	@FindBy(id = "file_chkPopvirus2")
+	private WebElement popVirus;
+
+	@FindBy(id = "file_chkScanzip2")
+	private WebElement scanZip;
+
+	@FindBy(id = "file_txtFilesize2")
+	private WebElement size;
+
+	@FindBy(id = "filedepth2")
+	private WebElement depth;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[23]//label[1]/input")
+	private WebElement auto;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[23]//label[2]/input")
+	private WebElement Manual;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[23]//label[3]/input")
+	private WebElement findNotDeal;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[24]//label[1]/input")
+	private WebElement delete;
+
+	@FindBy(xpath = "//div[@id='tab-file']//dd[24]//label[2]/input")
+	private WebElement cleanNotDeal;
+
+	@FindBy(id = "file_chkReportresult")
+	private WebElement notice;
+
+	@FindBy(id = "file_chkCloudScan2")
+	private WebElement enable;
+
+	public FileMonitorPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void monitorModelOne(){
+
+		click(lockClose);
+		click(bootEnable);
+		click(open);
+		click(coreMonitor);
+		click(rapid);
+		click(apply);
+	}
+
+	public void monitorModelTwo(String fileType){
+
+		click(major);
+		click(customFile);
+		customFileInput.sendKeys(fileType);
+		click(apply);
+	}
+
+	public void monitorModelThree(){
+
+		click(enhance);
+		click(apply);
+	}
+
+	public void fileTypeOne(EventFiringWebDriver driver){
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", all);
+		click(all);
+		click(trust);
+		click(driveCache);
+		click(embedded);
+		click(fileServer);
+		click(apply);
+	}
+
+	public void fileTypeTwo(String fileType){
+
+		click(customFileType);
+		customFileTypeInput.sendKeys(fileType);
+		click(apply);
+	}
+
+	public void addSever(EventFiringWebDriver driver,String server){
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", fileListInput);
+		fileListInput.sendKeys(server);
+		add.click();
+		click(apply);
+	}
+
+	public void delete(){
+
+		click(webDelete);
+		click(apply);
+	}
+
+	public void killEngineOne(EventFiringWebDriver driver){
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", heuristic);
+		click(heuristic);
+		click(Manual);
+		click(cleanNotDeal);
+		click(notice);
+		click(enable);
+		click(apply);
+	}
+
+	public void killEngineTwo(String sizes,String depths){
+
+		click(scanZip);
+		size.clear();
+		size.sendKeys(sizes);
+		depth.clear();
+		depth.sendKeys(depths);
+		click(findNotDeal);
+		click(apply);
+	}
+
+}

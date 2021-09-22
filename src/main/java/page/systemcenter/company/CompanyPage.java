@@ -1,0 +1,133 @@
+package page.systemcenter.company;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+import java.util.Map;
+
+@Data
+public class CompanyPage extends BasePage {
+
+	@FindBy(id = "oname")
+	private WebElement oname;
+
+	@FindBy(xpath = "//input[@id='oname']/following-sibling::span[2]/i")
+	private WebElement onameBtn;
+
+	@FindBy(id = "title")
+	private WebElement title;
+
+	@FindBy(xpath = "//input[@id='title']/following-sibling::span[2]/i")
+	private WebElement titleBtn;
+
+	@FindBy(id = "subtitle")
+	private WebElement subTitle;
+
+	@FindBy(xpath = "//input[@id='subtitle']/following-sibling::span[2]/i")
+	private WebElement subTitleBtn;
+
+	@FindBy(id = "tel")
+	private WebElement tel;
+
+	@FindBy(xpath = "//input[@id='tel']/following-sibling::span[3]/i")
+	private WebElement telBtn;
+
+	@FindBy(id = "addr")
+	private WebElement addr;
+
+	@FindBy(xpath = "//input[@id='addr']/following-sibling::span[2]/i")
+	private WebElement addrBtn;
+
+	@FindBy(id = "zcode")
+	private WebElement zcode;
+
+	@FindBy(xpath = "//input[@id='zcode']/following-sibling::span[2]/i")
+	private WebElement zcodeBtn;
+
+	@FindBy(id = "realmName")
+	private WebElement sendDomain;
+
+	@FindBy(xpath = "//span[@id='sendDomain']/i")
+	private WebElement sendDomainBtn;
+
+	@FindBy(id = "port")
+	private WebElement sendPort;
+
+	@FindBy(xpath = "//span[@id='sendPort']/i")
+	private WebElement sendPortBtn;
+
+	@FindBy(id = "emailAddress")
+	private WebElement sendEmail;
+
+	@FindBy(xpath = "//span[@id='sendEmail']/i")
+	private WebElement sendEmailBtn;
+
+	@FindBy(id = "userName")
+	private WebElement sendUserName;
+
+	@FindBy(xpath = "//span[@id='sendUserName']/i")
+	private WebElement sendUserNameBtn;
+
+	@FindBy(id = "userPwd")
+	private WebElement passwd;
+
+	@FindBy(xpath = "//span[@id='passwd']/i")
+	private WebElement passwdBtn;
+
+	@FindBy(xpath = "//a[@class='saveBtn saveButton']")
+	private WebElement saveBtn;
+
+	@FindBy(xpath = "//span[text()='修改成功']")
+	private WebElement alert;
+
+	public CompanyPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void updateOrgan(Map<String,Object> organMap){
+
+		addAttribute(onameBtn);
+		oname.sendKeys(organMap.get("name").toString());
+
+//		addAttribute(titleBtn);
+//		title.clear();
+//		title.sendKeys(organMap.get("titleStr").toString());
+
+//		addAttribute(subTitleBtn);
+//		subTitle.clear();
+//		subTitle.sendKeys(organMap.get("subTitleStr").toString());
+
+		addAttribute(telBtn);
+		tel.sendKeys(organMap.get("telStr").toString());
+
+		addAttribute(addrBtn);
+		addr.sendKeys(organMap.get("addrStr").toString());
+
+		addAttribute(zcodeBtn);
+		zcode.sendKeys(organMap.get("zcodeStr").toString());
+
+		click(saveBtn);
+		TestUtil.waitForVisbility(alert);
+	}
+
+	public void updateMail(Map<String,Object> mailMap){
+
+		addAttribute(sendDomainBtn);
+		sendDomain.sendKeys(mailMap.get("sendDomainStr").toString());
+
+		addAttribute(sendPortBtn);
+		sendPort.sendKeys(mailMap.get("sendPortStr").toString());
+
+		addAttribute(sendEmailBtn);
+		sendEmail.sendKeys(mailMap.get("sendEmailStr").toString());
+
+		addAttribute(sendUserNameBtn);
+		sendUserName.sendKeys(mailMap.get("sendUserNameStr").toString());
+
+		click(saveBtn);
+		TestUtil.waitForVisbility(alert);
+	}
+}

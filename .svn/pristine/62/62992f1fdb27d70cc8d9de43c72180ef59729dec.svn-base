@@ -1,0 +1,785 @@
+INFO  [2019-01-24 15:45:57] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 15:45:57] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 15:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 15:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 15:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 15:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 15:45:58] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 15:45:58] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 15:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 15:46:00] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 15:46:00] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 15:46:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 15:46:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 15:46:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 15:46:01] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 15:46:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 15:46:04] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 15:46:04] listener.TestngListener::onTestFailure - searchByName Failure
+INFO  [2019-01-24 15:46:04] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 15:46:05] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 15:46:05] listener.TestngListener::onFinish - failedTest = searchByName
+INFO  [2019-01-24 15:58:25] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 15:58:25] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 15:58:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 15:58:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 15:58:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 15:58:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 15:58:26] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 15:58:26] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 15:58:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 15:58:28] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 15:58:28] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 15:58:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 15:58:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeClickOn - 点击元素：IP地址
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 15:58:29] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 15:58:35] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 15:58:35] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 15:58:35] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 15:58:35] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 16:45:14] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:45:14] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:45:15] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:45:15] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:45:15] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:45:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:45:15] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:45:15] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:45:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:45:17] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:45:17] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:45:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[1]
+INFO  [2019-01-24 16:45:18] listener.TestngListener::onTestFailure - searchByName Failure
+INFO  [2019-01-24 16:45:19] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:45:20] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:45:20] listener.TestngListener::onFinish - failedTest = searchByName
+INFO  [2019-01-24 16:45:55] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:45:55] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:45:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:45:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:45:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:45:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:45:56] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:45:56] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:45:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:45:57] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:45:58] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:45:58] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[1]
+INFO  [2019-01-24 16:45:59] listener.TestngListener::onTestFailure - searchByName Failure
+INFO  [2019-01-24 16:46:00] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:46:00] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:46:00] listener.TestngListener::onFinish - failedTest = searchByName
+INFO  [2019-01-24 16:47:12] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:47:12] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:47:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:47:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:47:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:47:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:47:13] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:47:13] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:47:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:47:15] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:47:15] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:47:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:47:15] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:47:16] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:47:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:47:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[1]
+INFO  [2019-01-24 16:47:18] listener.TestngListener::onTestFailure - searchByName Failure
+INFO  [2019-01-24 16:47:19] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:47:19] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:47:19] listener.TestngListener::onFinish - failedTest = searchByName
+INFO  [2019-01-24 16:48:38] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:48:38] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:48:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:48:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:48:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:48:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:48:39] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:48:39] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:48:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:48:40] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:48:40] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:48:41] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:48:42] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:48:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:48:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 16:48:44] listener.TestngListener::onTestFailure - searchByName Failure
+INFO  [2019-01-24 16:48:44] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:48:45] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:48:45] listener.TestngListener::onFinish - failedTest = searchByName
+INFO  [2019-01-24 16:49:11] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:49:11] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:49:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:49:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:49:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:49:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:49:12] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:49:12] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:49:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:49:13] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:49:14] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:49:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:49:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:49:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:49:15] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:49:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:49:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 16:49:17] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 16:49:17] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:49:18] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:49:18] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 16:50:35] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:50:35] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:50:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:50:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:50:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:50:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:50:36] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:50:36] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:50:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:50:38] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:50:38] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:50:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:50:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:50:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:50:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:50:40] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:50:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:50:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 16:50:46] listener.TestngListener::onTestFailure - searchByName Failure
+INFO  [2019-01-24 16:50:46] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:50:47] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:50:47] listener.TestngListener::onFinish - failedTest = searchByName
+INFO  [2019-01-24 16:51:13] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:51:13] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:51:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:51:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:51:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:51:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:51:14] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:51:14] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:51:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:51:15] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:51:15] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:51:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:51:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:51:17] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:51:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:51:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 16:51:23] listener.TestngListener::onTestFailure - searchByName Failure
+INFO  [2019-01-24 16:51:23] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:51:24] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:51:24] listener.TestngListener::onFinish - failedTest = searchByName
+INFO  [2019-01-24 16:53:37] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:53:37] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:53:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:53:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:53:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:53:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:53:38] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:53:38] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:53:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:53:40] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:53:40] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:53:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:53:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[2]
+INFO  [2019-01-24 16:53:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:53:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 16:53:42] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 16:53:42] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:53:43] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:53:43] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 16:54:13] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 16:54:13] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 16:54:14] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 16:54:14] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 16:54:14] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 16:54:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 16:54:14] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:54:14] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 16:54:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 16:54:16] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 16:54:16] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 16:54:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 16:54:16] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 16:54:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:54:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:54:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[2]
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 16:54:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 16:54:17] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 16:54:17] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 16:54:18] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 16:54:18] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 17:07:36] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 17:07:36] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 17:07:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 17:07:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 17:07:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 17:07:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 17:07:37] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:07:37] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 17:07:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 17:07:39] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 17:07:39] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 17:07:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:07:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:07:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:07:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:07:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 17:07:41] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 17:07:41] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 17:07:42] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 17:07:42] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 17:11:50] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 17:11:50] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 17:11:51] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 17:11:51] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 17:11:51] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 17:11:51] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 17:11:51] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:11:51] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 17:11:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 17:11:53] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 17:11:53] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 17:11:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 17:11:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:11:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 17:11:55] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeClickOn - 点击元素：IP地址
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:11:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[3]
+INFO  [2019-01-24 17:11:55] listener.TestngListener::onTestFailure - searchByIp Failure
+INFO  [2019-01-24 17:11:56] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 17:11:56] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 17:11:56] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 17:11:56] listener.TestngListener::onFinish - failedTest = searchByIp
+INFO  [2019-01-24 17:13:02] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 17:13:02] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 17:13:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 17:13:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 17:13:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 17:13:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 17:13:04] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:13:04] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 17:13:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 17:13:05] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 17:13:06] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:13:06] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 17:13:07] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 17:13:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeClickOn - 点击元素：IP地址
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:13:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[3]
+INFO  [2019-01-24 17:13:08] listener.TestngListener::onTestFailure - searchByIp Failure
+INFO  [2019-01-24 17:13:08] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 17:13:09] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 17:13:09] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 17:13:09] listener.TestngListener::onFinish - failedTest = searchByIp
+INFO  [2019-01-24 17:14:58] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 17:14:58] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 17:14:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 17:14:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 17:14:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 17:14:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 17:14:59] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:14:59] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 17:15:01] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 17:15:01] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 17:15:02] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 17:15:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 17:15:02] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:15:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:15:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:15:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 17:15:04] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeClickOn - 点击元素：IP地址
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:15:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:15:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:15:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:15:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[3]
+INFO  [2019-01-24 17:15:05] listener.TestngListener::onTestSuccess - searchByIp Success
+INFO  [2019-01-24 17:15:05] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 17:15:06] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 17:15:06] listener.TestngListener::onFinish - PassedTests = searchByIp
+INFO  [2019-01-24 17:15:06] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 17:19:10] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 17:19:10] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 17:19:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 17:19:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 17:19:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 17:19:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 17:19:11] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:19:11] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 17:19:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 17:19:12] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 17:19:12] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 17:19:15] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeClickOn - 点击元素：IP地址
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[3]
+INFO  [2019-01-24 17:19:16] listener.TestngListener::onTestSuccess - searchByIp Success
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='MAC']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='MAC']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='MAC']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeClickOn - 点击元素：MAC
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[4]
+INFO  [2019-01-24 17:19:17] listener.TestngListener::onTestSuccess - searchByMac Success
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='操作系统']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='操作系统']
+INFO  [2019-01-24 17:19:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='操作系统']
+INFO  [2019-01-24 17:19:18] listener.MyEventListener::beforeClickOn - 点击元素：操作系统
+INFO  [2019-01-24 17:19:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:18] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[6]
+INFO  [2019-01-24 17:19:19] listener.TestngListener::onTestFailure - searchBySystem Failure
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='版本']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='版本']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='版本']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeClickOn - 点击元素：版本
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:19:19] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[5]
+INFO  [2019-01-24 17:19:20] listener.TestngListener::onTestSuccess - searchByVersion Success
+INFO  [2019-01-24 17:19:20] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 17:19:21] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 17:19:21] listener.TestngListener::onFinish - PassedTests = searchByIp
+INFO  [2019-01-24 17:19:21] listener.TestngListener::onFinish - PassedTests = searchByMac
+INFO  [2019-01-24 17:19:21] listener.TestngListener::onFinish - PassedTests = searchByVersion
+INFO  [2019-01-24 17:19:21] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 17:19:21] listener.TestngListener::onFinish - failedTest = searchBySystem
+INFO  [2019-01-24 17:23:17] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-01-24 17:23:17] util.SeleniumTestCase::setUp - 开始测试case:SearchTest----------
+INFO  [2019-01-24 17:23:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-01-24 17:23:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-01-24 17:23:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-01-24 17:23:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-01-24 17:23:18] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:23:18] page.LoginPage::login - 用户已登陆------
+INFO  [2019-01-24 17:23:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-01-24 17:23:19] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-01-24 17:23:20] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-01-24 17:23:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //button[@name='customSearch']
+INFO  [2019-01-24 17:23:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-01-24 17:23:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='终端名称']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeClickOn - 点击元素：终端名称
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[2]
+INFO  [2019-01-24 17:23:22] listener.TestngListener::onTestSuccess - searchByName Success
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='IP地址']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeClickOn - 点击元素：IP地址
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[3]
+INFO  [2019-01-24 17:23:23] listener.TestngListener::onTestSuccess - searchByIp Success
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='MAC']
+INFO  [2019-01-24 17:23:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='MAC']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='MAC']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeClickOn - 点击元素：MAC
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[4]
+INFO  [2019-01-24 17:23:24] listener.TestngListener::onTestSuccess - searchByMac Success
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:24] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='操作系统']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='操作系统']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='操作系统']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeClickOn - 点击元素：操作系统
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[6]
+INFO  [2019-01-24 17:23:26] listener.TestngListener::onTestFailure - searchBySystem Failure
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //b[@class='button']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='版本']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='版本']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//li[text()='版本']
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeClickOn - 点击元素：版本
+INFO  [2019-01-24 17:23:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//input[@class='js_searchKey']
+INFO  [2019-01-24 17:23:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='customSearchBox']//button[@class='btn js_btn_search']
+INFO  [2019-01-24 17:23:27] listener.MyEventListener::beforeClickOn - 点击元素：筛选
+INFO  [2019-01-24 17:23:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr
+INFO  [2019-01-24 17:23:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@id='tbClient']//tbody/tr[1]
+INFO  [2019-01-24 17:23:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: ./td[5]
+INFO  [2019-01-24 17:23:27] listener.TestngListener::onTestSuccess - searchByVersion Success
+INFO  [2019-01-24 17:23:27] util.SeleniumTestCase::tearDown - 结束测试case:SearchTest----------
+INFO  [2019-01-24 17:23:28] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-01-24 17:23:28] listener.TestngListener::onFinish - PassedTests = searchByIp
+INFO  [2019-01-24 17:23:28] listener.TestngListener::onFinish - PassedTests = searchByMac
+INFO  [2019-01-24 17:23:28] listener.TestngListener::onFinish - PassedTests = searchByVersion
+INFO  [2019-01-24 17:23:28] listener.TestngListener::onFinish - PassedTests = searchByName
+INFO  [2019-01-24 17:23:28] listener.TestngListener::onFinish - failedTest = searchBySystem

@@ -1,0 +1,26 @@
+package cases.systemcenter.setupcenter;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.systemcenter.setupcenter.SetupCenterPage;
+import util.SeleniumTestCase;
+
+public class ClientSerTest extends SeleniumTestCase {
+
+	SetupCenterPage setupPage;
+
+	@Test(description = "客户端和服务器端设置")
+	public void setup(){
+
+		setupPage = new SetupCenterPage(driver);
+		String clearDay = param.getString("clearDay");
+		String retainDay = param.getString("retainDay");
+		setupPage.clientSerSet(clearDay,retainDay);
+
+		Assert.assertEquals(setupPage.getCleanDay().getAttribute("value"),
+				clearDay,"客户端清理时间验证错误");
+		Assert.assertFalse(setupPage.getCleanLog().isSelected(),"同步清理日志验证错误");
+		Assert.assertEquals(setupPage.getRetain().getAttribute("value"),
+				retainDay,"服务器保留验证错误");
+	}
+}

@@ -1,0 +1,17 @@
+#SockConfigFile
+#Mon Jul 15 15:54:33 CST 2019
+browser.type=chrome
+browser.path.ie=D\:/BrowserDriver/MicrosoftWebDriver.exe
+browser.path.chrome=D\:/BrowserDriver/chromedriver.exe
+browser.path.firefox=D\:/BrowserDriver/geckodriver.exe
+url=http\://193.168.19.131
+userName=admin
+passWord=Rising123
+identCode=Rising123
+maxRetryCount=1
+mongo.ip=193.168.19.131
+mongo.port=27017
+mongo.dbname=rs_esm_mongo
+eid=B0E501F871146298
+DatabaseType=mysql
+adminid=116

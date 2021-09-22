@@ -1,0 +1,124 @@
+package page.terminal.setup.softwareup;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class SoftwareUpPage extends BasePage {
+
+	@FindBy(xpath = "//label[text()='升级所有组件']/input")
+	private WebElement updateAll;
+
+	@FindBy(xpath = "//label[text()='恶意网址库即时生效']/input")
+	private WebElement malice;
+
+	@FindBy(xpath = "//label[text()='仅升级病毒库']/input")
+	private WebElement updateVirus;
+
+	@FindBy(xpath = "//label[text()='手动']/input")
+	private WebElement manual;
+
+	@FindBy(xpath = "//label[text()='每天']/input")
+	private WebElement everyDay;
+
+	@FindBy(xpath = "//input[@name='policy_timeTxt']")
+	private WebElement everyDayInput;
+
+	@FindBy(xpath = "//label[text()='每周']/input")
+	private WebElement everyWeek;
+
+	@FindBy(xpath = "//label[text()='一']")
+	private WebElement mon;
+
+	@FindBy(xpath = "//label[text()='二']")
+	private WebElement tues;
+
+	@FindBy(xpath = "//label[text()='三']")
+	private WebElement wed;
+
+	@FindBy(xpath = "//label[text()='四']")
+	private WebElement thur;
+
+	@FindBy(xpath = "//label[text()='五']")
+	private WebElement fri;
+
+	@FindBy(xpath = "//label[text()='六']")
+	private WebElement sat;
+
+	@FindBy(xpath = "//label[text()='日']")
+	private WebElement sun;
+
+	@FindBy(xpath = "//input[@name='policy_timeTxt2']")
+	private WebElement everyWeekInput;
+
+	@FindBy(xpath = "//label[text()='使用IE设置']/input")
+	private WebElement ie;
+
+	@FindBy(xpath = "//label[text()='直接连接']/input")
+	private WebElement connect;
+
+	@FindBy(xpath = "//label[text()='通过代理']/input")
+	private WebElement agent;
+
+	@FindBy(name = "ip")
+	private WebElement ip;
+
+	@FindBy(name = "port")
+	private WebElement port;
+
+	@FindBy(name = "Authentication")
+	private WebElement test;
+
+	@FindBy(name = "username")
+	private WebElement username;
+
+	@FindBy(name = "password")
+	private WebElement password;
+
+	public SoftwareUpPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void buttonUtilOne(){
+
+		TestUtil.waitForClick(malice);
+		TestUtil.waitForClick(updateVirus);
+		TestUtil.waitForClick(manual);
+		TestUtil.waitForClick(connect);
+		TestUtil.waitForClick(apply);
+
+	}
+
+	public void buttonUtilTwo(){
+
+		TestUtil.waitForClick(everyWeek);
+		TestUtil.waitForClick(mon);
+		TestUtil.waitForClick(tues);
+		TestUtil.waitForClick(wed);
+		TestUtil.waitForClick(thur);
+		TestUtil.waitForClick(fri);
+		TestUtil.waitForClick(sat);
+		TestUtil.waitForClick(sun);
+		TestUtil.waitForClick(agent);
+		TestUtil.waitForClick(apply);
+
+	}
+
+	public void inputUtil(String weekTime,String ipStr,String portStr,String name,String pwd){
+
+		everyWeekInput.clear();
+		everyWeekInput.sendKeys(weekTime);
+		TestUtil.waitForClick(everyWeekInput);
+		ip.sendKeys(ipStr);
+		port.sendKeys(portStr);
+		TestUtil.waitForClick(test);
+		username.sendKeys(name);
+		password.sendKeys(pwd);
+		TestUtil.waitForClick(apply);
+	}
+
+}

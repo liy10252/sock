@@ -1,0 +1,68 @@
+package page;
+
+import lombok.extern.log4j.Log4j;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+@Log4j
+public class HomePage extends BasePage{
+
+	@FindBy(xpath = "//a[text()='全网终端']")
+	private WebElement terminal;
+
+	@FindBy(xpath = "//a[text()='病毒查杀']")
+	private WebElement virusKill;
+
+	@FindBy(xpath = "//a[text()='防火墙']")
+	private WebElement fireWall;
+
+	@FindBy(xpath = "//a[text()='报告预警']")
+	private WebElement report;
+
+	@FindBy(xpath = "//a[text()='授权管理']")
+	private WebElement authorize;
+
+	@FindBy(xpath = "//a[text()='系统中心']")
+	private WebElement systemCenter;
+
+	public HomePage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	//进入全网终端模块
+	public void gotoTerminal(){
+		click(terminal);
+		log.info("进入全网终端------");
+	}
+
+	//进入病毒查杀模块
+	public void gotoVirusKill(){
+		click(virusKill);
+		log.info("进入病毒查杀------");
+	}
+
+	//进入防火墙模块
+	public void gotoFireWall(){
+		click(fireWall);
+		log.info("进入防火墙------");
+	}
+
+	//进入报告预警模块
+	public void gotoReport(){
+		click(report);
+		log.info("进入报告预警------");
+	}
+
+	//进入授权管理模块
+	public void gotoAuthorize(){
+		click(authorize);
+		log.info("进入授权管理------");
+	}
+
+	//进入系统中心模块
+	public void gotoSystemCenter(){
+		click(systemCenter);
+		log.info("进入系统中心------");
+	}
+}

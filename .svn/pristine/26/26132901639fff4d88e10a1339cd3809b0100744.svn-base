@@ -1,0 +1,19 @@
+package page.report.warningrule;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+public class WarningRulePage extends BasePage {
+
+	public WarningRulePage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void close(){
+
+		click(webDataTr.findElement(By.xpath("./td[last()]//a")));
+		TestUtil.seleniumWait();
+	}
+}

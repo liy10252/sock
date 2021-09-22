@@ -1,0 +1,30 @@
+package page.firewall.setup.adshare;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class AdSharePage extends BasePage {
+
+	@FindBy(id = "AdslShare_MonStatus")
+	private WebElement openAd;
+
+	@FindBy(id = "AdslShare_TotalWidth")
+	private WebElement bandWidth;
+
+	public AdSharePage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void shareUtil(String width){
+
+		TestUtil.waitForClick(openAd);
+		bandWidth.clear();
+		bandWidth.sendKeys(width);
+		TestUtil.waitForClick(apply);
+	}
+}

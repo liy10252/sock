@@ -1,0 +1,305 @@
+package page.report.custom;
+
+import lombok.Data;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.Select;
+import page.BasePage;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class CustomPage extends BasePage {
+
+	@FindBy(id = "timeStart")
+	private WebElement timeStart;
+
+	@FindBy(id = "timeEnd")
+	private WebElement timeEnd;
+
+	@FindBy(id = "js_btn_time")
+	private WebElement timeBtn;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[2]//a[text()='全部']")
+	private WebElement typeAll;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[2]//a[2]")
+	private WebElement single;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[2]//a[3]")
+	private WebElement general;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[text()='全部']")
+	private WebElement cycleAll;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[2]")
+	private WebElement manual;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[3]")
+	private WebElement once;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[4]")
+	private WebElement everyDay;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[5]")
+	private WebElement everyWeek;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[6]")
+	private WebElement everyMonth;
+
+	@FindBy(xpath = "//input[@class='js_searchKey']")
+	private WebElement searchInput;
+
+	@FindBy(xpath = "//button[@class='btn js_btn_search']")
+	private WebElement searchButton;
+
+	@FindBy(id = "tbClient")
+	private WebElement webTable;
+
+	@FindBy(xpath = "//table[@id='tbClient']/tbody//td[2]")
+	private List<WebElement> names;
+
+	@FindBy(className = "report_dropdown")
+	private WebElement createReport;
+
+	@FindBy(className = "js_creatReport")
+	private WebElement basic;
+
+	@FindBy(className = "js_time_createReport")
+	private WebElement regular;
+
+	@FindBy(className = "js_comprehensive_createReport")
+	private WebElement compre;
+
+	@FindBy(xpath = "//div[@class='report-simple-head']/div[1]//input")
+	private WebElement nameBasic;
+
+	@FindBy(xpath = "//div[@class='report-simple-head']/div[2]//select")
+	private WebElement typeBasic;
+
+	@FindBy(xpath = "//div[@class='report-simple-body']/div[2]//select[@class='js_report_terim']")
+	private WebElement rangeBasic;
+
+	@FindBy(xpath = "//div[@class='report-simple-body']//input[@value='cInstallAll']")
+	private WebElement systemBasic;
+
+	@FindBy(xpath = "//div[@class='report-simple-body']//input[@value='cInstallPro']")
+	private WebElement productBasic;
+
+	@FindBy(xpath = "//input[@needsf='isImmediately' and @value='0']")
+	private WebElement noBasic;
+
+	@FindBy(xpath = "//input[@class='btn js_report_save']")
+	private WebElement subBasic;
+
+//	@FindBy(xpath = "//div[@class='rs-page-wauto']/div[2]/div[6]//input[@needsf='reportName']")
+//	private WebElement nameRegular;
+
+	@FindBy(xpath = "//h3[text()='创建-定时报告']/ancestor::div[2]//input[@needsf='reportName']")
+	private WebElement nameRegular;
+
+	@FindBy(xpath = "//h3[text()='创建-定时报告']/ancestor::div[2]//select[@needsf='terimRange']")
+	private WebElement rangeRegular;
+
+	@FindBy(xpath = "//h3[text()='创建-定时报告']/ancestor::div[2]//input[@needsf='ip']")
+	private WebElement ipRegular;
+
+	@FindBy(xpath = "//h3[text()='创建-定时报告']/ancestor::div[2]//input[@value='windows']")
+	private WebElement winRegular;
+
+	@FindBy(xpath = "//h3[text()='创建-定时报告']/ancestor::div[2]//input[@value='cInstallPro']")
+	private WebElement productRegular;
+
+	@FindBy(xpath = "//h3[text()='创建-定时报告']/ancestor::div[2]//select[@class='js_report_time']")
+	private WebElement timeSelect;
+
+	@FindBy(xpath = "//span[text()='报告参数设置']/ancestor::div[3]/following-sibling::div//input[@value='下一步']")
+	private WebElement nextRegular;
+
+	@FindBy(xpath = "//input[@id='fixedTime']/ancestor::div[3]/following-sibling::div//input")
+	private WebElement nextTwoRegular;
+
+	@FindBy(xpath = "//input[@class='btn js_time_save']")
+	private WebElement subRegular;
+
+//	@FindBy(xpath = "//div[@class='rs-page-wauto']/div[2]/div[7]//input[@needsf='reportName']")
+//	private WebElement nameCompre;
+
+	@FindBy(xpath = "//h3[text()='创建-综合报告']/ancestor::div[2]//input[@needsf='reportName']")
+	private WebElement nameCompre;
+
+	@FindBy(xpath = "//h3[text()='创建-综合报告']/ancestor::div[2]//span[@class='report_type_dropdown']")
+	private WebElement typeCompre;
+
+	@FindBy(xpath = "//h3[text()='创建-综合报告']/ancestor::div[2]//li[text()='终端版本情况']")
+	private WebElement verCompre;
+
+	@FindBy(xpath = "//input[@valid='require']")
+	private WebElement verInput;
+
+	@FindBy(xpath = "//h3[text()='创建-综合报告']/ancestor::div[2]//div[@class='report-comprehensive-body']/following-sibling::div[1]//input")
+	private WebElement nextCompre;
+
+	@FindBy(xpath = "//h3[text()='创建-综合报告']/ancestor::div[2]//select[@needsf='cycleType']")
+	private WebElement timeCompre;
+
+	@FindBy(xpath = "//h3[text()='创建-综合报告']/ancestor::div[2]//div[@class='step02 time-step']//input[@class='btn js_time_next']")
+	private WebElement nextTwoCompre;
+
+	@FindBy(xpath = "//h3[text()='创建-综合报告']/ancestor::div[2]//ul[@class='js_report_msg_type']/li[2]")
+	private WebElement mailCompre;
+
+	@FindBy(xpath = "//h3[text()='创建-综合报告']/ancestor::div[2]//textarea")
+	private WebElement mailInputCompre;
+
+	@FindBy(xpath = "//input[@class='btn js_comprehensive_save']")
+	private WebElement subCompre;
+
+	@FindBy(xpath = "//div[text()='基本报告测试']/ancestor::tr/td[last()]//i[1]")
+	private WebElement atOnce;
+
+	@FindBy(xpath = "//div[@class='modal hide js_derive_report in']//button[@id='del_enter']")
+	private WebElement onceSub;
+
+	@FindBy(xpath = "//span[text()='生成报告成功!']")
+	private WebElement onceAlert;
+
+	@FindBy(xpath = "//div[text()='基本报告测试']/ancestor::tr/td[last()]//i[2]")
+	private WebElement revise;
+
+	@FindBy(xpath = "//div[@id='tab1']//span[@class='report_type_dropdown']")
+	private WebElement addType;
+
+	@FindBy(xpath = "//div[@id='tab1']//li[text()='终端版本情况']")
+	private WebElement verRevise;
+
+	@FindBy(xpath = "//input[@value='' and @needsf='top']")
+	private WebElement verSize;
+
+	@FindBy(xpath = "//input[@class='btn js_modify_btn']")
+	private WebElement verSub;
+
+	@FindBy(xpath = "//span[text()='修改成功']")
+	private WebElement reAlert;
+
+	@FindBy(xpath = "//div[text()='定时报告测试']/ancestor::tr/td[last()]//i[3]")
+	private WebElement delButton;
+
+	@FindBy(xpath = "//div[@class='rs-page-container']//div[4]//button[@id='del_enter']")
+	private WebElement delSub;
+
+	@FindBy(xpath = "//span[text()='删除成功!']")
+	private WebElement delAlert;
+
+	@FindBy(xpath = "//div[text()='基本报告测试']/ancestor::tr/td[last()]//a")
+	private WebElement onOff;
+
+	@FindBy(xpath = "//span[text()='修改设置成功!']")
+	private WebElement onOffAlert;
+
+	public CustomPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void timeFrameUtil(String start,String end){
+
+		timeStart.sendKeys(start);
+		click(timeStart);
+		timeEnd.sendKeys(end);
+		click(timeEnd);
+		click(timeBtn);
+		TestUtil.seleniumWait();
+	}
+
+	public void searchUtil(String name){
+
+		searchInput.sendKeys(name);
+		click(searchButton);
+		TestUtil.waitForElementNumber(By.xpath("//table[@id='tbClient']//tbody/tr"),1);
+	}
+
+	public void addBasic(String name){
+
+		webCount = TestUtil.waitForVisbility(count).getText();
+		click(basic);
+		nameBasic.sendKeys(name);
+		click(systemBasic);
+		click(noBasic);
+		click(subBasic);
+		TestUtil.waitForChanges(count, webCount);
+	}
+
+	public void addRegular(String name,String ip){
+
+		webCount = TestUtil.waitForVisbility(count).getText();
+		click(regular);
+		nameRegular.sendKeys(name);
+		new Select(rangeRegular).selectByValue("1");
+		ipRegular.sendKeys(ip);
+		click(winRegular);
+		click(productRegular);
+		click(nextRegular);
+		new Select(timeSelect).selectByValue("2");
+		click(nextTwoRegular);
+		click(subRegular);
+		TestUtil.waitForChanges(count, webCount);
+	}
+
+	public void addCompre(EventFiringWebDriver driver,String name,String version,String mail){
+
+		webCount = TestUtil.waitForVisbility(count).getText();
+		click(compre);
+		nameCompre.sendKeys(name);
+		new Actions(driver).moveToElement(typeCompre).perform();
+		click(verCompre);
+		verInput.sendKeys(version);
+		click(nextCompre);
+		new Select(timeCompre).selectByValue("2");
+		click(nextTwoCompre);
+		click(mailCompre);
+		mailInputCompre.sendKeys(mail);
+		click(subCompre);
+		TestUtil.waitForChanges(count, webCount);
+	}
+
+	public void atOnce(){
+
+		click(atOnce);
+		click(onceSub);
+		TestUtil.waitForVisbility(onceAlert);
+	}
+
+	public void revise(EventFiringWebDriver driver,String size){
+
+		TestUtil.seleniumWait(2000);
+		click(revise);
+		TestUtil.seleniumWait();
+		new Actions(driver).moveToElement(addType).perform();
+		new Actions(driver).moveToElement(addType).perform();
+		TestUtil.seleniumWait();
+		TestUtil.waitForVisbility(verRevise);
+		click(verRevise);
+		TestUtil.waitForVisbility(verSize);
+		verSize.sendKeys(size);
+		click(verSub);
+		TestUtil.waitForVisbility(reAlert);
+	}
+
+	public void delete(){
+
+		click(delButton);
+		TestUtil.seleniumWait();
+		click(delSub);
+		TestUtil.waitForVisbility(delAlert);
+	}
+
+	public void open(){
+
+		TestUtil.seleniumWait();
+		click(onOff);
+		TestUtil.waitForVisbility(onOffAlert);
+	}
+}

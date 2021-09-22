@@ -1,0 +1,50 @@
+package dataservice.esmmongo;
+
+import com.mongodb.BasicDBObject;
+import com.mongodb.client.MongoCollection;
+import org.bson.Document;
+import org.bson.types.ObjectId;
+import util.MongoBase;
+import java.util.ArrayList;
+import java.util.List;
+
+public class MsgdistributionService {
+
+	MongoBase mongoBase;
+	String colName = "msgdistribution";
+	String eid;
+
+	public MsgdistributionService(MongoBase mongoBase,String eid){
+		this.mongoBase = mongoBase;
+		this.eid = eid;
+	}
+
+	public void clear(){
+		MongoCollection<Document> collection = mongoBase.getCollection(colName);
+		collection.deleteMany(new BasicDBObject());
+	}
+
+	public void insert(List<ObjectId> ids){
+
+		MongoCollection<Document> collection = mongoBase.getCollection(colName);
+		List<Document> documents = new ArrayList<Document>();
+		List type = new ArrayList();
+		type.add("b:"+eid+":rp");
+		for(int i=0;i<3;i++){
+
+			Document document = new Document();
+			document.put("noeid",true);
+			document.put("subscriber","b:"+eid+":admins:116");
+			document.put("msgid",ids.get(i));
+			document.put("types",type);
+			document.put("msgtitle","报表生成");
+			document.put("msgcontext","基本报告测试的报表已生成成功!");
+			document.put("isread",0);
+			document.put("isdel",0);
+			document.put("outtime",1589529327);
+			document.put("createtime",1589529327);
+			documents.add(document);
+		}
+		collection.insertMany(documents);
+	}
+}

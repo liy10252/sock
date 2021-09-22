@@ -1,0 +1,176 @@
+package page.center.usermanage;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.Select;
+import page.BasePage;
+import util.TestUtil;
+import java.util.Map;
+
+@Data
+public class UserManagePage extends BasePage {
+
+	@FindBy(id = "addAccount")
+	private WebElement addBtn;
+
+	@FindBy(xpath = "//h4[text()='添加管理员']//following-sibling::form/dl[1]//input[@name='account']")
+	private WebElement account;
+
+	@FindBy(id = "pwd")
+	private WebElement pwd;
+
+	@FindBy(xpath = "//input[@name='repassword' and @type='password']")
+	private WebElement repassword;
+
+	@FindBy(xpath = "//div[@class='c-account-modal-txt']/input[@name='aliasname']")
+	private WebElement aliasName;
+
+	@FindBy(xpath = "//a[text()='test123']/ancestor::tr/td[last()]//a[1]")
+	private WebElement updateBtn;
+
+	@FindBy(xpath = "//span[@id='phone']/preceding-sibling::i")
+	private WebElement phoneI;
+
+	@FindBy(xpath = "//h4[text()='添加管理员']//following-sibling::form//input[@name='phone']")
+	private WebElement phone;
+
+	@FindBy(xpath = "//span[@id='phone']/following-sibling::input")
+	private WebElement phoneUpdate;
+
+	@FindBy(xpath = "//h4[text()='用户详情']//following-sibling::form//input[@name='phone']")
+	private WebElement phoneVal;
+
+	@FindBy(xpath = "//span[@id='email']/preceding-sibling::i")
+	private WebElement emailI;
+
+	@FindBy(xpath = "//h4[text()='添加管理员']//following-sibling::form//input[@name='email']")
+	private WebElement email;
+
+	@FindBy(xpath = "//h4[text()='用户详情']//following-sibling::form//input[@name='email']")
+	private WebElement emailVal;
+
+	@FindBy(xpath = "//span[@id='email']/following-sibling::input")
+	private WebElement emailUpdate;
+
+	@FindBy(xpath = "//h4[text()='用户详情']//following-sibling::form//" +
+			"div[@class='c-account-modal-txt']/input[@name='ipstr0']")
+	private WebElement ipOne;
+
+	@FindBy(xpath = "//h4[text()='用户详情']//following-sibling::form//" +
+			"div[@class='c-account-modal-txt']/input[@name='ipstr1']")
+	private WebElement ipTwo;
+
+	@FindBy(xpath = "//h4[text()='用户详情']//following-sibling::form//" +
+			"div[@class='c-account-modal-txt']/input[@name='ipstr2']")
+	private WebElement ipThree;
+
+	@FindBy(xpath = "//h4[text()='用户详情']//following-sibling::form//" +
+			"div[@class='c-account-modal-txt']/input[@name='ipstr3']")
+	private WebElement ipFour;
+
+	@FindBy(xpath = "//h4[text()='添加管理员']//following-sibling::div/a")
+	private WebElement submit;
+
+	@FindBy(xpath = "//h4[text()='用户详情']//following-sibling::div/a")
+	private WebElement update;
+
+	@FindBy(xpath = "//span[text()='添加成功!']")
+	private WebElement addAlert;
+
+	@FindBy(xpath = "//h4[text()='添加管理员']//preceding-sibling::a")
+	private WebElement forBack;
+
+	@FindBy(xpath = "//h4[text()='用户详情']//preceding-sibling::a")
+	private WebElement updateForBack;
+
+	@FindBy(xpath = "//li[text()='设置']")
+	private WebElement setBtn;
+
+	@FindBy(xpath = "//input[@name='timeout']")
+	private WebElement timeOut;
+
+	@FindBy(xpath = "//select[@name='failnum']")
+	private WebElement failNum;
+
+	@FindBy(xpath = "//input[@name='time']")
+	private WebElement time;
+
+	@FindBy(xpath = "//h4[text()='账户安全']//following-sibling::div/a")
+	private WebElement setSubmit;
+
+	@FindBy(xpath = "//span[text()='更新成功!']")
+	private WebElement setAlert;
+
+	@FindBy(xpath = "//a[text()='test123']/ancestor::tr/td[last()]//a[2]")
+	private WebElement delBtn;
+
+	@FindBy(id = "del_enter")
+	private WebElement delConfirm;
+
+	@FindBy(xpath = "//span[text()='删除成功!']")
+	private WebElement delAlert;
+
+	@FindBy(xpath = "//span[text()='编辑成功!']")
+	private WebElement updateAlert;
+
+	@FindBy(xpath = "//a[text()='test123']/ancestor::tr")
+	private WebElement webTrTwo;
+
+	public UserManagePage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void addUser(Map<String,Object> userMap){
+
+		click(addBtn);
+		account.sendKeys(userMap.get("account").toString());
+		pwd.sendKeys(userMap.get("pwd").toString());
+		repassword.sendKeys(userMap.get("pwd").toString());
+		aliasName.sendKeys(userMap.get("alias").toString());
+		phone.sendKeys(userMap.get("phone").toString());
+		email.sendKeys(userMap.get("email").toString());
+		click(submit);
+		TestUtil.waitForVisbility(addAlert);
+		click(forBack);
+		TestUtil.seleniumWait();
+	}
+
+	public void updateUser(EventFiringWebDriver driver,Map<String,Object> userMap){
+
+		click(updateBtn);
+		changeBlock(phoneI);
+		phoneUpdate.clear();
+		phoneUpdate.sendKeys(userMap.get("phone").toString());
+		changeBlock(emailI);
+		emailUpdate.clear();
+		emailUpdate.sendKeys(userMap.get("email").toString());
+		ipOne.sendKeys(userMap.get("ipOne").toString());
+		ipTwo.sendKeys(userMap.get("ipTwo").toString());
+		ipThree.sendKeys(userMap.get("ipThree").toString());
+		ipFour.sendKeys(userMap.get("ipFour").toString());
+		click(update);
+		TestUtil.waitForVisbility(updateAlert);
+	}
+
+	public void deleteUser(){
+
+		click(delBtn);
+		click(delConfirm);
+		TestUtil.waitForVisbility(delAlert);
+	}
+
+	public void userSet(String out,String fail,String timeStr){
+
+		click(setBtn);
+		timeOut.clear();
+		timeOut.sendKeys(out);
+		new Select(failNum).selectByVisibleText(fail);
+		time.clear();
+		time.sendKeys(timeStr);
+		click(setSubmit);
+		TestUtil.waitForVisbility(setAlert);
+	}
+
+}

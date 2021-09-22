@@ -1,0 +1,38 @@
+package cases.report.custom;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.report.custom.CustomPage;
+import util.SeleniumTestCase;
+import util.TestUtil;
+
+public class TypeTest extends SeleniumTestCase {
+
+	CustomPage customPage;
+
+	@Test(description = "单一报告")
+	public void single(){
+
+		customPage = new CustomPage(driver);
+		customPage.getCustomSearch().click();
+		customPage.singleClick(customPage.getTypeAll(),customPage.getSingle(),5);
+
+		Assert.assertTrue(customPage.getNames().size() == expect.getIntValue("size"),
+				"单一报告验证错误");
+		Assert.assertTrue(TestUtil.getValueList(customPage.getNames())
+						.containsAll(TestUtil.JsonToList(expect.getJSONArray("single"),"name")),
+				"单一报告验证错误");
+	}
+
+	@Test(dependsOnMethods = "single",description = "综合报告")
+	public void general(){
+
+		customPage.singleClick(customPage.getTypeAll(),customPage.getGeneral());
+
+				Assert.assertTrue(customPage.getNames().size() == expect.getIntValue("gSize"),
+				"综合报告验证错误");
+				Assert.assertEquals(customPage.getWebDataTr().findElement(By.xpath("./td[2]")).getText()
+				,expect.getString("name"), "综合报告验证错误");
+	}
+}

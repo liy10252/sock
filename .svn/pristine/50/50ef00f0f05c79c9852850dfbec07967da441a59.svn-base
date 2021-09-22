@@ -1,0 +1,213 @@
+package page.firewall.setup.limitapp;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class LimitAppPage extends BasePage {
+
+	@FindBy(id = "NetProcAudit_MonStatus")
+	private WebElement openApp;
+
+	@FindBy(id = "NetProcAudit_CheckModule")
+	private WebElement openModule;
+
+	@FindBy(id = "NetProcAudit_LogStatus")
+	private WebElement log;
+
+	@FindBy(id = "NetProcAudit_CheckRsSign")
+	private WebElement smart;
+
+	@FindBy(xpath = "//div[@id='tab-net']//dl[1]/dd[3]/label[1]/input")
+	private WebElement allow;
+
+	@FindBy(xpath = "//div[@id='tab-net']//dl[1]/dd[3]/label[2]/input")
+	private WebElement refuse;
+
+	@FindBy(xpath = "//div[@id='tab-net']//dl[1]/dd[3]/label[3]/input")
+	private WebElement ask;
+
+	@FindBy(id = "net_add_rules")
+	private WebElement add;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//b")
+	private WebElement timeButton;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//li[text()='每周']")
+	private WebElement everyWeek;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//li[text()='时间段']")
+	private WebElement timeSlot;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//dd[2]/div[1]//input[@name='start_time']")
+	private WebElement startTime;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//dd[2]/div[1]//input[@name='end_time']")
+	private WebElement endTime;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//label[text()='日']")
+	private WebElement sun;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//label[text()='一']")
+	private WebElement mon;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//label[text()='二']")
+	private WebElement tues;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//label[text()='三']")
+	private WebElement wed;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//label[text()='四']")
+	private WebElement thur;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//label[text()='五']")
+	private WebElement fri;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//label[text()='六']")
+	private WebElement sat;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//dd[2]/div[2]//input[@name='start_time']")
+	private WebElement weekStart;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//dd[2]/div[2]//input[@name='end_time']")
+	private WebElement weekEnd;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//input[@name='start_date']")
+	private WebElement slotStart;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//input[@name='end_date']")
+	private WebElement slotEnd;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//dl[@class='policy-rule-tpl']//button")
+	private WebElement addRule;
+
+	@FindBy(xpath = "//div[@id='tab1']//b")
+	private WebElement ruleButton;
+
+	@FindBy(xpath = "//div[@id='tab1']//ul/li[3]")
+	private WebElement ruleType;
+
+	@FindBy(id = "js_sys_path")
+	private WebElement rulePath;
+
+	@FindBy(linkText = "服务名")
+	private WebElement serName;
+
+	@FindBy(id = "js_server_name")
+	private WebElement ruleName;
+
+	@FindBy(name = "md5")
+	private WebElement md5;
+
+	@FindBy(name="listen")
+	private WebElement listen;
+
+	@FindBy(name = "outside")
+	private WebElement outside;
+
+	@FindBy(xpath = "//table[@class='net_pros']//tr[1]/td[1]")
+	private WebElement webRuleTd;
+
+	@FindBy(xpath = "//div[@class='modal hide js_dialog_net_pro in']//a[text()='确定']")
+	private WebElement confirm;
+
+	@FindBy(xpath = "//div[@id='policyContent']/following-sibling::div[2]//a[1]")
+	private WebElement outConfirm;
+
+	@FindBy(xpath = "//table[@id='netList']//i[@class='edit']")
+	private WebElement modify;
+
+	@FindBy(id = "netList")
+	private WebElement webTable;
+
+	@FindBy(xpath = "//table[@id='netList']//td[1]")
+	private List<WebElement> tds;
+
+	public LimitAppPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void clickOne(){
+
+		click(openApp);
+		click(openModule);
+		click(log);
+		click(smart);
+		click(allow);
+		click(apply);
+	}
+
+	public void clickTwo(){
+
+		click(refuse);
+		click(apply);
+	}
+
+	public String everyDayAdd(String start,String end,String ruleStr){
+
+		click(add);
+		startTime.sendKeys(start);
+		click(startTime);
+		endTime.sendKeys(end);
+		click(endTime);
+		click(addRule);
+		click(ruleButton);
+		click(ruleType);
+		rulePath.sendKeys(ruleStr);
+		click(confirm);
+		String webRule = webRuleTd.getText();
+		click(md5);
+		click(listen);
+		click(outside);
+		click(outConfirm);
+		click(apply);
+		return webRule;
+	}
+
+	public void updateDay(String start,String end){
+
+		click(modify);
+		click(timeButton);
+		click(everyWeek);
+		click(sun);
+		click(mon);
+		click(tues);
+		click(wed);
+		click(thur);
+		click(fri);
+		click(sat);
+		weekStart.sendKeys(start);
+		click(weekStart);
+		weekEnd.sendKeys(end);
+		click(weekEnd);
+		click(md5);
+		click(listen);
+		click(outside);
+		click(outConfirm);
+		click(apply);
+	}
+
+	public String slotAdd(String start,String end,String name){
+
+		click(add);
+		click(timeButton);
+		click(timeSlot);
+		slotStart.sendKeys(start);
+		click(slotStart);
+		slotEnd.sendKeys(end);
+		click(slotEnd);
+		click(addRule);
+		click(serName);
+		ruleName.sendKeys(name);
+		click(confirm);
+		String webRule = webRuleTd.getText();
+		click(outConfirm);
+		click(apply);
+		return webRule;
+	}
+}

@@ -1,0 +1,56 @@
+package page.firewall.overview;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+import java.util.List;
+
+@Data
+public class OverViewPage extends BasePage{
+
+	@FindBy(xpath = "//div[@class='controls js_rfwtdi']/a[text()='全部']")
+	private WebElement netProgramAll;
+
+	@FindBy(xpath = "//div[@class='controls js_rfwtdi']/a[text()='已开启']")
+	private WebElement netOpen;
+
+	@FindBy(xpath = "//div[@class='controls js_rfwtdi']/a[text()='已关闭']")
+	private WebElement netClose;
+
+	@FindBy(xpath = "//div[@class='controls js_rfwflux']/a[text()='全部']")
+	private WebElement flowManageAll;
+
+	@FindBy(xpath = "//div[@class='controls js_rfwflux']/a[text()='已开启']")
+	private WebElement flowOpen;
+
+	@FindBy(xpath = "//div[@class='controls js_rfwflux']/a[text()='已关闭']")
+	private WebElement flowClose;
+
+	@FindBy(xpath = "//div[@class='controls js_rfwshare']/a[text()='全部']")
+	private WebElement shareAll;
+
+	@FindBy(xpath = "//div[@class='controls js_rfwshare']/a[text()='已开启']")
+	private WebElement shareOpen;
+
+	@FindBy(xpath = "//div[@class='controls js_rfwshare']/a[text()='已关闭']")
+	private WebElement shareClose;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr/td[6]")
+	private List<WebElement> webNets;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr/td[7]")
+	private List<WebElement> webFlows;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr/td[8]")
+	private List<WebElement> webShares;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr/td[2]")
+	private List<WebElement> clientNames;
+
+	public OverViewPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+}

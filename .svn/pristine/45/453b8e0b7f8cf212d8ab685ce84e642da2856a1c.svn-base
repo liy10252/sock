@@ -1,0 +1,58 @@
+package page.viruskill.setup.blacklist;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class BlackListPage extends BasePage {
+
+	@FindBy(id = "pub_txtFileBlack")
+	private WebElement input;
+
+	@FindBy(xpath = "//input[@id='pub_txtFileBlack']/following-sibling::div//b")
+	private WebElement typeButton;
+
+	@FindBy(xpath = "//input[@id='pub_txtFileBlack']/following-sibling::div//li")
+	private List<WebElement> types;
+
+	@FindBy(id = "pub_btnAddBlackList")
+	private WebElement add;
+
+	@FindBy(xpath = "//table[@id='pub_tbBlackList']//tr")
+	private List<WebElement> webTr;
+
+	@FindBy(xpath = "//table[@id='pub_tbBlackList']//td[text()='仅子目录']/following-sibling::td/i")
+	private WebElement deleteFile;
+
+	public BlackListPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void addUtil(String text,WebElement element){
+
+		input.clear();
+		input.sendKeys(text);
+		TestUtil.waitForClick(typeButton);
+		TestUtil.waitForClick(element);
+		TestUtil.waitForClick(add);
+	}
+
+	public void addBlack(List<String> params){
+
+		for(int i=0;i<params.size();i++){
+			addUtil(params.get(i),types.get(i));
+		}
+		TestUtil.waitForClick(apply);
+	}
+
+	public void deleteUtil(){
+
+		TestUtil.waitForClick(deleteFile);
+		TestUtil.waitForClick(apply);
+	}
+}

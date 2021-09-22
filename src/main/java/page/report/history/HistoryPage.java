@@ -1,0 +1,76 @@
+package page.report.history;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class HistoryPage extends BasePage {
+
+	@FindBy(id = "timeStart")
+	private WebElement timeStart;
+
+	@FindBy(id = "timeEnd")
+	private WebElement timeEnd;
+
+	@FindBy(id = "js_btn_time")
+	private WebElement searchTime;
+
+	@FindBy(xpath = "//input[@class='js_searchKey']")
+	private WebElement nameInput;
+
+	@FindBy(xpath = "//button[@class='btn js_btn_search']")
+	private WebElement searchName;
+
+	@FindBy(xpath = "//table[@id='tbClient']//td[4]/div")
+	private List<WebElement> names;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tr[1]/td[4]/div")
+	private WebElement name;
+
+	@FindBy(xpath = "//div[text()='基本报告测试']/ancestor::tr/td[1]/input")
+	private WebElement selectName;
+
+	@FindBy(id = "btnDelReport")
+	private WebElement deleteBtn;
+
+	@FindBy(xpath = "//button[@id='del_enter' and @data-loading-text='删除中']")
+	private WebElement delSub;
+
+	@FindBy(xpath = "//span[text()='删除历史报表成功']")
+	private WebElement delAlert;
+
+	public HistoryPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void timeSearch(String start,String end){
+
+		timeStart.sendKeys(start);
+		click(timeStart);
+		timeEnd.sendKeys(end);
+		click(timeEnd);
+		click(searchTime);
+		TestUtil.seleniumWait();
+	}
+
+	public void nameSearch(String name){
+
+		nameInput.sendKeys(name);
+		click(searchName);
+		TestUtil.seleniumWait();
+	}
+
+	public void delete(){
+
+		TestUtil.seleniumWait();
+		click(selectName);
+		click(deleteBtn);
+		click(delSub);
+		TestUtil.waitForVisbility(delAlert);
+	}
+}

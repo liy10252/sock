@@ -1,0 +1,65 @@
+package cases.terminal.log;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.terminal.log.LogPage;
+import util.SeleniumTestCase;
+
+public class ActionTest extends SeleniumTestCase {
+
+	LogPage logPage;
+
+	@Test(description = "安装动作日志")
+	public void install(){
+
+		logPage = new LogPage(driver);
+		logPage.getCustomSearch().click();
+		logPage.singleClick(logPage.getActionAll(),logPage.getInstall());
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("installName"),"安装动作日志验证失败");
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("installAction"),"安装动作日志验证失败");
+	}
+
+	@Test(dependsOnMethods = "install",description = "升级动作日志")
+	public void update(){
+
+		logPage.singleClick(logPage.getActionAll(),logPage.getUpdate());
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("updateName"),"升级动作日志验证失败");
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("updateAction"),"升级动作日志验证失败");
+	}
+
+	@Test(dependsOnMethods = "install",description = "卸载动作日志")
+	public void uninstall(){
+
+		logPage.singleClick(logPage.getActionAll(),logPage.getUninstall());
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("uninstallName"),"卸载动作日志验证失败");
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("uninstallAction"),"卸载动作日志验证失败");
+	}
+
+	@Test(dependsOnMethods = "install",description = "修复动作日志")
+	public void repair(){
+
+		logPage.singleClick(logPage.getActionAll(),logPage.getRepair());
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("repairName"),"修复动作日志验证失败");
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("repairAction"),"修复动作日志验证失败");
+	}
+
+	@Test(dependsOnMethods = "install",description = "重启动作日志")
+	public void restart(){
+
+		logPage.singleClick(logPage.getActionAll(),logPage.getRestart());
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("restartName"),"升级动作日志验证失败");
+		Assert.assertEquals(logPage.getWebDataTr().findElement(By.xpath("./td[4]"))
+				.getText().trim(),expect.getString("restartAction"),"重启动作日志验证失败");
+	}
+
+}

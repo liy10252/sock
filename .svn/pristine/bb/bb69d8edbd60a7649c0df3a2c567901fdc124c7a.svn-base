@@ -1,0 +1,41 @@
+package page;
+
+import lombok.extern.log4j.Log4j;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+@Log4j
+public class HomePage extends BasePage{
+
+	@FindBy(xpath = "//ul[@id='page-nav']/li[2]")
+	private WebElement terminal;
+
+	@FindBy(xpath = "//ul[@id='page-nav']/li[3]")
+	private WebElement virusKill;
+
+	@FindBy(xpath = "//ul[@id='page-nav']/li[4]")
+	private WebElement fireWall;
+
+	public HomePage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	//进入全网终端模块
+	public void gotoTerminal(){
+		terminal.click();
+		log.info("进入全网终端------");
+	}
+
+	//进入病毒查杀模块
+	public void gotoVirusKill(){
+		virusKill.click();
+		log.info("进入病毒查杀------");
+	}
+
+	//进入防火墙模块
+	public void gotoFireWall(){
+		fireWall.click();
+		log.info("进入防火墙------");
+	}
+}

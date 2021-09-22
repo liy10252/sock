@@ -1,0 +1,35 @@
+package page.terminal.overview;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+import java.util.logging.XMLFormatter;
+
+@Data
+public class OverviewPage extends BasePage {
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='终端名称']")
+	private WebElement name;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='IP地址']")
+	private WebElement ipaddr;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='MAC']")
+	private WebElement mac;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='版本']")
+	private WebElement version;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//li[text()='操作系统']")
+	private WebElement system;
+
+	public OverviewPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+
+}

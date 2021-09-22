@@ -1,0 +1,28 @@
+package cases.terminal.setup.center;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.terminal.setup.center.CenterPage;
+import util.SeleniumTestCase;
+import util.TestUtil;
+
+public class ButtonTest extends SeleniumTestCase {
+
+	CenterPage centerPage;
+
+	@Test(description = "按钮设置")
+	public void button(){
+
+		centerPage = new CenterPage(driver);
+		centerPage.buttonUtil();
+		TestUtil.seleniumWait();
+
+		Assert.assertTrue(centerPage.getOpen().isSelected(),"中心发现代理开启验证错误");
+		Assert.assertTrue(centerPage.getCheck().isSelected(),"中心发现代理检查验证错误");
+		Assert.assertEquals(centerPage.getWebInterval().getText(),
+				expect.getString("interval"),"间隔验证错误");
+		Assert.assertEquals(centerPage.getWebBand().getText(),
+				expect.getString("band"),"带宽限制验证错误");
+
+	}
+}

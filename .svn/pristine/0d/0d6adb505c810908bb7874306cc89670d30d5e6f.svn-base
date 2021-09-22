@@ -1,0 +1,52 @@
+package cases.viruskill.setup.routine;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.viruskill.setup.routine.RoutinePage;
+import util.SeleniumTestCase;
+import util.TestUtil;
+
+public class ButtonTest extends SeleniumTestCase {
+
+	RoutinePage routinePage;
+
+	@Test(description = "按钮设置一")
+	public void buttonOne(){
+
+		routinePage = new RoutinePage(driver);
+		routinePage.buttonOneUtil();
+		TestUtil.seleniumWait();
+
+		Assert.assertTrue(routinePage.getLock().isSelected(),"禁止终端修改黑白名单验证错误");
+		Assert.assertTrue(routinePage.getCustomButton().isSelected(),"自定义密码按钮验证错误");
+		Assert.assertFalse(routinePage.getRun().isSelected(),"运行环境验证错误");
+		Assert.assertFalse(routinePage.getTrack().isSelected(),"病毒跟踪验证错误");
+		Assert.assertFalse(routinePage.getLog().isSelected(),"病毒日志验证错误");
+		Assert.assertTrue(routinePage.getScanCache().isSelected(),"扫描缓存验证错误");
+//		Assert.assertTrue(routinePage.getMonitor().isSelected(),"监控缓存验证错误");
+		Assert.assertTrue(routinePage.getStrongScan().isSelected(),"强力扫描验证错误");
+		Assert.assertTrue(routinePage.getStrongKill().isSelected(),"强力查杀验证错误");
+		Assert.assertTrue(routinePage.getInOffice().isSelected(),"设定扫描模式验证错误");
+		Assert.assertTrue(routinePage.getWorm().isSelected(),"蠕虫验证错误");
+		Assert.assertTrue(routinePage.getRain().isSelected(),"雨云病毒验证错误");
+
+	}
+
+	@Test(dependsOnMethods = "buttonOne",description = "按钮设置二")
+	public void buttonTwo(){
+
+		routinePage.buttonTwoUtil(driver);
+		TestUtil.seleniumWait();
+
+		Assert.assertTrue(routinePage.getWitkey().isSelected(),"威客虫验证错误");
+		Assert.assertFalse(routinePage.getDll().isSelected(),"DLL劫持免疫验证错误");
+		Assert.assertEquals(routinePage.getWebCpu().getText(),
+				expect.getString("cpu"),"cpu占用率验证错误");
+		Assert.assertEquals(routinePage.getWebConnect().getText(),
+				expect.getString("connect"),"云连接测试验证错误");
+		Assert.assertTrue(routinePage.getGet().isSelected(),"请求模式验证错误");
+		Assert.assertTrue(routinePage.getWebPriCloud().isSelected(),"启用私有云错误");
+
+
+	}
+}

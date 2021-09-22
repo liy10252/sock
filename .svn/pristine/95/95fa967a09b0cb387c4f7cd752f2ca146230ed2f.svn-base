@@ -1,0 +1,2017 @@
+INFO  [2019-03-26 13:23:36] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:23:36] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:23:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:23:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:23:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:23:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:23:37] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:23:37] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:23:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:23:39] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:23:39] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:23:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:23:40] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:23:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:23:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:23:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:23:40] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:23:42] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:23:42] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:23:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:23:43] listener.TestngListener::onTestFailure - button Failure
+INFO  [2019-03-26 13:23:43] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:23:44] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:23:44] listener.TestngListener::onFinish - failedTest = button
+INFO  [2019-03-26 13:24:22] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:24:22] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:24:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:24:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:24:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:24:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:24:23] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:24:23] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:24:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:24:24] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:24:25] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:24:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:24:25] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:24:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:24:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:24:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:24:27] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:24:28] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:24:28] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:24:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:24:28] listener.TestngListener::onTestFailure - button Failure
+INFO  [2019-03-26 13:24:29] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:24:29] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:24:29] listener.TestngListener::onFinish - failedTest = button
+INFO  [2019-03-26 13:26:16] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:26:16] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:26:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:26:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:26:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:26:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:26:17] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:26:17] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:26:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:26:19] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:26:19] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:26:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:26:20] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:26:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:26:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:26:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:26:20] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:26:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:26:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:26:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:26:22] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:26:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:26:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:26:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:26:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:26:23] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:26:23] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:26:24] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:26:24] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:35:20] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:35:20] util.SeleniumTestCase::setUp - 开始测试case:InputTest----------
+INFO  [2019-03-26 13:35:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:35:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:35:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:35:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:35:21] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:35:21] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:35:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:35:23] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:35:23] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:35:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:35:23] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:35:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:35:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:35:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:35:24] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:35:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@class='ignPathVal']
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:35:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:35:25] listener.TestngListener::onTestSuccess - input Success
+INFO  [2019-03-26 13:35:25] util.SeleniumTestCase::tearDown - 结束测试case:InputTest----------
+INFO  [2019-03-26 13:35:26] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:35:26] listener.TestngListener::onFinish - PassedTests = input
+INFO  [2019-03-26 13:39:33] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:39:33] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:39:33] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:39:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:39:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:39:34] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:39:34] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:39:34] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:39:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:39:35] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:39:36] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:39:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:39:36] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:39:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:39:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:39:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:39:37] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:39:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:39:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:39:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:39:37] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:39:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:39:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:39:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:39:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:39:38] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:39:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:39:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:39:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:39:39] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:39:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:39:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:39:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:39:39] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-03-26 13:39:40] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:39:40] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:39:40] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-03-26 13:41:19] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:41:19] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:41:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:41:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:41:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:41:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:41:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:41:21] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:41:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:41:22] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:41:22] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:41:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:41:23] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:41:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:41:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:41:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:41:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:41:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:41:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:41:25] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:41:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:41:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:41:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:41:25] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:41:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:41:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:41:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:41:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:41:26] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:41:26] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:41:27] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:41:27] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:41:49] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:41:49] util.SeleniumTestCase::setUp - 开始测试case:InputTest----------
+INFO  [2019-03-26 13:41:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:41:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:41:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:41:50] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:41:50] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:41:50] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:41:52] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:41:52] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:41:52] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:41:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:41:53] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:41:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:41:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:41:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:41:53] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:41:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@class='ignPathVal']
+INFO  [2019-03-26 13:41:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:41:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:41:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:41:54] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-03-26 13:41:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:41:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:41:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:41:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:41:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:41:55] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:41:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:41:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:41:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:41:55] listener.TestngListener::onTestSuccess - input Success
+INFO  [2019-03-26 13:41:55] util.SeleniumTestCase::tearDown - 结束测试case:InputTest----------
+INFO  [2019-03-26 13:41:56] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:41:56] listener.TestngListener::onFinish - PassedTests = input
+INFO  [2019-03-26 13:42:16] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:42:16] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:42:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:42:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:42:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:42:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:42:18] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:42:18] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:42:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:42:19] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:42:20] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:42:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:42:20] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:42:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:42:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:42:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:42:21] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:42:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:42:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:42:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:42:21] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:42:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:42:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:42:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:42:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:42:22] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:42:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:42:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:42:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:42:22] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:42:22] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-03-26 13:42:22] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:42:23] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:42:23] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-03-26 13:43:06] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:43:06] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:43:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:43:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:43:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:43:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:43:07] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:43:07] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:43:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:43:09] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:43:09] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:43:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:43:10] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:43:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:43:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:43:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:43:11] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:43:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:43:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:43:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:43:11] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:43:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:43:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:43:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:43:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:43:12] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:43:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:43:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:43:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:43:13] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:43:14] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:43:14] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:43:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:43:14] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-03-26 13:43:14] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:43:15] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:43:15] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-03-26 13:45:11] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:45:11] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:45:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:45:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:45:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:45:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:45:12] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:45:13] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:45:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:45:14] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:45:14] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:45:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:45:15] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:45:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:15] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:45:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:17] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:45:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:45:18] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:45:18] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:45:19] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:45:19] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:45:28] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:45:28] util.SeleniumTestCase::setUp - 开始测试case:InputTest----------
+INFO  [2019-03-26 13:45:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:45:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:45:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:45:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:45:29] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:45:30] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:45:31] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:45:31] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:45:31] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:45:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:45:32] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:45:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:33] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:45:33] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@class='ignPathVal']
+INFO  [2019-03-26 13:45:33] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:45:33] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:45:33] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:45:33] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-03-26 13:45:33] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:45:33] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:45:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:34] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:45:34] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:45:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:45:34] listener.TestngListener::onTestSuccess - input Success
+INFO  [2019-03-26 13:45:34] util.SeleniumTestCase::tearDown - 结束测试case:InputTest----------
+INFO  [2019-03-26 13:45:35] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:45:35] listener.TestngListener::onFinish - PassedTests = input
+INFO  [2019-03-26 13:45:45] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:45:45] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:45:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:45:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:45:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:45:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:45:46] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:45:47] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:45:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:45:48] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:45:48] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:45:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:45:49] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:45:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:45:49] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:45:50] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:45:51] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:52] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:52] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:45:52] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:45:53] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:45:53] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:45:53] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:53] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:53] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:53] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:54] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:54] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:54] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:54] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:56] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:56] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:56] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:56] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:57] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:57] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:57] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:57] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:58] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:45:59] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:00] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:00] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:00] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:00] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:01] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:01] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:01] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:01] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:02] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:02] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:02] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:03] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:03] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:46:03] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-03-26 13:46:03] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:46:04] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:46:04] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-03-26 13:47:49] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:47:49] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:47:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:47:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:47:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:47:50] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:47:50] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:47:50] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:47:52] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:47:52] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:47:52] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:47:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:47:53] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:47:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:47:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:47:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:47:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:47:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:47:55] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:47:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:47:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:47:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:47:55] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:47:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:47:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:47:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:47:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:47:56] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:47:56] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:47:57] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:47:57] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:48:13] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:48:13] util.SeleniumTestCase::setUp - 开始测试case:InputTest----------
+INFO  [2019-03-26 13:48:14] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:48:14] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:48:14] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:48:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:48:14] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:48:15] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:48:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:48:16] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:48:16] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:48:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:48:17] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:48:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:48:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:48:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:48:17] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:48:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@class='ignPathVal']
+INFO  [2019-03-26 13:48:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:48:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:48:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:48:18] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-03-26 13:48:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:48:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:48:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:48:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:48:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:48:19] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:48:19] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:48:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:48:19] listener.TestngListener::onTestSuccess - input Success
+INFO  [2019-03-26 13:48:19] util.SeleniumTestCase::tearDown - 结束测试case:InputTest----------
+INFO  [2019-03-26 13:48:20] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:48:20] listener.TestngListener::onFinish - PassedTests = input
+INFO  [2019-03-26 13:48:38] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:48:38] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:48:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:48:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:48:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:48:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:48:39] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:48:39] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:48:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:48:41] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:48:41] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:48:42] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:48:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:48:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:48:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:48:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:48:43] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:48:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:48:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:48:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:48:44] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:48:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:48:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:48:45] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:46] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:46] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:46] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:46] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:47] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:47] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:47] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:47] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:48] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:48] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:48] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:48] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:49] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:49] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:49] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:49] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:50] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:50] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:50] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:51] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:51] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:51] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:51] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:52] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:52] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:52] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:52] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:53] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:53] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:53] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:53] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:54] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:54] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:54] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:55] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:56] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:48:56] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-03-26 13:48:56] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:48:57] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:48:57] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-03-26 13:50:57] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:50:57] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:50:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:50:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:50:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:50:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:50:58] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:50:58] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:50:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:50:59] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:51:00] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:51:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:51:00] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:51:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:01] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:01] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:01] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:51:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:51:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:02] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:03] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:51:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:51:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:51:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:51:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:51:04] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:51:04] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:51:04] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:51:05] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:51:16] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:51:16] util.SeleniumTestCase::setUp - 开始测试case:InputTest----------
+INFO  [2019-03-26 13:51:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:51:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:51:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:51:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:51:17] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:51:17] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:51:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:51:19] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:51:19] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:51:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:51:20] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:51:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:20] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:51:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@class='ignPathVal']
+INFO  [2019-03-26 13:51:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:51:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:51:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 13:51:21] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-03-26 13:51:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:51:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:51:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:22] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:51:22] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 13:51:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:51:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:51:22] listener.TestngListener::onTestSuccess - input Success
+INFO  [2019-03-26 13:51:22] util.SeleniumTestCase::tearDown - 结束测试case:InputTest----------
+INFO  [2019-03-26 13:51:23] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:51:23] listener.TestngListener::onFinish - PassedTests = input
+INFO  [2019-03-26 13:51:34] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:51:34] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:51:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:51:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:51:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:51:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:51:35] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:51:35] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:51:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:51:37] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:51:37] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:51:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:51:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:51:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:51:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:51:39] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:51:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:51:40] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:51:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:51:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:51:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 13:51:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:51:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:51:41] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 13:51:41] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:51:42] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:51:42] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 13:52:40] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:52:40] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:52:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:52:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:52:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:52:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:52:41] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:52:41] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:52:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:52:43] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:52:43] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:52:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:52:44] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:52:45] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:52:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:52:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:52:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:52:47] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:52:47] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:52:47] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:52:47] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:52:47] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:53:03] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:53:03] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:53:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:53:03] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:53:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:53:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:53:04] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:53:04] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:53:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:53:05] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:53:06] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:53:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:53:06] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:53:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:53:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:53:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:53:07] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:53:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:53:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:53:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:53:07] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:53:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:53:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:53:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:53:08] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:53:08] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:53:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:53:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:53:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:53:09] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:53:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:53:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:53:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:53:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:53:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 13:53:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:53:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:53:10] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 13:53:10] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:53:11] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:53:11] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 13:54:06] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:54:06] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:54:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:54:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:54:07] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:54:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:54:07] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:54:07] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:54:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:54:08] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:54:09] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:54:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:54:09] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:54:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:54:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:54:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:54:11] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:54:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:54:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:54:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:54:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:54:12] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:54:12] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:54:13] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:54:13] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:54:31] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:54:31] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:54:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:54:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:54:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:54:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:54:32] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:54:32] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:54:33] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:54:34] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:54:34] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:54:34] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:54:34] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:54:34] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:54:34] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:54:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:54:35] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:54:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:54:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:54:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:54:35] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:54:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:54:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:54:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:54:36] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:54:36] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:54:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:54:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:54:37] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:54:37] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:54:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:54:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:54:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:54:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:54:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 13:54:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:54:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:54:42] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 13:54:42] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:54:43] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:54:43] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 13:55:15] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:55:15] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:55:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:55:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:55:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:55:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:55:16] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:55:16] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:55:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:55:18] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:55:18] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:55:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:55:18] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:55:19] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:55:20] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:55:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:55:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:55:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:55:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:55:22] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:55:22] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:55:22] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:55:22] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:55:40] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:55:40] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:55:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:55:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:55:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:55:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:55:41] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:55:41] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:55:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:55:43] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:55:43] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:55:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:55:43] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:55:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:55:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:55:44] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:55:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:55:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:55:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:55:44] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:55:44] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:55:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:55:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:55:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:55:45] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:55:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:55:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:55:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:55:46] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:55:47] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:55:47] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:55:48] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:55:48] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:55:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:55:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:55:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 13:55:48] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:55:48] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:55:48] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 13:55:48] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:55:49] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:55:49] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 13:57:12] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:57:12] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 13:57:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:57:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:57:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:57:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:57:13] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:57:13] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:57:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:57:15] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:57:15] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:57:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:57:18] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:57:18] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:57:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:57:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:57:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:57:19] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:57:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:57:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:57:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:57:19] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:57:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:57:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:57:21] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:57:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:57:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:57:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:57:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:57:22] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 13:57:22] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 13:57:22] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:57:22] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 13:58:25] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 13:58:25] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 13:58:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 13:58:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 13:58:26] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 13:58:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 13:58:26] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 13:58:26] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 13:58:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 13:58:27] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 13:58:28] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 13:58:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 13:58:28] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 13:58:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:58:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 13:58:29] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 13:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 13:58:29] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 13:58:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:58:30] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:58:30] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:58:30] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 13:58:30] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 13:58:31] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:58:31] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:58:31] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 13:58:31] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 13:58:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 13:58:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 13:58:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 13:58:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 13:58:32] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 13:58:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 13:58:32] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 13:58:32] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 13:58:32] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 13:58:33] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 13:58:33] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 14:02:16] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:02:16] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 14:02:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:02:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:02:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:02:17] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:02:17] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:02:17] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:02:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:02:18] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:02:18] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:02:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:02:22] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:02:22] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:02:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:02:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:02:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:02:22] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:02:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:02:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 14:02:23] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:02:24] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:02:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:02:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:02:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:02:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:02:25] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 14:02:25] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 14:02:26] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:02:26] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 14:03:52] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:03:52] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 14:03:53] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:03:53] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:03:53] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:03:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:03:54] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:03:54] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:03:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:03:55] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:03:55] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:03:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:03:56] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:03:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:03:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:03:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:03:57] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 14:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:03:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:03:59] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:04:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:04:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:04:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:04:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:04:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 14:04:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 14:04:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 14:04:00] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 14:04:00] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 14:04:01] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:04:01] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 14:10:33] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:10:33] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 14:10:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:10:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:10:34] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:10:34] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:10:34] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:10:34] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:10:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:10:36] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:10:36] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:10:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:10:37] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:10:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:10:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:10:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:10:37] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:10:38] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 14:10:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:10:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:10:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:10:39] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:10:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:44] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:47] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:47] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:50] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:50] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:51] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:51] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:10:51] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-03-26 14:10:51] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 14:10:52] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:10:52] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-03-26 14:12:24] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:12:24] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 14:12:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:12:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:12:25] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:12:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:12:25] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:12:25] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:12:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:12:27] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:12:27] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:12:28] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:12:29] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:12:30] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:12:30] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:12:30] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:12:30] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:12:30] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 14:12:30] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 14:12:31] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:12:31] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 14:12:45] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:12:45] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 14:12:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:12:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:12:46] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:12:46] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:12:46] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:12:46] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:12:48] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:12:48] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:12:48] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:12:49] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:12:50] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 14:12:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:12:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:12:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:12:50] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:12:50] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 14:12:51] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:12:51] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:12:51] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:12:51] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:12:52] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:12:52] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:12:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:12:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:12:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:12:53] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:12:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:12:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:12:53] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:12:53] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:12:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:12:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:12:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='实时连接']
+INFO  [2019-03-26 14:12:54] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-03-26 14:12:54] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 14:12:55] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:12:55] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-03-26 14:16:38] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:16:38] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 14:16:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:16:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:16:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:16:39] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:16:39] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:16:39] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:16:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:16:41] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:16:41] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:16:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:16:42] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:16:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:16:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:16:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:16:42] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:16:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:16:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:16:43] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:16:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:16:45] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:16:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:16:45] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:16:45] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 14:16:45] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 14:16:45] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:16:45] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 14:16:55] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:16:55] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 14:16:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:16:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:16:56] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:16:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:16:56] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:16:56] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:16:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:16:58] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:16:58] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:16:59] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 14:17:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:17:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:17:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:17:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:17:00] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 14:17:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:17:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:17:01] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:17:01] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:17:02] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:17:03] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:17:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:17:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:17:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='实时连接']
+INFO  [2019-03-26 14:17:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='不限制']
+INFO  [2019-03-26 14:17:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 14:17:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 14:17:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 14:17:04] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 14:17:04] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 14:17:05] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:17:05] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 14:17:57] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:17:57] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 14:17:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:17:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:17:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:17:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:17:58] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:17:58] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:18:00] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:18:00] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:18:00] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:18:03] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:18:03] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:18:03] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:18:04] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:18:05] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:18:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:18:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:18:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:18:07] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:18:07] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 14:18:07] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 14:18:07] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:18:07] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 14:18:18] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:18:18] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 14:18:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:18:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:18:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:18:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:18:19] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:18:19] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:18:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:18:21] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:18:21] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 14:18:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:18:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:18:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:18:23] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:18:23] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 14:18:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:18:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:18:24] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:18:24] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:18:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:18:25] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:18:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:18:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:18:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:18:25] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:18:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:18:25] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:18:26] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:18:26] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:18:27] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:18:27] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:18:27] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:18:27] listener.TestngListener::onTestFailure - renew Failure
+INFO  [2019-03-26 14:18:27] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 14:18:28] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:18:28] listener.TestngListener::onFinish - failedTest = renew
+INFO  [2019-03-26 14:19:15] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:19:15] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 14:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:19:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:19:16] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:19:17] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:19:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:19:18] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:19:18] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:19:19] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:19:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:19:20] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:19:21] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:19:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:19:22] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:19:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:19:22] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:19:22] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 14:19:22] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 14:19:23] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:19:23] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 14:19:34] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:19:34] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 14:19:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:19:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:19:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:19:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:19:35] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:19:36] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:19:37] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:19:37] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:19:37] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:19:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:19:38] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:19:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:19:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:19:38] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:19:38] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:19:39] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 14:19:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:19:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:19:40] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:19:40] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:19:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:19:42] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:19:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:19:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:19:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:19:42] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:19:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:19:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:19:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:19:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 14:19:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 14:19:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 14:19:43] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 14:19:43] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 14:19:44] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:19:44] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 14:22:53] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:22:53] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 14:22:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:22:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:22:54] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:22:54] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:22:54] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:22:54] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:22:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:22:56] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:22:56] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:22:56] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:22:56] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:22:57] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:22:58] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:22:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:22:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:22:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:22:59] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:22:59] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 14:22:59] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 14:23:00] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:23:00] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 14:23:12] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:23:12] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 14:23:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:23:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:23:13] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:23:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:23:13] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:23:13] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:23:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:23:15] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:23:15] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:23:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:23:16] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 14:23:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:23:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:23:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:23:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:23:17] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 14:23:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:18] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:18] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:23:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:19] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:23:20] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 14:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 14:23:21] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 14:23:21] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 14:23:21] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 14:23:21] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:23:21] listener.TestngListener::onFinish - PassedTests = renew
+INFO  [2019-03-26 14:23:34] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:23:34] util.SeleniumTestCase::setUp - 开始测试case:ButtonTest----------
+INFO  [2019-03-26 14:23:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:23:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:23:35] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:23:35] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:23:35] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:23:35] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:23:36] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:23:37] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:23:37] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:23:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:23:40] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:23:40] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:23:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:23:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:23:40] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:23:41] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//b
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='5分钟']
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeClickOn - 点击元素：5分钟
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//b
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeClickOn - 点击元素：▾
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //li[text()='10 KB/s']
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeClickOn - 点击元素：10 KB/s
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:42] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:23:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:23:43] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:23:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:23:43] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:23:43] listener.TestngListener::onTestSuccess - button Success
+INFO  [2019-03-26 14:23:43] util.SeleniumTestCase::tearDown - 结束测试case:ButtonTest----------
+INFO  [2019-03-26 14:23:44] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:23:44] listener.TestngListener::onFinish - PassedTests = button
+INFO  [2019-03-26 14:23:54] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:23:54] util.SeleniumTestCase::setUp - 开始测试case:InputTest----------
+INFO  [2019-03-26 14:23:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:23:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:23:55] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:23:55] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:23:55] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:23:55] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:23:57] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:23:57] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:23:57] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:23:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:23:58] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:23:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:23:58] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:23:58] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@class='ignPathVal']
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: add_ignPath
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:23:59] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:24:00] listener.MyEventListener::beforeFindBy - 查找元素：By.className: ignPaths
+INFO  [2019-03-26 14:24:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 14:24:00] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 14:24:00] listener.TestngListener::onTestSuccess - input Success
+INFO  [2019-03-26 14:24:00] util.SeleniumTestCase::tearDown - 结束测试case:InputTest----------
+INFO  [2019-03-26 14:24:00] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:24:01] listener.TestngListener::onFinish - PassedTests = input
+INFO  [2019-03-26 14:24:11] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-03-26 14:24:11] util.SeleniumTestCase::setUp - 开始测试case:RenewTest----------
+INFO  [2019-03-26 14:24:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-03-26 14:24:11] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-03-26 14:24:12] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-03-26 14:24:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-03-26 14:24:12] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-03-26 14:24:12] page.LoginPage::login - 用户已登陆------
+INFO  [2019-03-26 14:24:13] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //ul[@id='page-nav']/li[2]
+INFO  [2019-03-26 14:24:13] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-03-26 14:24:14] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-03-26 14:24:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='设置']
+INFO  [2019-03-26 14:24:14] listener.MyEventListener::beforeClickOn - 点击元素：设置
+INFO  [2019-03-26 14:24:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:24:14] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:24:15] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:24:15] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:24:15] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:24:15] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:24:15] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-reset
+INFO  [2019-03-26 14:24:15] listener.MyEventListener::beforeClickOn - 点击元素：恢复默认
+INFO  [2019-03-26 14:24:15] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:24:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:24:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:24:16] listener.MyEventListener::beforeFindBy - 查找元素：By.id: resetPolicyBtn
+INFO  [2019-03-26 14:24:16] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-03-26 14:24:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:24:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:24:17] listener.MyEventListener::beforeFindBy - 查找元素：By.id: policy-save
+INFO  [2019-03-26 14:24:17] listener.MyEventListener::beforeClickOn - 点击元素：应用
+INFO  [2019-03-26 14:24:18] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='中心服务器']
+INFO  [2019-03-26 14:24:18] listener.MyEventListener::beforeClickOn - 点击元素：中心服务器
+INFO  [2019-03-26 14:24:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: epproxy
+INFO  [2019-03-26 14:24:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: checkeid
+INFO  [2019-03-26 14:24:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[3]//p
+INFO  [2019-03-26 14:24:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@id='tab-server']//dl[4]//p
+INFO  [2019-03-26 14:24:19] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //table[@class='li_ignPaths_bod']/tbody/tr[1]
+INFO  [2019-03-26 14:24:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: startTime
+INFO  [2019-03-26 14:24:19] listener.MyEventListener::beforeFindBy - 查找元素：By.id: endTime
+INFO  [2019-03-26 14:24:19] listener.TestngListener::onTestSuccess - renew Success
+INFO  [2019-03-26 14:24:19] util.SeleniumTestCase::tearDown - 结束测试case:RenewTest----------
+INFO  [2019-03-26 14:24:20] util.SeleniumTestCase::tearDown - 关闭浏览器
+INFO  [2019-03-26 14:24:20] listener.TestngListener::onFinish - PassedTests = renew

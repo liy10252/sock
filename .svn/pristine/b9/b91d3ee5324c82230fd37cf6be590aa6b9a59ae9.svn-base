@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="model.esmlog">
+
+    <delete id="deleteGroupByName" parameterType="String">
+         delete from GROUPINFO_B0E501F871146298 where GROUPNAME = #{GROUPNAME};
+    </delete>
+
+    <update id="updateEpinfo" parameterType="model.esmlog.EPINFO_B0E501F871146298">
+        update EPINFO_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != GROUPID and '' !=GROUPID">
+                GROUPID=#{GROUPID},
+            </if>
+
+            <if test="null != GROUPNAME and '' !=GROUPNAME">
+                GROUPNAME=#{GROUPNAME},
+            </if>
+
+            <if test="null == MEMO">
+                MEMO=#{MEMO},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+    <update id="updateRuaLog" parameterType="model.esmlog.RUA_LOG_B0E501F871146298">
+        update RUA_LOG_B0E501F871146298
+
+        <trim prefix="set" suffixOverrides="," suffix=" where SGUID = #{SGUID} ">
+            <if test="null != TIME">
+                TIME=#{TIME},
+            </if>
+
+        </trim>
+        ;
+    </update>
+</mapper>

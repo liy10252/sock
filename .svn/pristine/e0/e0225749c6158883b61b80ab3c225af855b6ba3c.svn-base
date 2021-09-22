@@ -1,0 +1,55 @@
+package page.systemcenter;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class SystemCenterPage extends BasePage {
+
+	@FindBy(xpath = "//li[text()='账户信息']")
+	private WebElement account;
+
+	@FindBy(xpath = "//li[text()='单位信息']")
+	private WebElement company;
+
+	@FindBy(xpath = "//li[text()='用户管理']")
+	private WebElement userManage;
+
+	@FindBy(xpath = "//li[text()='系统消息']")
+	private WebElement message;
+
+	@FindBy(xpath = "//li[text()='系统设置']")
+	private WebElement setupCenter;
+
+	@FindBy(xpath = "//li[text()='审计日志']")
+	private WebElement auditLog;
+
+	public SystemCenterPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void gotoAccount(){
+		account.click();
+	}
+
+	public void gotoCompany(){
+		company.click();
+	}
+
+	public void gotoUserManage(){
+		userManage.click();
+	}
+
+	public void gotoMessage(){
+		message.click();
+	}
+
+	public void gotoSetupCenter(){
+		setupCenter.click();
+	}
+
+	public void gotoAuditLog(){
+		auditLog.click();
+	}
+}

@@ -1,0 +1,69 @@
+package page;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import util.TestUtil;
+
+@Data
+public class BasePage {
+
+	@FindBy(xpath = "//button[@name='customSearch']")
+	private WebElement customSearch;
+
+	@FindBy(xpath = "//b[@class='button']")
+	private WebElement conButton;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//input[@class='js_searchKey']")
+	private WebElement searchBar;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//button[@class='btn js_btn_search']")
+	private WebElement searchButton;
+
+	@FindBy(xpath = "//a[@val='nolimt']")
+	private WebElement timeNolimt;
+
+	@FindBy(xpath = "//a[@val='week']")
+	private WebElement week;
+
+	@FindBy(xpath = "//a[@val='month']")
+	private WebElement month;
+
+	@FindBy(xpath = "//a[@val='lastMonth']")
+	private WebElement lastMonth;
+
+	@FindBy(xpath = "//a[@val='special']")
+	private WebElement special;
+
+	@FindBy(id = "timeStart")
+	private WebElement timeStart;
+
+	@FindBy(id = "timeEnd")
+	private WebElement timeEnd;
+
+	@FindBy(xpath = "//table[@id='tbClient']//tbody/tr[1]")
+	private WebElement webDataTr;
+
+	EventFiringWebDriver driver;
+	private final int TIMEOUT = 10;
+
+	public BasePage(EventFiringWebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(new AjaxElementLocatorFactory(driver, TIMEOUT), this);
+	}
+
+	//条件搜索的方法
+	public void search(WebElement element,String text){
+
+		searchBar.clear();
+		TestUtil.waitForClick(searchButton).click();
+		TestUtil.waitForClick(conButton).click();
+		TestUtil.waitForClick(element).click();
+		searchBar.sendKeys(text);
+		TestUtil.waitForClick(searchButton).click();
+	}
+
+}

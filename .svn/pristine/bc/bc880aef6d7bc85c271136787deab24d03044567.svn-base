@@ -1,0 +1,33 @@
+package cases.systemcenter.company;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.systemcenter.company.CompanyPage;
+import util.SeleniumTestCase;
+import java.util.Map;
+
+public class OrganTest extends SeleniumTestCase {
+
+	CompanyPage companyPage;
+
+	@Test(description = "单位信息修改")
+	public void modify(){
+
+		companyPage = new CompanyPage(driver);
+		Map<String,Object> params = param.getInnerMap();
+		companyPage.updateOrgan(params);
+
+		Assert.assertEquals(companyPage.getOname().getAttribute("value"),
+				params.get("name").toString(),"单位名称修改验证错误");
+		Assert.assertEquals(companyPage.getTitle().getAttribute("value"),
+				params.get("titleStr").toString(),"主标题修改验证错误");
+		Assert.assertEquals(companyPage.getSubTitle().getAttribute("value"),
+				params.get("subTitleStr").toString(),"副标题修改验证错误");
+		Assert.assertEquals(companyPage.getTel().getAttribute("value"),
+				params.get("telStr").toString(),"联系电话修改验证错误");
+		Assert.assertEquals(companyPage.getAddr().getAttribute("value"),
+				params.get("addrStr").toString(),"联系地址修改验证错误");
+		Assert.assertEquals(companyPage.getZcode().getAttribute("value"),
+				params.get("zcodeStr").toString(),"邮政编码修改验证错误");
+	}
+}

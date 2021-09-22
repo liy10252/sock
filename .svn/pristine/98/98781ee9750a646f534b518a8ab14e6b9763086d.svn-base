@@ -1,0 +1,38 @@
+package cases.viruskill.setup.filemonitor;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.viruskill.setup.filemonitor.FileMonitorPage;
+import util.SeleniumTestCase;
+
+public class RenewTest extends SeleniumTestCase {
+
+	FileMonitorPage fileMonitorPage;
+
+	@Test(description = "恢复默认")
+	public void renew(){
+
+		fileMonitorPage = new FileMonitorPage(driver);
+		fileMonitorPage.renew();
+
+		Assert.assertFalse(fileMonitorPage.getLockClose().isSelected(),"恢复终端关闭监控验证错误");
+		Assert.assertTrue(fileMonitorPage.getBootEnable().isSelected(),"恢复文件监控验证错误");
+		Assert.assertTrue(fileMonitorPage.getOpen().isSelected(),"恢复智能黑名单验证错误");
+		Assert.assertFalse(fileMonitorPage.getCoreMonitor().isSelected(),"恢复监控设置验证错误");
+		Assert.assertTrue(fileMonitorPage.getStandard().isSelected(),"恢复监控模式验证错误");
+		Assert.assertTrue(fileMonitorPage.getProgramFile().isSelected(),"恢复文件类型验证错误");
+		Assert.assertTrue(fileMonitorPage.getTrust().isSelected(),"恢复监控加速验证错误");
+		Assert.assertFalse(fileMonitorPage.getDriveCache().isSelected(),"恢复驱动缓存验证错误");
+		Assert.assertTrue(fileMonitorPage.getEmbedded().isSelected(),"恢复嵌入查杀验证错误");
+		Assert.assertFalse(fileMonitorPage.getFileServer().isSelected(),"恢复共享文档验证错误");
+		Assert.assertTrue(fileMonitorPage.getPopVirus().isSelected(),"恢复查杀引擎验证错误");
+		Assert.assertEquals(fileMonitorPage.getSize().getAttribute("value"),
+				expect.getString("size"),"恢复压缩包大小验证错误");
+		Assert.assertEquals(fileMonitorPage.getDepth().getAttribute("value"),
+				expect.getString("depth"),"恢复压缩包层数验证错误");
+		Assert.assertTrue(fileMonitorPage.getAuto().isSelected(),"恢复发现病毒验证错误");
+		Assert.assertTrue(fileMonitorPage.getDelete().isSelected(),"恢复清除失败验证错误");
+		Assert.assertTrue(fileMonitorPage.getNotice().isSelected(),"恢复报告规则验证错误");
+//		Assert.assertTrue(fileMonitorPage.getEnable().isSelected(),"恢复云扫描引擎验证错误");
+	}
+}

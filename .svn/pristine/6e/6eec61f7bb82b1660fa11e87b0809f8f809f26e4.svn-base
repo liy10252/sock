@@ -1,0 +1,25 @@
+package cases.center.account;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.center.account.AccountPage;
+import util.SeleniumTestCase;
+
+public class ModifyTest extends SeleniumTestCase {
+
+	AccountPage accountPage;
+
+	@Test(description = "修改账户信息")
+	public void modify(){
+
+		accountPage = new AccountPage(driver);
+		String phone = param.getString("phone");
+		String email = param.getString("email");
+		accountPage.updateUtil(driver,phone,email);
+
+		Assert.assertEquals(accountPage.getPhone().getAttribute("value"),
+				phone,"修改手机号码验证错误");
+		Assert.assertEquals(accountPage.getEmail().getAttribute("value"),
+				email,"修改邮箱验证错误");
+	}
+}

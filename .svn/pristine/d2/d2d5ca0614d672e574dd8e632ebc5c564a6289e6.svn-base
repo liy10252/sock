@@ -1,0 +1,13 @@
+browser.type = chrome
+browser.path.ie = D:/BrowserDriver/MicrosoftWebDriver.exe
+browser.path.chrome = D:/BrowserDriver/chromedriver.exe
+browser.path.firefox =  D:/BrowserDriver/geckodriver.exe
+
+url = http://193.168.19.131/
+maxRetryCount = 1
+
+mongo.ip = 193.168.19.131
+mongo.port = 27017
+mongo.dbname = rs_esm_mongo
+
+eid = B0E501F871146298

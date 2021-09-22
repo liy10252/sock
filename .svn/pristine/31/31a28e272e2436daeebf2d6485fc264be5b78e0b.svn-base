@@ -1,0 +1,61 @@
+package cases.report.custom;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.report.custom.CustomPage;
+import util.SeleniumTestCase;
+import util.TestUtil;
+
+public class CycleTest extends SeleniumTestCase {
+
+	CustomPage customPage;
+
+	@Test(description = "手动")
+	public void manual(){
+
+		customPage = new CustomPage(driver);
+		customPage.getCustomSearch().click();
+		customPage.singleClick(customPage.getCycleAll(),customPage.getManual(),2);
+
+		Assert.assertTrue(TestUtil.getValueList(customPage.getNames())
+						.containsAll(TestUtil.JsonToList(expect.getJSONArray("manual"),"name")),
+				"手动验证失败");
+	}
+
+	@Test(dependsOnMethods = "manual",description = "定时一次")
+	public void once(){
+
+		customPage.singleClick(customPage.getCycleAll(),customPage.getOnce());
+
+		Assert.assertEquals(customPage.getWebDataTr().findElement(By.xpath("./td[2]")).getText(),
+				expect.getString("once"), "定时一次验证错误");
+	}
+
+	@Test(dependsOnMethods = "manual",description = "每天")
+	public void everyDay(){
+
+		customPage.singleClick(customPage.getCycleAll(),customPage.getEveryDay());
+
+		Assert.assertEquals(customPage.getWebDataTr().findElement(By.xpath("./td[2]")).getText(),
+				expect.getString("everyDay"), "每天验证错误");
+	}
+
+	@Test(dependsOnMethods = "manual",description = "每周")
+	public void everyWeek(){
+
+		customPage.singleClick(customPage.getCycleAll(),customPage.getEveryWeek());
+
+		Assert.assertEquals(customPage.getWebDataTr().findElement(By.xpath("./td[2]")).getText(),
+				expect.getString("everyWeek"), "每周验证错误");
+	}
+
+	@Test(dependsOnMethods = "manual",description = "每月")
+	public void everyMonth(){
+
+		customPage.singleClick(customPage.getCycleAll(),customPage.getEveryMonth());
+
+		Assert.assertEquals(customPage.getWebDataTr().findElement(By.xpath("./td[2]")).getText(),
+				expect.getString("everyMonth"), "每月验证错误");
+	}
+}

@@ -1,0 +1,47 @@
+package cases.firewall.setup.secureshare;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.firewall.setup.secureshare.SecureSharePage;
+import util.SeleniumTestCase;
+
+public class RuleTest extends SeleniumTestCase {
+
+	SecureSharePage secureSharePage;
+	String ipStr;
+
+	@Test(description = "添加ip规则")
+	public void addIp(){
+
+		secureSharePage = new SecureSharePage(driver);
+		ipStr = param.getString("ipStr");
+		secureSharePage.addIp(ipStr);
+
+		Assert.assertTrue(secureSharePage.getForbid().isSelected(),"操作设置验证错误");
+		Assert.assertTrue(secureSharePage.checkItems(secureSharePage.getTds(),
+				ipStr),"添加ip规则验证错误");
+	}
+
+	@Test(dependsOnMethods = "addIp",description = "添加ip段规则")
+	public void addIpSection(){
+
+		String ipStart = param.getString("ipStart");
+		String ipEnd = param.getString("ipEnd");
+		secureSharePage.addIpSection(ipStart,ipEnd);
+
+		Assert.assertTrue(secureSharePage.checkItems(secureSharePage.getTds(),
+				expect.getString("ipSection")),"添加ip段规则验证错误");
+	}
+
+	@Test(dependsOnMethods = "addIp",description = "删除规则")
+	public void delete(){
+
+		secureSharePage.delete();
+
+		Assert.assertTrue(secureSharePage.getTds().size() == 1,"删除规则验证错误");
+		Assert.assertFalse(secureSharePage.checkItems(secureSharePage.getTds(),
+				ipStr),"删除规则验证错误");
+	}
+
+
+}

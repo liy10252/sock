@@ -1,0 +1,34 @@
+package page.firewall.setup;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class SetUpPage extends BasePage {
+
+	@FindBy(linkText = "上网防护")
+	private WebElement netProtect;
+
+	@FindBy(linkText = "白名单")
+	private WebElement whiteList;
+
+	@FindBy(linkText = "防黑客攻击")
+	private WebElement hack;
+
+	public SetUpPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void gotoNetProtect(){
+		netProtect.click();
+	}
+
+	public void gotoWhiteList(){
+		whiteList.click();
+	}
+
+	public void gotoHack(){
+		hack.click();
+	}
+}

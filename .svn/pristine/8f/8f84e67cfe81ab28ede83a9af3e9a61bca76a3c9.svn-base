@@ -1,0 +1,144 @@
+package page.viruskill.setup.blackmail;
+
+import lombok.Data;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class BlackMailPage extends BasePage {
+
+	@FindBy(id = "defextortEnable")
+	private WebElement protect;
+
+	@FindBy(xpath = "//input[@name='defextortMode' and @value='1']")
+	private WebElement standardMode;
+
+	@FindBy(xpath = "//input[@name='defextortMode' and @value='2']")
+	private WebElement learningMode;
+
+	@FindBy(xpath = "//input[@value='MODIFY']")
+	private WebElement modify;
+
+	@FindBy(xpath = "//input[@value='DELETE']")
+	private WebElement delete;
+
+	@FindBy(xpath = "//input[@name='defextortResult' and @value='0']")
+	private WebElement ask;
+
+	@FindBy(xpath = "//input[@name='defextortResult' and @value='1']")
+	private WebElement refuse;
+
+	@FindBy(xpath = "//input[@name='defextortResult' and @value='2']")
+	private WebElement endProcess;
+
+	@FindBy(xpath = "//input[@name='defextortResult' and @value='3']")
+	private WebElement programRerun;
+
+	@FindBy(id = "defextortNotify")
+	private WebElement promptUser;
+
+	@FindBy(id = "defextortLog")
+	private WebElement log;
+
+	@FindBy(id = "defextortSignwhite")
+	private WebElement sign;
+
+	@FindBy(xpath = "//i[@id='defextortSignwhiteLock']/../preceding-sibling::div/a")
+	private WebElement whiteListAdd;
+
+	@FindBy(className = "js_defextort_txt")
+	private WebElement whiteListInput;
+
+	@FindBy(xpath = "//table[@class='js_defextort_white']//a")
+	private WebElement whiteDelete;
+
+	@FindBy(className = "js_defextort_white")
+	private WebElement whiteTable;
+
+	@FindBy(xpath = "//div[@id='tab-protection']/div/dl/dd[8]/div[2]")
+	private WebElement protectFileDiv;
+
+	@FindBy(xpath = "//input[@name='defextortIsinclude' and @value='1']")
+	private WebElement includeGoals;
+
+	@FindBy(xpath = "//input[@name='defextortIsinclude' and @value='0']")
+	private WebElement excludeTarget;
+
+	@FindBy(xpath = "//textarea[@id='defextortExts']/preceding-sibling::div[3]//a")
+	private WebElement protectFileAdd;
+
+	@FindBy(className = "js_defextort_txt")
+	private WebElement protectFileInput;
+
+	@FindBy(xpath = "//table[@class='js_defextort']//a")
+	private WebElement protectFileDelete;
+
+	@FindBy(className = "js_defextort")
+	private WebElement protectFileTable;
+
+	@FindBy(id = "defextortExts")
+	private WebElement fileExtension;
+
+	public BlackMailPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void blackMailOne(){
+
+		click(protect);
+		click(learningMode);
+		click(modify);
+		click(delete);
+		click(refuse);
+		click(promptUser);
+		click(log);
+		click(apply);
+
+	}
+
+	public void blackMailTwo(){
+
+		click(endProcess);
+		click(apply);
+	}
+
+	public void blackMailThree(){
+
+		click(programRerun);
+		click(apply);
+	}
+
+	public void whiteList(String white){
+
+		click(sign);
+		click(whiteListAdd);
+		whiteListInput.sendKeys(white);
+		click(apply);
+	}
+
+	public void whiteDelete(){
+
+		click(whiteDelete);
+		click(apply);
+	}
+
+	public void targetFile(EventFiringWebDriver driver,String file,String extension){
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", protectFileAdd);
+		click(protectFileAdd);
+		TestUtil.seleniumWait();
+		protectFileInput.sendKeys(file);
+		fileExtension.sendKeys(extension);
+		click(apply);
+	}
+
+	public void targetDelete(){
+
+		click(protectFileDelete);
+		click(apply);
+	}
+}

@@ -1,0 +1,111 @@
+package page.viruskill.setup.ruleofcon;
+
+import lombok.Data;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Data
+public class RuleOfConPage extends BasePage {
+
+	@FindBy(id = "filectrlEnable")
+	private WebElement openRule;
+
+	@FindBy(id = "filectrlNotify")
+	private WebElement notifyUser;
+
+	@FindBy(id = "filectrlLog")
+	private WebElement interceptLog;
+
+	@FindBy(xpath = "//div[@id='tab-xw']/div/dl[1]/dd[4]/div[1]/button")
+	private WebElement fileAdd;
+
+	@FindBy(xpath = "//table[@class='js_filectrl']//tr[1]")
+	private WebElement webFileTr;
+
+	@FindBy(xpath = "//table[@class='js_filectrl']//tr/td[2]")
+	private List<WebElement> webFileRules;
+
+	@FindBy(id = "sysdef2Enable")
+	private WebElement openRuleSys;
+
+	@FindBy(id = "sysdef2Notify")
+	private WebElement notifyUserSys;
+
+	@FindBy(id = "sysdef2Log")
+	private WebElement interceptLogSys;
+
+	@FindBy(xpath = "//div[@id='tab-xw']/div/dl[2]/dd[4]/div[1]/a")
+	private WebElement sysAdd;
+
+	@FindBy(xpath = "//table[@class='js_sysdef']//tr[1]")
+	private WebElement webSysTr;
+
+	@FindBy(xpath = "//table[@class='js_sysdef']//tr/td[2]")
+	private List<WebElement> webSysRules;
+
+	public RuleOfConPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void fileUtil(String describe,String action,String handle,String process){
+
+		click(openRule);
+		click(notifyUser);
+		click(interceptLog);
+		click(fileAdd);
+		click(webFileTr.findElement(By.xpath("./td[1]/input")));
+		webFileTr.findElement(By.xpath("./td[2]/input")).sendKeys(describe);
+		webFileTr.findElement(By.xpath("./td[3]/input")).sendKeys(action);
+		webFileTr.findElement(By.xpath("./td[4]/input")).sendKeys(handle);
+		webFileTr.findElement(By.xpath("./td[7]/input")).sendKeys(process);
+		click(apply);
+	}
+
+	public void fileDelete(){
+
+		click(webFileTr.findElement(By.xpath("./td[8]/a")));
+		click(apply);
+	}
+
+	public void sysUtil(EventFiringWebDriver driver,String describe,String action,String handle,String process){
+
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", openRuleSys);
+		click(openRuleSys);
+		click(notifyUserSys);
+		click(interceptLogSys);
+		click(sysAdd);
+		click(webSysTr.findElement(By.xpath("./td[1]/input")));
+		webSysTr.findElement(By.xpath("./td[2]/input")).sendKeys(describe);
+		webSysTr.findElement(By.xpath("./td[3]/input")).sendKeys(action);
+		webSysTr.findElement(By.xpath("./td[4]/input")).sendKeys(handle);
+		webSysTr.findElement(By.xpath("./td[7]/input")).sendKeys(process);
+		click(apply);
+	}
+
+	public void sysDelete(){
+
+		click(webSysTr.findElement(By.xpath("./td[8]/a")));
+		click(apply);
+	}
+
+	public List<String> listUtil(List<WebElement> webList){
+
+		List<String> values = new ArrayList<String>();
+
+		for(WebElement element : webList){
+
+			values.add(element.getAttribute("value"));
+		}
+
+		return values;
+	}
+
+}

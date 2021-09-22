@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sock的测试套件">
+    <test name="这些是case">
+        <classes>
+            <class name="datacontroller.DataController"/>
+            <class name="cases.terminal.group.GroupTest"/>
+            <class name="cases.terminal.overview.SearchTest"/>
+            <class name="cases.terminal.overview.MoveGroupTest"/>
+            <class name="cases.terminal.log.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.terminal.log.ActionTest">
+                <methods>
+                    <include name="install"/>
+                    <include name="update"/>
+                    <include name="uninstall"/>
+                    <include name="repair"/>
+                    <include name="restart"/>
+                </methods>
+            </class>
+            <class name="cases.terminal.log.EntryTest"/>
+            <class name="cases.terminal.log.SearchTest"/>
+
+            <class name="cases.terminal.remark.RemarkTest">
+                <methods>
+                    <include name="insert"/>
+                    <include name="update"/>
+                    <include name="delete"/>
+                </methods>
+            </class>
+
+            <class name="cases.terminal.history.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.terminal.history.StateTest"/>
+            <class name="cases.terminal.history.StatePopupTest"/>
+            <class name="cases.terminal.history.SearchPopupTest"/>
+
+            <class name="cases.terminal.command.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.terminal.command.LowerHairTest"/>
+            <class name="cases.terminal.command.ImplementTest"/>
+            <class name="cases.terminal.command.CommandTypeTest"/>
+            <class name="cases.terminal.command.LowerHairPopTest"/>
+            <class name="cases.terminal.command.ImplementPopTest"/>
+            <class name="cases.terminal.command.SearchPopTest"/>
+
+            <class name="cases.terminal.setup.tersetup.ButtonTest"/>
+            <class name="cases.terminal.setup.tersetup.InputTest"/>
+            <class name="cases.terminal.setup.tersetup.RenewTest"/>
+
+            <class name="cases.terminal.setup.softwareup.ButtonTest">
+            <methods>
+                <include name="buttonOne"/>
+                <include name="buttonTwo"/>
+                <include name="buttonThree"/>
+            </methods>
+            </class>
+            <class name="cases.terminal.setup.softwareup.InputTest"/>
+            <class name="cases.terminal.setup.softwareup.RenewTest"/>
+
+            <class name="cases.terminal.setup.centerser.ButtonTest"/>
+            <class name="cases.terminal.setup.centerser.InputTest"/>
+            <class name="cases.terminal.setup.centerser.RenewTest"/>
+
+            <!--<class name="cases.terminal.setup.keeplog.InputTest"/>-->
+            <!--<class name="cases.terminal.setup.keeplog.ButtonTest"/>-->
+            <!--<class name="cases.terminal.setup.keeplog.RenewTest"/>-->
+
+            <class name="cases.viruskill.log.virusdetail.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.log.virusdetail.SourceStateTest"/>
+            <class name="cases.viruskill.log.virusdetail.ProcessModeTest">
+                <methods>
+                    <include name="notYet"/>
+                    <include name="ignore"/>
+                    <include name="delete"/>
+                    <include name="clear"/>
+                    <include name="trust"/>
+                    <include name="backupFail"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.log.virusdetail.SearchTest"/>
+            <class name="cases.viruskill.log.virusdetail.ShowTest">
+                <methods>
+                    <include name="showVirus"/>
+                    <include name="showEp"/>
+                    <include name="showDetail"/>
+                </methods>
+            </class>
+
+            <class name="cases.viruskill.log.scanevent.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.log.scanevent.ScanTypeTest"/>
+            <class name="cases.viruskill.log.scanevent.StateTest"/>
+            <class name="cases.viruskill.log.scanevent.SearchTest"/>
+
+            <!--<class name="cases.viruskill.log.sysdef.TimeFrameTest">-->
+                <!--<methods>-->
+                    <!--<include name="thisWeek"/>-->
+                    <!--<include name="thisMonth"/>-->
+                    <!--<include name="lastMonth"/>-->
+                    <!--<include name="special"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+            <!--<class name="cases.viruskill.log.sysdef.ProtectTypeTest"/>-->
+            <!--<class name="cases.viruskill.log.sysdef.ProcessResultTest"/>-->
+            <!--<class name="cases.viruskill.log.sysdef.SearchTest"/>-->
+            <!--<class name="cases.viruskill.log.sysdef.ShowTest"/>-->
+
+            <!--<class name="cases.viruskill.log.appdef.TimeFrameTest">-->
+                <!--<methods>-->
+                    <!--<include name="thisWeek"/>-->
+                    <!--<include name="thisMonth"/>-->
+                    <!--<include name="lastMonth"/>-->
+                    <!--<include name="special"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+            <!--<class name="cases.viruskill.log.appdef.AppTypeTest"/>-->
+            <!--<class name="cases.viruskill.log.appdef.SearchTest"/>-->
+            <!--<class name="cases.viruskill.log.appdef.ShowTest"/>-->
+
+            <class name="cases.viruskill.overview.FileMonitorTest"/>
+            <!--<class name="cases.viruskill.overview.MailMonitorTest"/>-->
+            <class name="cases.viruskill.overview.SysDefTest"/>
+            <class name="cases.viruskill.overview.SearchTest"/>
+
+            <class name="cases.viruskill.setup.routine.ButtonTest"/>
+            <class name="cases.viruskill.setup.routine.InputTest"/>
+            <class name="cases.viruskill.setup.routine.RenewTest"/>
+
+            <class name="cases.viruskill.setup.whitelist.OtherTest"/>
+            <class name="cases.viruskill.setup.whitelist.WhiteListTest"/>
+            <class name="cases.viruskill.setup.whitelist.RenewTest"/>
+
+            <class name="cases.viruskill.setup.blacklist.BlackListTest"/>
+            <class name="cases.viruskill.setup.blacklist.RenewTest"/>
+
+            <class name="cases.viruskill.setup.virusbackup.ClickTest"/>
+            <class name="cases.viruskill.setup.virusbackup.RenewTest"/>
+
+            <class name="cases.viruskill.setup.virusscan.ClickTest"/>
+            <class name="cases.viruskill.setup.virusscan.InputTest"/>
+            <class name="cases.viruskill.setup.virusscan.RenewTest"/>
+
+            <class name="cases.viruskill.setup.timingscan.TimeSetTest"/>
+            <class name="cases.viruskill.setup.timingscan.ScanTypeTest"/>
+            <class name="cases.viruskill.setup.timingscan.FastScanTest"/>
+            <class name="cases.viruskill.setup.timingscan.RenewTest"/>
+
+            <class name="cases.viruskill.setup.filemonitor.MonitorModelTest">
+                <methods>
+                    <include name="modelOne"/>
+                    <include name="modelTwo"/>
+                    <include name="modelThree"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.setup.filemonitor.FileTypeTest"/>
+            <class name="cases.viruskill.setup.filemonitor.ServerListTest"/>
+            <class name="cases.viruskill.setup.filemonitor.KillEngineTest"/>
+            <class name="cases.viruskill.setup.filemonitor.RenewTest"/>
+
+            <class name="cases.viruskill.setup.ruleofcon.FileMonitorTest"/>
+            <class name="cases.viruskill.setup.ruleofcon.SystemReinTest"/>
+            <class name="cases.viruskill.setup.ruleofcon.RenewTest"/>
+
+            <class name="cases.viruskill.setup.usbmonitor.UsbMonitorTest"/>
+            <class name="cases.viruskill.setup.usbmonitor.RenewTest"/>
+
+            <class name="cases.viruskill.setup.sysstreng.ClickTest"/>
+            <class name="cases.viruskill.setup.sysstreng.RenewTest"/>
+
+            <class name="cases.viruskill.setup.blackmail.BlackMailTest">
+                <methods>
+                    <include name="blackMailOne"/>
+                    <include name="blackMailTwo"/>
+                    <include name="blackMailThree"/>
+                </methods>
+            </class>
+            <class name="cases.viruskill.setup.blackmail.WhiteListTest"/>
+            <class name="cases.viruskill.setup.blackmail.TargetFileTest"/>
+            <class name="cases.viruskill.setup.blackmail.RenewTest"/>
+
+            <class name="cases.viruskill.setup.appstreng.ClickTest"/>
+            <class name="cases.viruskill.setup.appstreng.RenewTest"/>
+
+            <class name="cases.viruskill.setup.privatecloud.PrivateCloudTest"/>
+            <class name="cases.viruskill.setup.privatecloud.RenewTest"/>
+
+            <class name="cases.viruskill.setup.linuxvirus.OptimizeTest"/>
+            <class name="cases.viruskill.setup.linuxvirus.ScanTest"/>
+            <class name="cases.viruskill.setup.linuxvirus.SetVirusTest"/>
+            <class name="cases.viruskill.setup.linuxvirus.RenewTest"/>
+
+            <class name="cases.firewall.overview.NetProgramTest"/>
+            <class name="cases.firewall.overview.FlowManageTest"/>
+            <class name="cases.firewall.overview.ShareManageTest"/>
+            <class name="cases.firewall.overview.SearchTest"/>
+
+            <class name="cases.firewall.log.malice.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.malice.TypeTest"/>
+            <class name="cases.firewall.log.malice.SearchTest"/>
+            <class name="cases.firewall.log.malice.ShowTest"/>
+
+            <class name="cases.firewall.log.hacker.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.hacker.StateTest"/>
+            <class name="cases.firewall.log.hacker.ShowTest"/>
+
+            <class name="cases.firewall.log.advert.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.advert.SearchTest"/>
+            <class name="cases.firewall.log.advert.ShowTest"/>
+
+            <class name="cases.firewall.log.url.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.url.StateTest"/>
+            <class name="cases.firewall.log.url.SearchTest"/>
+            <class name="cases.firewall.log.url.ShowTest"/>
+
+            <class name="cases.firewall.log.network.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.network.TypeTest"/>
+            <class name="cases.firewall.log.network.NetWorkTest"/>
+            <class name="cases.firewall.log.network.SearchTest"/>
+            <class name="cases.firewall.log.network.ShowTest"/>
+
+            <class name="cases.firewall.log.share.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.share.OperateTest"/>
+            <class name="cases.firewall.log.share.SearchTest"/>
+            <class name="cases.firewall.log.share.ShowTest"/>
+
+            <class name="cases.firewall.log.flow.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.log.flow.ShowTest"/>
+
+            <class name="cases.firewall.setup.netprotect.ClickTest"/>
+            <class name="cases.firewall.setup.netprotect.RenewTest"/>
+
+            <class name="cases.firewall.setup.whitelist.WhiteListTest"/>
+            <class name="cases.firewall.setup.whitelist.RenewTest"/>
+
+            <class name="cases.firewall.setup.hack.HackTest"/>
+            <class name="cases.firewall.setup.hack.RenewTest"/>
+
+            <class name="cases.firewall.setup.limitweb.ClickTest"/>
+            <class name="cases.firewall.setup.limitweb.AddDayTest"/>
+            <class name="cases.firewall.setup.limitweb.UpdateTest"/>
+            <class name="cases.firewall.setup.limitweb.AddSlotTest"/>
+            <class name="cases.firewall.setup.limitweb.RenewTest"/>
+
+            <class name="cases.firewall.setup.limitapp.ClickTest"/>
+            <class name="cases.firewall.setup.limitapp.AddDayTest"/>
+            <class name="cases.firewall.setup.limitapp.UpdateTest"/>
+            <class name="cases.firewall.setup.limitapp.AddSlotTest"/>
+            <class name="cases.firewall.setup.limitapp.RenewTest"/>
+
+            <class name="cases.firewall.setup.flowmanage.FlowManageTest"/>
+            <class name="cases.firewall.setup.flowmanage.RenewTest"/>
+
+            <class name="cases.firewall.setup.secureshare.ClickTest"/>
+            <class name="cases.firewall.setup.secureshare.RuleTest">
+                <methods>
+                    <include name="addIp"/>
+                    <include name="addIpSection"/>
+                    <include name="delete"/>
+                </methods>
+            </class>
+            <class name="cases.firewall.setup.secureshare.RenewTest"/>
+
+            <class name="cases.firewall.setup.adshare.AdShareTest"/>
+            <class name="cases.firewall.setup.adshare.RenewTest"/>
+
+            <class name="cases.firewall.safeshare.EpNameTest"/>
+            <class name="cases.firewall.safeshare.IpTest"/>
+            <class name="cases.firewall.safeshare.operationTest"/>
+            <class name="cases.firewall.safeshare.SearchTest"/>
+
+            <class name="cases.report.custom.TimeFrameTest"/>
+            <class name="cases.report.custom.TypeTest"/>
+            <class name="cases.report.custom.CycleTest"/>
+            <class name="cases.report.custom.SearchTest"/>
+            <class name="cases.report.custom.AddReportTest"/>
+            <class name="cases.report.custom.OperateTest"/>
+            <class name="cases.report.history.TimeFrameTest"/>
+            <class name="cases.report.history.SearchNameTest"/>
+            <class name="cases.report.history.DeleteTest"/>
+
+            <class name="cases.authorize.today.ActionTest"/>
+            <class name="cases.authorize.today.SearchTest"/>
+            <class name="cases.authorize.historyauth.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+
+            <class name="datacontroller.DataController"/>
+            
+            <class name="cases.systemcenter.account.ModifyTest"/>
+            
+            <class name="cases.systemcenter.company.OrganTest"/>
+            <class name="cases.systemcenter.company.MailTest"/>
+            
+            <class name="cases.systemcenter.usermanage.AddUserTest"/>
+            <class name="cases.systemcenter.usermanage.UpdateUserTest"/>
+            <class name="cases.systemcenter.usermanage.DeleteUserTest"/>
+            <class name="cases.systemcenter.usermanage.UserSetTest"/>
+            
+            <class name="cases.systemcenter.message.SingleTest"/>
+            <class name="cases.systemcenter.message.ManyTest"/>
+            
+            <class name="cases.systemcenter.setupcenter.ClientSerTest"/>
+            <class name="cases.systemcenter.setupcenter.GroupRuleTest"/>
+            
+            <class name="cases.systemcenter.auditlog.TimeFrameTest">
+                <methods>
+                    <include name="thisWeek"/>
+                    <include name="thisMonth"/>
+                    <include name="lastMonth"/>
+                    <include name="special"/>
+                </methods>
+            </class>
+            <class name="cases.systemcenter.auditlog.ActionTest"/>
+            <class name="cases.systemcenter.auditlog.FunctionTest"/>
+            <class name="cases.systemcenter.auditlog.StateTest"/>
+            <class name="cases.systemcenter.auditlog.CleanTest"/>
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="listener.ExtentTestNGIReporterListener"/>
+        <listener class-name="listener.RetryListener"/>
+    </listeners>
+</suite>

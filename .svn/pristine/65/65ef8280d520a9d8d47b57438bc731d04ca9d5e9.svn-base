@@ -1,0 +1,41 @@
+package page.viruskill.setup;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class SetUpPage extends BasePage {
+
+	@FindBy(linkText = "白名单")
+	private WebElement whiteList;
+
+	@FindBy(linkText = "黑名单")
+	private WebElement blackList;
+
+	@FindBy(linkText = "杀毒备份")
+	private WebElement virusBackup;
+
+	@FindBy(linkText = "病毒扫描")
+	private WebElement virusScan;
+
+	public SetUpPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void gotoWhiteList(){
+		whiteList.click();
+	}
+
+	public void gotoBlackList(){
+		blackList.click();
+	}
+
+	public void gotoVirusBackup(){
+		virusBackup.click();
+	}
+
+	public void gotoVirusScan(){
+		virusScan.click();
+	}
+}

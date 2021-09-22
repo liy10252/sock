@@ -1,0 +1,24 @@
+package dataservice.esmlog;
+
+import model.esmlog.EPINFO_B0E501F871146298;
+import org.apache.ibatis.session.SqlSession;
+
+public class EpInfoService {
+
+	SqlSession session;
+
+	public EpInfoService(SqlSession session){
+		this.session = session;
+	}
+
+
+	//更新epinfo
+	public void updateEpinfo(){
+
+		EPINFO_B0E501F871146298 client = new EPINFO_B0E501F871146298();
+		client.setSGUID("4AEFCBB17C93339AE44D7E624C59FA96");
+		client.setGROUPID(79);
+		client.setGROUPNAME("默认分组");
+		session.update("updateEpinfo",client);
+	}
+}

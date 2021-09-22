@@ -1,0 +1,84 @@
+INFO  [2019-12-31 09:34:55] util.TestngRetry::<clinit> - maxRunCount=1
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - addAuthHistory Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - addAuthToday Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - clearGroup Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - clearHistoryReport Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - clearReportList Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - clearReportWhere Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - insertMessage Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - upateLeak Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateAndDeleteUser Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateClient Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateCmdState Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateEpinfoGroup Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateEpinfoMemo Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateLogClean Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateMail Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateOrgan Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateRfw_Brow Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateRfw_Ip Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateRfw_Net Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateRfw_Share Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateRfw_Terminal Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateRfw_Url Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateRuaTime Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateUserSet Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateWarningLog Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateWarningSet Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateXav_Bota Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateXav_Scan Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateXav_SysDef Success
+INFO  [2019-12-31 09:34:57] listener.TestngListener::onTestSuccess - updateXav_Virus Success
+INFO  [2019-12-31 09:35:05] driver.DriverFactory::start - 启动浏览器：chrome
+INFO  [2019-12-31 09:35:05] util.SeleniumTestCase::setUp - 开始测试case:GroupTest----------
+INFO  [2019-12-31 09:35:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtName
+INFO  [2019-12-31 09:35:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtPwd
+INFO  [2019-12-31 09:35:06] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtCode
+INFO  [2019-12-31 09:35:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-12-31 09:35:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-12-31 09:35:06] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //input[@value='登录']
+INFO  [2019-12-31 09:35:06] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-12-31 09:35:06] page.LoginPage::login - 用户已登陆------
+INFO  [2019-12-31 09:35:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='全网终端']
+INFO  [2019-12-31 09:35:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='全网终端']
+INFO  [2019-12-31 09:35:08] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='全网终端']
+INFO  [2019-12-31 09:35:08] listener.MyEventListener::beforeClickOn - 点击元素： 全网终端
+INFO  [2019-12-31 09:35:08] page.HomePage::gotoTerminal - 进入全网终端------
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[@class='group-add']
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[@class='group-add']
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[@class='group-add']
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeClickOn - 点击元素： 
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: txtGroupName
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeFindBy - 查找元素：By.id: btnSaveGroup
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeClickOn - 点击元素：保存
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[text()='testgroup']
+INFO  [2019-12-31 09:35:09] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[text()='testgroup']
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[text()='testgroup']
+INFO  [2019-12-31 09:35:10] listener.TestngListener::onTestSuccess - add Success
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[text()='testgroup']
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='testgroup']/i[2]
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='testgroup']/i[2]
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='testgroup']/i[2]
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='testgroup']/../input
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='testgroup']/../input
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='testgroup']/following-sibling::b[1]
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeClickOn - 点击元素：确定
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[text()='modifytestgroup']
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[text()='modifytestgroup']
+INFO  [2019-12-31 09:35:10] listener.TestngListener::onTestSuccess - modify Success
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[text()='modifytestgroup']
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='modifytestgroup']/i[1]
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='modifytestgroup']/i[1]
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[@title='modifytestgroup']/i[1]
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeClickOn - 点击元素：
+INFO  [2019-12-31 09:35:10] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='确认']
+INFO  [2019-12-31 09:35:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='确认']
+INFO  [2019-12-31 09:35:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='确认']
+INFO  [2019-12-31 09:35:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //a[text()='确认']
+INFO  [2019-12-31 09:35:11] listener.MyEventListener::beforeClickOn - 点击元素：确认
+INFO  [2019-12-31 09:35:11] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //span[text()='modifytestgroup']
+INFO  [2019-12-31 09:35:12] listener.MyEventListener::beforeFindBy - 查找元素：By.xpath: //div[@class='group-cmd']/preceding-sibling::div[1]//a
+INFO  [2019-12-31 09:35:12] listener.TestngListener::onTestSuccess - delete Success
+INFO  [2019-12-31 09:35:12] util.SeleniumTestCase::tearDown - 结束测试case:GroupTest----------
+INFO  [2019-12-31 09:35:13] util.SeleniumTestCase::tearDown - 关闭浏览器

@@ -1,0 +1,19 @@
+package dataservice.esmmanager;
+
+import org.apache.ibatis.session.SqlSession;
+
+public class EsmUserService {
+
+	SqlSession session;
+
+	public EsmUserService(SqlSession session){
+		this.session = session;
+	}
+
+	//更新账户
+	public void updateUser(){
+
+		session.update("updateUser");
+	}
+
+}

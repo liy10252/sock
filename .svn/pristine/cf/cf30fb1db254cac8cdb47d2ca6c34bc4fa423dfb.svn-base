@@ -1,0 +1,45 @@
+package page.systemcenter.account;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class AccountPage extends BasePage {
+
+	@FindBy(id = "phone")
+	private WebElement phone;
+
+	@FindBy(xpath = "//input[@id='phone']/following-sibling::span[2]/i")
+	private WebElement phoneBtn;
+
+	@FindBy(id = "email")
+	private WebElement email;
+
+	@FindBy(xpath = "//input[@id='email']/following-sibling::span[2]/i")
+	private WebElement emailBtn;
+
+	@FindBy(xpath = "//a[@class='saveBtn']")
+	private WebElement submit;
+
+	@FindBy(xpath = "//span[text()='修改成功']")
+	private WebElement alert;
+
+	public AccountPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void updateUtil(EventFiringWebDriver driver,String phoneNum,String emailNum){
+
+		changeBlock(phoneBtn);
+		phone.sendKeys(phoneNum);
+		changeBlock(emailBtn);
+		email.sendKeys(emailNum);
+		click(submit);
+		TestUtil.waitForVisbility(alert);
+	}
+
+}

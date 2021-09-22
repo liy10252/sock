@@ -1,0 +1,45 @@
+package cases.authorize.historyauth;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.authorize.historyauth.HistoryAuthPage;
+import util.SeleniumTestCase;
+
+public class TimeFrameTest extends SeleniumTestCase {
+
+	HistoryAuthPage historyAuthPage;
+
+	@Test(description = "时间范围本周")
+	public void thisWeek(){
+
+		historyAuthPage = new HistoryAuthPage(driver);
+		historyAuthPage.getCustomSearch().click();
+		Assert.assertTrue(historyAuthPage.getWebDataTr().findElement(By.xpath("./td[2]/div"))
+				.getText().trim().equals(expect.getString("thisWeek")),"时间范围验证错误");
+	}
+
+
+	@Test(dependsOnMethods = "thisWeek",description = "时间范围本月")
+	public void thisMonth(){
+		historyAuthPage.timeFrameTool(historyAuthPage.getMonth());
+		Assert.assertTrue(historyAuthPage.getWebDataTr().findElement(By.xpath("./td[2]/div"))
+				.getText().trim().equals(expect.getString("thisMonth")),"时间范围验证错误");
+	}
+
+	@Test(dependsOnMethods = "thisWeek",description = "时间范围上月")
+	public void lastMonth(){
+		historyAuthPage.timeFrameTool(historyAuthPage.getLastMonth());
+		Assert.assertTrue(historyAuthPage.getWebDataTr().findElement(By.xpath("./td[2]/div"))
+				.getText().trim().equals(expect.getString("lastMonth")),"时间范围验证错误");
+	}
+
+	@Test(dependsOnMethods = "thisWeek",description = "时间范围指定")
+	public void special(){
+
+		historyAuthPage.specialTool(param.getString("start"),param.getString("end"));
+		Assert.assertTrue(historyAuthPage.getWebDataTr().findElement(By.xpath("./td[2]/div"))
+				.getText().trim().equals(expect.getString("special")),"时间范围验证错误");
+
+	}
+}

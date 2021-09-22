@@ -1,0 +1,101 @@
+package page.viruskill.setup.virusscan;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class VirusScanPage extends BasePage {
+
+	@FindBy(xpath = "//input[@name='scan_radFiletype' and @value=0]")
+	private WebElement allFile;
+
+	@FindBy(xpath = "//input[@name='scan_radFiletype' and @value=3]")
+	private WebElement programDoc;
+
+	@FindBy(xpath = "//input[@name='scan_radFiletype' and @value=4]")
+	private WebElement fileType;
+
+	@FindBy(id = "fileExts")
+	private WebElement fileTypeInput;
+
+	@FindBy(id = "scan_chkPopvirus")
+	private WebElement popular;
+
+	@FindBy(id = "scan_chkHeuristic")
+	private WebElement heuristic;
+
+	@FindBy(id = "scan_chkScanzip")
+	private WebElement scanZip;
+
+	@FindBy(id = "scan_txtFilesize")
+	private WebElement fileSize;
+
+	@FindBy(id = "scan_txtFiledepth")
+	private WebElement filedepth;
+
+	@FindBy(id = "scan_chkCloudScan")
+	private WebElement cloudScan;
+
+	@FindBy(xpath = "//input[@name='scan_radFindvirus' and @value='0']")
+	private WebElement autoHandle;
+
+	@FindBy(xpath = "//input[@name='scan_radFindvirus' and @value='1']")
+	private WebElement manualHandle;
+
+	@FindBy(xpath = "//input[@name='scan_radFindvirus' and @value='2']")
+	private WebElement findNoDeal;
+
+	@FindBy(xpath = "//input[@name='scan_radKillfailed' and @value='0']")
+	private WebElement delete;
+
+	@FindBy(xpath = "//input[@name='scan_radKillfailed' and @value='2']")
+	private WebElement cleanNoDeal;
+
+	@FindBy(xpath = "//label[text()='不锁定']/input")
+	private WebElement noLock;
+
+	@FindBy(xpath = "//label[text()='禁止停止']/input")
+	private WebElement noStop;
+
+	@FindBy(xpath = "//label[text()='禁止暂停、停止']/input")
+	private WebElement suspend;
+
+
+	public VirusScanPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void clickUtilOne(){
+
+		TestUtil.waitForClick(programDoc);
+		TestUtil.waitForClick(popular);
+		TestUtil.waitForClick(cloudScan);
+		TestUtil.waitForClick(manualHandle);
+		TestUtil.waitForClick(cleanNoDeal);
+		TestUtil.waitForClick(noStop);
+		TestUtil.waitForClick(apply);
+	}
+
+	public void clickUtilTwo(){
+
+		TestUtil.waitForClick(fileType);
+		TestUtil.waitForClick(heuristic);
+		TestUtil.waitForClick(findNoDeal);
+		TestUtil.waitForClick(suspend);
+		TestUtil.waitForClick(apply);
+	}
+
+	public void inputUtil(String fileType,String fileSizes,String filedepths) {
+
+		fileTypeInput.sendKeys(fileType);
+		fileSize.clear();
+		fileSize.sendKeys(fileSizes);
+		filedepth.clear();
+		filedepth.sendKeys(filedepths);
+		TestUtil.waitForClick(apply);
+	}
+}

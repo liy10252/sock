@@ -1,0 +1,40 @@
+package cases.viruskill.setup.filemonitor;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.viruskill.setup.filemonitor.FileMonitorPage;
+import util.SeleniumTestCase;
+
+public class KillEngineTest extends SeleniumTestCase {
+
+	FileMonitorPage fileMonitorPage;
+
+	@Test(description = "查杀引擎设置一")
+	public void killEngineOne(){
+
+		fileMonitorPage = new FileMonitorPage(driver);
+		fileMonitorPage.killEngineOne(driver);
+
+		Assert.assertTrue(fileMonitorPage.getHeuristic().isSelected(),"启发式扫描验证错误");
+		Assert.assertTrue(fileMonitorPage.getManual().isSelected(),"发现病毒手动验证错误");
+		Assert.assertTrue(fileMonitorPage.getCleanNotDeal().isSelected(),"清除失败不处理验证错误");
+		Assert.assertFalse(fileMonitorPage.getNotice().isSelected(),"报告规则验证错误");
+		Assert.assertFalse(fileMonitorPage.getEnable().isSelected(),"云扫描引擎验证错误");
+	}
+
+	@Test(dependsOnMethods = "killEngineOne",description = "查杀引擎设置二")
+	public void killEngineTwo(){
+
+		String size = param.getString("size");
+		String depths = param.getString("depths");
+		fileMonitorPage.killEngineTwo(size,depths);
+
+		Assert.assertTrue(fileMonitorPage.getScanZip().isSelected(),"压缩包扫描验证错误");
+		Assert.assertEquals(fileMonitorPage.getSize().getAttribute("value"),
+				size,"压缩包大小验证错误");
+		Assert.assertEquals(fileMonitorPage.getDepth().getAttribute("value"),
+				depths,"压缩包层数验证错误");
+		Assert.assertTrue(fileMonitorPage.getFindNotDeal().isSelected(),"发现病毒不处理验证错误");
+
+	}
+}

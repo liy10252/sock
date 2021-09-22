@@ -1,0 +1,86 @@
+package page.report.custom;
+
+import lombok.Data;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+import java.util.List;
+
+@Data
+public class CustomPage extends BasePage {
+
+	@FindBy(id = "timeStart")
+	private WebElement timeStart;
+
+	@FindBy(id = "timeEnd")
+	private WebElement timeEnd;
+
+	@FindBy(id = "js_btn_time")
+	private WebElement timeBtn;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[2]//a[text()='全部']")
+	private WebElement typeAll;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[2]//a[2]")
+	private WebElement single;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[2]//a[3]")
+	private WebElement general;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[text()='全部']")
+	private WebElement cycleAll;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[2]")
+	private WebElement manual;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[3]")
+	private WebElement once;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[4]")
+	private WebElement everyDay;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[5]")
+	private WebElement everyWeek;
+
+	@FindBy(xpath = "//div[@id='customSearchBox']//div[3]//a[6]")
+	private WebElement everyMonth;
+
+	@FindBy(xpath = "//input[@class='js_searchKey']")
+	private WebElement searchInput;
+
+	@FindBy(xpath = "//button[@class='btn js_btn_search']")
+	private WebElement searchButton;
+
+	@FindBy(id = "tbClient")
+	private WebElement webTable;
+
+	@FindBy(xpath = "//table[@id='tbClient']/tbody//tr[1]")
+	private WebElement webTr;
+
+	@FindBy(xpath = "//table[@id='tbClient']/tbody//td[2]")
+	private List<WebElement> names;
+
+	public CustomPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void timeFrameUtil(String start,String end){
+
+		timeStart.sendKeys(start);
+		TestUtil.waitForClick(timeStart);
+		timeEnd.sendKeys(end);
+		TestUtil.waitForClick(timeEnd);
+		TestUtil.waitForClick(timeBtn);
+		TestUtil.seleniumWait();
+	}
+
+	public void searchUtil(String name){
+
+		searchInput.sendKeys(name);
+		TestUtil.waitForClick(searchButton);
+		TestUtil.waitForElementNumber(By.xpath("//table[@id='tbClient']//tbody/tr"),1);
+	}
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="model.esmmanager">
+
+    <update id="updateUser">
+        update ESM_USER set PHONENO = '',EMAIL = '' where USERNAME='admin';
+    </update>
+
+    <select id="selectUserID" resultType="String">
+        select USERID from ESM_USER where USERNAME = 'admin';
+    </select>
+
+    <delete id="deleteUser">
+        delete from ESM_USER where USERNAME!='admin';
+    </delete>
+
+    <update id="updateCompany" parameterType="model.esmmanager.ESM_ORGANIZATION">
+        update ESM_ORGANIZATION
+
+        <trim prefix="set" suffixOverrides=",">
+
+            ONAME='',
+            OSIZE = null,
+            INDUSTRY = '',
+            PWD = '',
+            CONTACT = '',
+            TEL = '',
+            ADDR = '',
+            ZIPCODE = '',
+
+            <if test="null != TITLE and '' !=TITLE">
+                TITLE=#{TITLE},
+            </if>
+
+            <if test="null != SUBTITLE and '' !=SUBTITLE">
+                SUBTITLE=#{SUBTITLE},
+            </if>
+
+        </trim>
+        ;
+    </update>
+
+
+      <select id="managertables" resultType="java.lang.String">
+            SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='PUBLIC';
+      </select>
+
+
+</mapper>

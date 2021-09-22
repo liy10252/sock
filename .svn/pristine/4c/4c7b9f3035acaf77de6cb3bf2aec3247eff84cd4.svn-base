@@ -1,0 +1,44 @@
+package page;
+
+import lombok.extern.log4j.Log4j;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+@Log4j
+public class LoginPage extends BasePage {
+
+
+	@FindBy(id = "txtName")
+	private WebElement userName;
+
+	@FindBy(id = "txtPwd")
+	private WebElement passWord;
+
+	@FindBy(id = "txtCode")
+	private WebElement identCode;
+
+	@FindBy(xpath = "//input[@value='登录']")
+	private WebElement loginBtn;
+
+	public LoginPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	//登录方法
+	public void login(){
+
+		userName.sendKeys("admin");
+		passWord.sendKeys("Rising123");
+		identCode.sendKeys("Rising123");
+		loginBtn.click();
+		log.info("用户已登陆------");
+	}
+
+	//清除已填写的登录信息
+	public void clear(){
+		userName.clear();
+		passWord.clear();
+		identCode.clear();
+	}
+}

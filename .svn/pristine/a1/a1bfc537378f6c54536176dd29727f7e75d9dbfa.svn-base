@@ -1,0 +1,32 @@
+package cases.viruskill.log.appdef;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.viruskill.log.appdef.AppDefPage;
+import util.SeleniumTestCase;
+import util.TestUtil;
+
+public class AppTypeTest extends SeleniumTestCase {
+
+	AppDefPage appDefPage;
+
+	@Test(description = "IE浏览器")
+	public void ie(){
+
+		appDefPage = new AppDefPage(driver);
+		appDefPage.getCustomSearch().click();
+		appDefPage.singleClick(appDefPage.getAppAll(),appDefPage.getIeBrowser(),2);
+		Assert.assertTrue(TestUtil.getValueList(appDefPage.getClientNames())
+						.containsAll(TestUtil.JsonToList(expect.getJSONArray("ie"),"name")),
+				"IE浏览器验证失败");
+	}
+
+	@Test(dependsOnMethods = "ie",description = "办公软件")
+	public void software(){
+
+		appDefPage.singleClick(appDefPage.getAppAll(),appDefPage.getSoftware());
+		Assert.assertEquals(appDefPage.getWebDataTr().findElement(By.xpath("./td[1]"))
+				.getText().trim(),expect.getString("software"),"办公软件验证失败");
+	}
+}

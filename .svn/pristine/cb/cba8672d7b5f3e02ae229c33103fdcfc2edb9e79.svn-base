@@ -1,0 +1,27 @@
+package page.terminal.setup;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+
+public class SetUpPage extends BasePage {
+
+	@FindBy(xpath = "//a[text()='软件更新']")
+	private WebElement softwareUp;
+
+	@FindBy(xpath = "//a[text()='中心服务器']")
+	private WebElement center;
+
+	public SetUpPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void gotoSoftwareUp(){
+		softwareUp.click();
+	}
+
+	public void gotoCenter(){
+		center.click();
+	}
+}

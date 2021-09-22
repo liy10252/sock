@@ -1,0 +1,65 @@
+package cases.viruskill.setup.timingscan;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.viruskill.setup.timingscan.TimingScanPage;
+import util.SeleniumTestCase;
+
+public class TimeSetTest extends SeleniumTestCase {
+
+	TimingScanPage timingScanPage;
+
+	@Test(description = "时间设置一")
+	public void timeSetOne(){
+
+		timingScanPage = new TimingScanPage(driver);
+		String dayTime = param.getString("dayTime");
+		timingScanPage.timeSetUtilOne(dayTime);
+
+		Assert.assertTrue(timingScanPage.getFullScan().isSelected(),"定时全盘扫描验证错误");
+		Assert.assertTrue(timingScanPage.getEveryDay().isSelected(),"每天点击验证错误");
+		Assert.assertEquals(timingScanPage.getEveryDayInput().getAttribute("value"),
+				dayTime,"每天输入验证错误");
+	}
+
+	@Test(dependsOnMethods = "timeSetOne",description = "时间设置二")
+	public void timeSetTwo(){
+
+		String weekTime = param.getString("weekTime");
+		timingScanPage.timeSetUtilTwo(weekTime);
+
+		Assert.assertTrue(timingScanPage.getEveryWeek().isSelected(),"每周点击验证错误");
+		Assert.assertTrue(timingScanPage.getMon().findElement(By.xpath("./input")).isSelected(),"周一验证错误");
+		Assert.assertTrue(timingScanPage.getTues().findElement(By.xpath("./input")).isSelected(),"周二验证错误");
+		Assert.assertTrue(timingScanPage.getWed().findElement(By.xpath("./input")).isSelected(),"周三验证错误");
+		Assert.assertTrue(timingScanPage.getThur().findElement(By.xpath("./input")).isSelected(),"周四验证错误");
+		Assert.assertTrue(timingScanPage.getFri().findElement(By.xpath("./input")).isSelected(),"周五验证错误");
+		Assert.assertTrue(timingScanPage.getSat().findElement(By.xpath("./input")).isSelected(),"周六验证错误");
+		Assert.assertTrue(timingScanPage.getSun().findElement(By.xpath("./input")).isSelected(),"周日验证错误");
+		Assert.assertEquals(timingScanPage.getEveryWeekInput().getAttribute("value"),
+				weekTime,"每周输入验证错误");
+	}
+
+	@Test(dependsOnMethods = "timeSetOne",description = "每月设置")
+	public void timeSetThree(){
+
+		String monTime = param.getString("monTime");
+		timingScanPage.monthSet(monTime);
+
+		Assert.assertEquals(timingScanPage.getMonButton().getText(),expect.getString("mon"),"每月设置错误");
+		Assert.assertEquals(timingScanPage.getMonInput().getAttribute("value"),monTime,"每月时间设置错误");
+	}
+
+	@Test(dependsOnMethods = "timeSetOne",description = "持续时间设置")
+	public void timeSetFour(){
+
+		String conTime = param.getString("conTime");
+		timingScanPage.conSet(conTime);
+
+		Assert.assertTrue(timingScanPage.getConButton().isSelected(),"持续时间设置错误");
+		Assert.assertEquals(timingScanPage.getConInput().getAttribute("value"),conTime,"持续时间设置错误");
+
+	}
+
+}

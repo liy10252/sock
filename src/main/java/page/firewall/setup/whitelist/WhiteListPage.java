@@ -1,0 +1,37 @@
+package page.firewall.setup.whitelist;
+
+import lombok.Data;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import page.BasePage;
+import util.TestUtil;
+
+@Data
+public class WhiteListPage extends BasePage {
+
+	@FindBy(id = "whiteList_WhiteUrlStatus")
+	private WebElement open;
+
+	@FindBy(id = "whiteList_txt")
+	private WebElement input;
+
+	@FindBy(id = "whiteList_add")
+	private WebElement add;
+
+	@FindBy(id = "WhiteUrlList")
+	private WebElement webTable;
+
+	public WhiteListPage(EventFiringWebDriver driver) {
+		super(driver);
+	}
+
+	public void addList(String url){
+
+		click(open);
+		input.sendKeys(url);
+		click(add);
+		click(apply);
+	}
+
+}
